@@ -2,7 +2,7 @@
 title:  "OUI Mascot"
 date:   2016-04-17 17:55:09 -0700
 categories: ['Illustration', 'Logo']
-thumbnail: oui.png
+thumbnail: oui-thumb.png
 feature-image: oui-mascot-feature.png
 client: "Optimizely"
 project-details: 'Optimizely asked me to design a mascot for their UI library,
