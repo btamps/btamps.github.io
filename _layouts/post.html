@@ -31,8 +31,11 @@ layout: default
 
 <div class="container workbox">
   <div class="row">
-
+  <hr>
+  <h2>More of my work</h2>
   {% for post in site.posts %}
+    <!-- Exclude Current Post -->
+    {% if post.url != page.id %}
     <div class="col-sm-6 col-md-4">
       <div class="thumbnail">
         <a href="{{ post.url | prepend: site.baseurl }}">
@@ -44,6 +47,7 @@ layout: default
         </a>
       </div>
     </div>
+    {% endif %}
   {% endfor %}
 
   </div>
