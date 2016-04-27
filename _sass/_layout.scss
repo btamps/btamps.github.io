@@ -161,6 +161,13 @@ footer {
   }
 }
 
+.content-block {
+  margin-bottom: 2em;
+  img {
+    margin-top: 40px;
+  }
+}
+
 // Contact Page
 .contact-wrapper {
   max-width: 600px;
@@ -256,6 +263,9 @@ footer {
     .feature-box {
       margin-bottom: 40px;
     }
+    margin-bottom: 20px;
+  }
+  .content-block {
     margin-bottom: 60px;
   }
   .main-content {
