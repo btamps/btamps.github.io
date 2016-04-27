@@ -5,7 +5,7 @@
 
 header {
   text-align: center;
-  margin-top: 80px;
+  margin-top: 40px;
   .logo {
     display: block;
     width: 60px;
@@ -16,7 +16,7 @@ header {
     }
   }
   .title-role {
-    font-weight: 300;
+    font-weight: 400;
     font-size: 20px;
     margin-top: 0;
     font-family: 'Lato', sans-serif;
@@ -30,8 +30,10 @@ header {
       font-family: 'Lato', sans-serif;
       padding-left: 10px;
       padding-right: 10px;
-      font-size: 18px;
-      font-weight: 300;
+      font-size: 12px;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 1px;
     }
   }
 }
@@ -229,6 +231,7 @@ footer {
 // Small devices (tablets, 768px and up)
 @media (min-width: 768px) {
   header {
+    margin-top: 60px;
     .logo {
       width: 80px;
       height: 80px;
@@ -238,7 +241,7 @@ footer {
     }
     .nav-bar {
       li {
-        font-size: 18px;
+        font-size: 14px;
       }
     }
   }
@@ -282,17 +285,13 @@ footer {
     width: 1300px;
   }
   header {
+    margin-top: 80px;
     .logo {
       width: 120px;
       height: 120px;
     }
     .title-role {
       font-size: 28px;
-    }
-    .nav-bar {
-      li {
-        font-size: 18px;
-      }
     }
   }
 }
