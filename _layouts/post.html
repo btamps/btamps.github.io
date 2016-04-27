@@ -1,19 +1,28 @@
 ---
 layout: default
 ---
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
-  <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
-  </header>
-  {% if page.image %}
-  <figure class="feature-image">
-    <img src="/img/{{ page.image }}" alt="{{ page.title }}">
-  </figure>
-  {% endif %}
-  <div class="post-content" itemprop="articleBody">
-    {{ content }}
+<div class="container detail">
+  <div class="row feature-box">
+    <img src="/img/{{ page.feature-image }}" alt="{{ page.title }}">
   </div>
+  <div class="row project-frontmatter">
+    <h1 class="col-sm-12">{{ page.title }}</h1>
+    <div class="project-details col-sm-7">
+      <h4>Project Details</h4>
+      <p>{{ page.project-details }}</p>
+    </div>
+    <div class="client-box col-sm-2 col-sm-offset-1">
+      <h4>Client</h4>
+      <p>{{ page.client }}</p>
+    </div>
+    <div class="technique-box col-sm-2">
+      <h4>Technique</h4>
+      <p>{{ page.categories }}</p>
+    </div>
+  </div>
+  <hr>
+</div>
 
-</article>
+<div class="container main-content">
+  {{ content }}
+</div>

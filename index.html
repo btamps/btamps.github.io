@@ -2,31 +2,22 @@
 layout: default
 ---
 
-<div class="home">
+<div class="container workbox">
+  <div class="row">
 
-  <h1 class="page-heading">Posts</h1>
+  {% for post in site.posts %}
+    <div class="col-sm-6 col-md-4">
+      <div class="thumbnail">
+        <a href="{{ post.url | prepend: site.baseurl }}">
+          <span class="overlay-icon"></span>
+          <img src="/img/{{ post.thumbnail }}" alt="{{ post.title }}">
+          <div class="caption">
+            <h3>{{ post.title }}</h3>
+          </div>
+        </a>
+      </div>
+    </div>
+  {% endfor %}
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <span class="author-name">{{ post.author }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-
-        {% if post.image %}
-        <figure class="feature-image">
-          <img src="/img/{{ post.image }}" alt="{{ post.title }}">
-        </figure>
-        {% endif %}
-
-        {{ post.excerpt }}
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+  </div>
 </div>
