@@ -130,44 +130,6 @@ footer {
   }
 }
 
-// Detail Page
-.detail {
-  h1 {
-    margin-bottom: 1em;
-  }
-}
-.project-frontmatter {
-  .project-details,
-  .client-box {
-    margin-bottom: 2em;
-  }
-  .client-box,
-  .technique-box {
-    p {
-      font-size: 14px;
-    }
-  }
-}
-.feature-box {
-  max-height: 525px;
-  background: #E8F1F4;
-  margin-bottom: 20px;
-  margin-left: 0;
-  margin-right: 0;
-  img {
-    max-width: 33.3%;
-    margin: 3em auto;
-    display: block;
-  }
-}
-
-.content-block {
-  margin-bottom: 2em;
-  img {
-    margin-top: 40px;
-  }
-}
-
 // Contact Page
 .contact-wrapper {
   max-width: 600px;
@@ -255,16 +217,6 @@ footer {
   .workbox {
     margin: 40px auto 0;
   }
-  .detail {
-    h1 {
-      font-size: 40px;
-      margin-bottom: .5em;
-    }
-    .feature-box {
-      margin-bottom: 40px;
-    }
-    margin-bottom: 20px;
-  }
   .content-block {
     margin-bottom: 60px;
   }
@@ -293,9 +245,12 @@ footer {
 }
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
   .container {
-    width: 1000px;
+    width: 100%;
+    max-width: 1400px;
+    padding-left: 40px;
+    padding-right: 40px;
   }
   header {
     margin-top: 80px;
