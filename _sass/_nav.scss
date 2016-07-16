@@ -1,0 +1,54 @@
+// NavBar Styles
+.navbar {
+  background-color: white;
+  border: 0;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-bottom: 0;
+}
+.navbar-brand {
+  padding: 0;
+  margin-left: 0;
+  height: auto;
+  img {
+    width: 38px;
+    float: left;
+    margin-right: 12px;
+    margin-left: 15px;
+  }
+  span {
+    font-size: 12px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-top: 10px;
+  }
+}
+
+.navbar-toggle {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+// Small devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .navbar-brand {
+    img {
+      width: 50px;
+    }
+    span {
+      font-size: 16px;
+      margin-top: 15px;
+    }
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
