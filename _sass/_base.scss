@@ -1,13 +1,17 @@
-// Imports
-@import "detail-page";
-@import "nav";
-
 // Colors
 $orange: #FF6D42;
 $dark: #5C5259;
 
+// Typography
+$font-serif: 'PT Serif', serif;
+$font-sans: 'Lato', sans-serif;
+
+// Imports
+@import "detail-page";
+@import "nav";
+
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: $font-serif;
   color: $dark;
   font-size: 16px;
 }
@@ -24,7 +28,7 @@ a {
 h1,
 h2,
 h3 {
-  font-family: 'PT Serif', sans-serif;
+  font-family: $font-sans;
 }
 
 h1 {
@@ -46,7 +50,7 @@ h3 {
 }
 
 h4 {
-  font-family: 'Lato', sans-serif;
+  font-family: $font-sans;
   color: $dark;
   text-transform: uppercase;
   letter-spacing: 1.5px;
@@ -55,7 +59,7 @@ h4 {
 }
 
 p {
-  line-height: 1.5;
+  line-height: 1.6;
   font-size: 18px;
 }
 

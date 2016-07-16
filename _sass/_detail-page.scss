@@ -26,6 +26,9 @@
   p {
     font-size: 16px;
   }
+  a {
+    color: $dark;
+  }
 }
 .project-frontmatter {
   .project-details,
@@ -36,6 +39,7 @@
   .technique-box {
     p {
       font-size: 16px;
+      font-family: $font-sans;
     }
   }
   .client-element {
@@ -59,7 +63,6 @@
     }
     p {
       font-size: 20px;
-      line-height: 1.6;
     }
   }
   .feature-box {
