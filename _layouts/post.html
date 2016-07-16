@@ -1,28 +1,35 @@
 ---
-layout: default
+layout: detail
 ---
-<div class="container detail">
-  <div class="row feature-box">
-    <img src="/img/{{ page.feature-image }}" alt="{{ page.title }}">
+<div class="container-fluid feature-box">
+  <img src="/img/{{ page.feature-image }}" alt="{{ page.title }}">
+</div>
+<div class="container-fluid detail">
+  <div class="container project-frontmatter">
+    <div class="row">
+      <h1 class="col-sm-12">{{ page.title }}</h1>
+      <div class="project-details col-sm-7">
+        <h4>Project Details</h4>
+        <p>{{ page.project-details }}</p>
+      </div>
+      <div class="client-box col-sm-2 col-sm-offset-1">
+        <div class="client-element">
+          <h4>Client</h4>
+          <p><a href="{{ page.client-website }}">{{ page.client }}</a></p>
+        </div>
+        <div class="client-element">
+          <h4>Industry</h4>
+          <p>{{ page.industry }}</p>
+        </div>
+      </div>
+      <div class="technique-box col-sm-2">
+        <h4>Services</h4>
+        {% for tag in page.categories %}
+        <p>{{ tag }}</p>
+        {% endfor %}
+      </div>
+    </div>
   </div>
-  <div class="row project-frontmatter">
-    <h1 class="col-sm-12">{{ page.title }}</h1>
-    <div class="project-details col-sm-7">
-      <h4>Project Details</h4>
-      <p>{{ page.project-details }}</p>
-    </div>
-    <div class="client-box col-sm-2 col-sm-offset-1">
-      <h4>Client</h4>
-      <p>{{ page.client }}</p>
-    </div>
-    <div class="technique-box col-sm-2">
-      <h4>Technique</h4>
-      {% for tag in page.categories %}
-      <p>{{ tag }}</p>
-      {% endfor %}
-    </div>
-  </div>
-  <hr>
 </div>
 
 <div class="container main-content">
