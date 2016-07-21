@@ -58,6 +58,7 @@ They needed a mascot to represent their internal UI pattern library, OUI. French
     <div class="row">
       <figure class="col-xs-12">
         <img src="../img/oui-monitor.png" alt="OUI in Optimizely">
+        <figcaption>Optimizely's Design website</figcaption>
       </figure>
     </div>
   </div>
