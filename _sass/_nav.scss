@@ -5,6 +5,9 @@
   padding-top: 12px;
   padding-bottom: 12px;
   margin-bottom: 0;
+  .navbar-collapse {
+    border: 0;
+  }
 }
 
 .nav {
@@ -12,7 +15,7 @@
     a {
       font-family: $font-sans;
       text-transform: uppercase;
-      letter-spacing: 1px;
+      letter-spacing: 1.5px;
       font-size: 14px;
       &:hover {
         color: $orange !important;
@@ -52,13 +55,14 @@
 // Small devices (tablets, 768px and up)
 @media (min-width: 768px) {
   .navbar-brand {
+    margin-left: 0 !important;
     img {
       width: 50px;
-      margin-left: 0 !important;
     }
     span {
-      font-size: 16px;
+      font-size: 15px;
       margin-top: 15px;
+      letter-spacing: 1.7px;
     }
   }
 }
