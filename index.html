@@ -6,12 +6,12 @@ layout: default
   <div class="row">
 
   {% for post in site.posts %}
-    <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-6 col-md-4">
+    <div class="col-sm-6 col-md-4">
       <div class="thumbnail">
         <a href="{{ post.url | prepend: site.baseurl }}">
           <span class="overlay-icon"></span>
           <img src="/img/{{ post.thumbnail }}" alt="{{ post.title }}">
-          <div class="caption">
+          <div class="title">
             <h4>{{ post.title }}</h4>
           </div>
         </a>
