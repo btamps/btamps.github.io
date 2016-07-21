@@ -9,6 +9,7 @@ $font-sans: 'Lato', Helvetica, Arial, sans-serif;
 // Imports
 @import "detail-page";
 @import "nav";
+@import "figure";
 @import "animation";
 
 body {
@@ -39,9 +40,10 @@ h1 {
 }
 
 h2 {
+  margin-top: 0;
   margin-bottom: 20px;
   font-size: 24px;
-  line-height: 1.27;
+  line-height: 1.27;  
 }
 
 h3 {

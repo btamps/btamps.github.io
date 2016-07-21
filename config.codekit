@@ -254,6 +254,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/_sass\/_figure.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_sass\/_figure.scss",
+		"outputAbbreviatedPath": "\/css\/_figure.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/_sass\/_layout.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -369,6 +385,17 @@
 		"initialSize": 86043,
 		"inputAbbreviatedPath": "\/_site\/img\/oui-mascot-feature.png",
 		"outputAbbreviatedPath": "\/_site\/img\/oui-mascot-feature.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/oui-monitor.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 125239,
+		"inputAbbreviatedPath": "\/_site\/img\/oui-monitor.png",
+		"outputAbbreviatedPath": "\/_site\/img\/oui-monitor.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -765,6 +792,17 @@
 		"initialSize": 86043,
 		"inputAbbreviatedPath": "\/img\/oui-mascot-feature.png",
 		"outputAbbreviatedPath": "\/img\/oui-mascot-feature.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/oui-monitor.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 117177,
+		"inputAbbreviatedPath": "\/img\/oui-monitor.png",
+		"outputAbbreviatedPath": "\/img\/oui-monitor.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

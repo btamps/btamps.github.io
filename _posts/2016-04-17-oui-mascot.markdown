@@ -38,18 +38,27 @@ They needed a mascot to represent their internal UI pattern library, OUI. French
 
 <div class="container content-block">
   <div class="row">
-    <div class="col-sm-7">
+    <div class="col-sm-7 description">
       <h2>Refined Sketches</h2>
       <p>A front-facing French bulldog was the favorite concept out of the bunch. Going with that direction, I then tried out different facial expressions for the dog. The one that looked the friendliest was chosen.</p>
     </div>
   </div>
   <div class="row">
-    <img class="col-xs-12" src="../img/oui-refined-dogs.jpg" alt="OUI Sketches">
+    <figure class="col-xs-12 mt-med">
+      <img src="../img/oui-refined-dogs.jpg" alt="OUI Sketches">
+    </figure>
   </div>
 </div>
 <div class="container-fluid content-block" style="background: #f7f7f7; padding-top: 60px; padding-bottom: 60px;">
-  <figure class="final">
-    <img src="../img/oui-final.png" alt="OUI Sketches">
-    <figcaption>Final vector render</figcaption>
-  </figure>
+  <div class="container">
+    <figure class="final fig-small centered" style="margin-bottom: 60px;">
+      <img src="../img/oui-final.png" alt="OUI Sketches">
+      <figcaption>Final Vector</figcaption>
+    </figure>
+    <div class="row">
+      <figure class="col-xs-12">
+        <img src="../img/oui-monitor.png" alt="OUI in Optimizely">
+      </figure>
+    </div>
+  </div>
 </div>

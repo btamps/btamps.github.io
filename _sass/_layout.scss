@@ -2,6 +2,10 @@
   padding-left: 15px;
   padding-right: 15px;
 }
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;  
+}
 
 header {
   text-align: center;
@@ -197,6 +201,10 @@ footer {
   }
 }
 
+.mt-med {
+  margin-top: 2em;
+}
+
 // Small devices (tablets, 768px and up)
 @media (min-width: 768px) {
   .container {
@@ -221,9 +229,6 @@ footer {
   .workbox {
     margin: 40px auto 0;
   }
-  .content-block {
-    margin-bottom: 60px;
-  }
   .main-content {
     h2, p {
       text-align: left;
@@ -240,6 +245,9 @@ footer {
         margin-bottom: 0;
       }
     }
+  }
+  .mt-med {
+    margin-top: 4em;
   }
 }
 
