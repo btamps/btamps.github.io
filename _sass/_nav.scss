@@ -6,10 +6,28 @@
   padding-bottom: 12px;
   margin-bottom: 0;
 }
+
+.nav {
+  li {
+    a {
+      font-family: $font-sans;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-size: 14px;
+      &:hover {
+        color: $orange !important;
+      }
+    }
+  }
+}
+
 .navbar-brand {
   padding: 0;
   margin-left: 0;
   height: auto;
+  &:hover {
+    color: $orange !important;
+  }
   img {
     width: 38px;
     float: left;
@@ -22,6 +40,7 @@
     text-transform: uppercase;
     letter-spacing: 1.5px;
     margin-top: 10px;
+    font-family: $font-sans;
   }
 }
 
@@ -35,7 +54,7 @@
   .navbar-brand {
     img {
       width: 50px;
-      margin-left: 0;
+      margin-left: 0 !important;
     }
     span {
       font-size: 16px;
