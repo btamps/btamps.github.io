@@ -1,9 +1,9 @@
 // Colors
 $orange: #FF6D42;
-$dark: #5C5259;
+$dark: #353535;
 
 // Typography
-$font-serif: 'PT Serif', Georgia, serif;
+$font-serif: 'Merriweather', Georgia, serif;
 $font-sans: 'Lato', Helvetica, Arial, sans-serif;
 
 // Imports
@@ -13,7 +13,7 @@ $font-sans: 'Lato', Helvetica, Arial, sans-serif;
 @import "animation";
 
 body {
-  font-family: $font-serif;
+  font-family: $font-sans;
   color: $dark;
   font-size: 16px;
 }
@@ -30,12 +30,12 @@ a {
 h1,
 h2,
 h3 {
-  font-family: $font-sans;
+  font-family: $font-serif;
 }
 
 h1 {
   line-height: 1.2;
-  font-size: 30px;
+  font-size: 38px;
   font-weight: 700;
 }
 
@@ -43,7 +43,8 @@ h2 {
   margin-top: 0;
   margin-bottom: 20px;
   font-size: 24px;
-  line-height: 1.27;  
+  line-height: 1.4;
+  font-weight: 700;
 }
 
 h3 {
@@ -63,12 +64,13 @@ h4 {
 
 p {
   line-height: 1.5;
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: 300;
 }
 
 @media (min-width: 768px) {
   h1 {
-    font-size: 50px;
+    font-size: 60px;
   }
   h2 {
     font-size: 36px;
@@ -78,6 +80,6 @@ p {
   }
   p {
     line-height: 1.6;
-    font-size: 18px;
+    font-size: 20px;
   }
 }
