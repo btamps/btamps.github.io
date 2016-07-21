@@ -7,15 +7,14 @@ feature-image: oui-mascot-feature.png
 client: "Optimizely"
 client-website: "https://www.optimizely.com/"
 industry: "Technology"
-project-details: 'Optimizely is a firm that makes customer-experience optimization software for companies.
-They needed a mascot to represent their internal UI pattern library, OUI. French for “yes” and pronounced like “we”, this was a great opportunity to explore mascot designs with a French flair. '
+project-details: 'Optimizely is a firm that makes customer-experience optimization software for companies. They tasked me to create a mascot representing their internal UI pattern library, OUI. French for “yes” and pronounced like “we”, this was a great opportunity to explore mascot designs with a French flair. '
 ---
 
 <div class="container content-block">
   <div class="row">
     <div class="col-sm-7">
-      <h2>Brainstorming Concept Sketches</h2>
-      <p>For the initial animal concepts, I was thinking French bulldogs, poodles, cats and frogs would be fun possibilities. And being that Optimizely is known for A/B testing, I wanted to play with different French elements of travel and movement.</p>
+      <h2>Concept Sketches</h2>
+      <p>Initially, while brainstormed animal concepts, I was thinking French bulldogs, poodles, cats and frogs would be fun possibilities. And being that Optimizely is known for A/B testing, I wanted to play with different French elements of travel and movement.</p>
     </div>
   </div>
 
@@ -40,7 +39,7 @@ They needed a mascot to represent their internal UI pattern library, OUI. French
   <div class="row">
     <div class="col-sm-7 description">
       <h2>Refined Sketches</h2>
-      <p>A front-facing French bulldog was the favorite concept out of the bunch. Going with that direction, I then tried out different facial expressions for the dog. The one that looked the friendliest was chosen.</p>
+      <p>A front-facing French bulldog was the favorite concept out of the bunch. With that direction in mind, I then tried out different facial expressions that would pair with the French bulldog. The friendliest dog from the group was the one that was chosen.</p>
     </div>
   </div>
   <div class="row">
