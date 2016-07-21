@@ -1,6 +1,6 @@
 // Colors
 $orange: #FF6D42;
-$dark: #353535;
+$dark: #444;
 
 // Typography
 $font-serif: 'Merriweather', Georgia, serif;
@@ -31,8 +31,7 @@ html {
 	-webkit-font-smoothing: antialiased;
 }
 h1,
-h2,
-h3 {
+h2 {
   font-family: $font-serif;
 }
 
@@ -60,8 +59,8 @@ h4 {
   font-family: $font-sans;
   color: $dark;
   text-transform: uppercase;
-  letter-spacing: 1.5px;
-  font-size: 16px;
+  letter-spacing: 1px;
+  font-size: 15px;
   font-weight: 700;
 }
 

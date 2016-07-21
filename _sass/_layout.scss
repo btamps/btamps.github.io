@@ -78,7 +78,7 @@ header {
     top: 32%;
     opacity: 1;
     }
-    h3 {
+    h4 {
       color: $orange;
     }
     img {
@@ -91,12 +91,8 @@ header {
     z-index: 1;
     position: relative;
   }
-  h3 {
+  h4 {
     text-align: center;
-    font-size: 18px;
-    font-weight: 300;
-    -webkit-transition: all 0.25s ease;
-    transition: all 0.25s ease;
   }
 }
 
