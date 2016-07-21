@@ -1,0 +1,8 @@
+---
+title:  "Swell App Illustrations"
+categories: ['Illustrations']
+thumbnail: swell-thumb.png
+client: "Swell"
+industry: "Technology"
+project-details: 'Optimizely is a firm that makes customer-experience optimization software for companies. They tasked me to create a mascot representing their internal UI pattern library, OUI. French for “yes” and pronounced like “we”, this was a great opportunity to explore mascot designs with a French flair. '
+---
