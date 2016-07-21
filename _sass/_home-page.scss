@@ -63,8 +63,8 @@ header {
     z-index: 0;
     position: relative;
     background: white;
-    -webkit-transition: all 0.2s ease-out;
-    transition: all 0.2s ease-out;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
   }
   .title {
     padding: 10px;
@@ -72,9 +72,10 @@ header {
     position: absolute;
     left: 50%;
     top: 50%;
+    -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    -webkit-transition: all 0.2s ease-out;
-    transition: all 0.2s ease-out;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
     opacity: 0;
     z-index: 1;
     h4 {
@@ -83,6 +84,7 @@ header {
       line-height: 1.4;
       text-transform: capitalize;
       letter-spacing: 0;
+      font-weight: 400;
     }
   }
 }
