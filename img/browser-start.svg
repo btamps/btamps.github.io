@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="78px" height="32px" viewBox="0 0 78 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39 (31667) - http://www.bohemiancoding.com/sketch -->
+    <title>browser-start</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bg-browser-lights">
+            <polygon id="Shape" fill="#DDDDDD" points="0 0 78 0 78 32 0 32"></polygon>
+            <circle id="Oval" fill="#BBBBBB" cx="18" cy="15.9" r="6"></circle>
+            <circle id="Oval" fill="#BBBBBB" cx="36.9" cy="15.9" r="6"></circle>
+            <circle id="Oval" fill="#BBBBBB" cx="56" cy="15.9" r="6"></circle>
+        </g>
+        <g id="browser-start" fill="#FFFFFF">
+            <path d="M78,26 C75.790861,26 74,24.209139 74,22 L74,10 C74,7.790861 75.790861,6 78,6 L78,26 Z" id="Combined-Shape"></path>
+        </g>
+    </g>
+</svg>
