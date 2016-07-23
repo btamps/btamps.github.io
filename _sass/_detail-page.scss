@@ -1,10 +1,8 @@
 // Detail Page
 .feature-box {
-  background: #f7f7f7;
   margin-bottom: 0;
   img {
-    max-height: 325px;
-    max-width: 75%;
+    width: 100%;
     margin: 3em auto;
     display: block;
     animation-delay: 0.4s;
@@ -60,6 +58,27 @@ figure {
   }
 }
 
+.web-window {
+  margin-top: 32px;
+  &:before {
+    background: url("/img/browser-start.svg") no-repeat 0 0,url("/img/browser-end.svg") no-repeat 100% 0,linear-gradient(#ddd, #ddd 6px, #fff 6px, #fff 26px, #ddd 26px);
+    background-size: auto 32px;
+    border-radius: 8px 8px 0 0;
+    bottom: 100%;
+    content: "";
+    height: 32px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  img {
+    border: 1px solid #ddd;
+    border-top: 0;
+  }
+}
+
 // Small devices (tablets, 768px and up)
 @media (min-width: 768px) {
   .detail {
@@ -71,11 +90,14 @@ figure {
       font-size: 20px;
     }
   }
+  .project-frontmatter .project-details,
+  .project-frontmatter .client-box {
+    margin-bottom: 0;
+  }
   .feature-box {
     img {
       margin-top: 5em;
       margin-bottom: 5em;
-      max-width: 33.3%;
     }
   }
   .content-block {
