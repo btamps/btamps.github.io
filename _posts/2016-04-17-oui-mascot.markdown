@@ -1,9 +1,12 @@
 ---
-title:  "OUI Mascot"
+title:  "Optimizely Mascot"
 date:   2016-04-17 17:55:09 -0700
 categories: ['Logo Design']
 thumbnail: oui-thumb.png
 feature-image: oui-mascot-feature.png
+feature-max-width: "400px"
+feature-bg-color: "#f7f7f7"
+detail-bg-color: "#BDC9CE"
 client: "Optimizely"
 client-website: "https://www.optimizely.com/"
 industry: "Technology"
@@ -19,18 +22,18 @@ project-details: 'Optimizely is a firm that makes customer-experience optimizati
   </div>
 
   <div class="row">
-    <img class="col-xs-6 col-md-4" src="../img/oui-sketch-01.png" alt="OUI Sketches">
-    <img class="col-xs-6 col-md-4" src="../img/oui-sketch-02.png" alt="OUI Sketches">
-    <img class="col-xs-6 col-md-4" src="../img/oui-sketch-03.png" alt="OUI Sketches">
-    <img class="col-xs-6 col-md-4" src="../img/oui-sketch-04.png" alt="OUI Sketches">
-    <img class="col-xs-6 col-md-4" src="../img/oui-sketch-05.png" alt="OUI Sketches">
-    <img class="col-xs-6 col-md-4" src="../img/oui-sketch-06.png" alt="OUI Sketches">
-    <img class="col-xs-6 col-md-4" src="../img/oui-sketch-07.png" alt="OUI Sketches">
-    <img class="col-xs-6 col-md-4" src="../img/oui-sketch-08.png" alt="OUI Sketches">
-    <img class="col-xs-6 col-md-4" src="../img/oui-sketch-09.png" alt="OUI Sketches">
-    <img class="col-xs-6 col-md-4" src="../img/oui-sketch-10.png" alt="OUI Sketches">
-    <img class="col-xs-6 col-md-4" src="../img/oui-sketch-11.png" alt="OUI Sketches">
-    <img class="col-xs-6 col-md-4" src="../img/oui-sketch-12.png" alt="OUI Sketches">
+    <img class="col-xs-6 col-md-3" src="../img/oui-sketch-01.png" alt="OUI Sketches">
+    <img class="col-xs-6 col-md-3" src="../img/oui-sketch-02.png" alt="OUI Sketches">
+    <img class="col-xs-6 col-md-3" src="../img/oui-sketch-03.png" alt="OUI Sketches">
+    <img class="col-xs-6 col-md-3" src="../img/oui-sketch-04.png" alt="OUI Sketches">
+    <img class="col-xs-6 col-md-3" src="../img/oui-sketch-05.png" alt="OUI Sketches">
+    <img class="col-xs-6 col-md-3" src="../img/oui-sketch-06.png" alt="OUI Sketches">
+    <img class="col-xs-6 col-md-3" src="../img/oui-sketch-07.png" alt="OUI Sketches">
+    <img class="col-xs-6 col-md-3" src="../img/oui-sketch-08.png" alt="OUI Sketches">
+    <img class="col-xs-6 col-md-3" src="../img/oui-sketch-09.png" alt="OUI Sketches">
+    <img class="col-xs-6 col-md-3" src="../img/oui-sketch-10.png" alt="OUI Sketches">
+    <img class="col-xs-6 col-md-3" src="../img/oui-sketch-11.png" alt="OUI Sketches">
+    <img class="col-xs-6 col-md-3" src="../img/oui-sketch-12.png" alt="OUI Sketches">
   </div>
 
 </div>
@@ -48,7 +51,7 @@ project-details: 'Optimizely is a firm that makes customer-experience optimizati
     </figure>
   </div>
 </div>
-<div class="container-fluid content-block" style="background: #f7f7f7; padding-top: 60px; padding-bottom: 60px;">
+<div class="container-fluid content-block" style="background: #f7f7f7;">
   <div class="container">
     <figure class="final fig-small centered" style="margin-bottom: 60px;">
       <img src="../img/oui-final.png" alt="OUI Sketches">
