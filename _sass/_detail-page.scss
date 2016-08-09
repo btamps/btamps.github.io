@@ -15,7 +15,7 @@
   padding: 0 !important;
   img {
     margin: 0 !important;
-    animation: none;
+    animation: none !important;;
   }
 }
 
@@ -66,7 +66,7 @@
   .row:last-child {
     figure:last-child {
       margin-bottom: 0;
-    }    
+    }
   }
 }
 
