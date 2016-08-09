@@ -9,6 +9,16 @@
   }
 }
 
+.hero-full {
+  width: 100% !important;
+  max-width: none !important;
+  padding: 0 !important;
+  img {
+    margin: 0 !important;
+    animation: none;
+  }
+}
+
 .detail {
   @extend .content-block;
   background: #BDC9CE;
@@ -101,8 +111,8 @@ figure {
     }
   }
   .content-block {
-    padding-top: 4em;
-    padding-bottom: 4em;
+    padding-top: 5em;
+    padding-bottom: 5em;
   }
 }
 

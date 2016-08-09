@@ -238,6 +238,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/baking-buddies.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/baking-buddies.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_site\/contact\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -255,6 +264,72 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/img\/baking-buddies-card-back.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 143441,
+		"inputAbbreviatedPath": "\/_site\/img\/baking-buddies-card-back.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/baking-buddies-card-back.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/baking-buddies-cards.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 175792,
+		"inputAbbreviatedPath": "\/_site\/img\/baking-buddies-cards.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/baking-buddies-cards.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/baking-buddies-cork.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 274289,
+		"inputAbbreviatedPath": "\/_site\/img\/baking-buddies-cork.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/baking-buddies-cork.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/baking-buddies-hero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 221155,
+		"inputAbbreviatedPath": "\/_site\/img\/baking-buddies-hero.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/baking-buddies-hero.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/baking-buddies-sketchbook.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 172459,
+		"inputAbbreviatedPath": "\/_site\/img\/baking-buddies-sketchbook.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/baking-buddies-sketchbook.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/baking-buddies-thumb.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 927846,
+		"inputAbbreviatedPath": "\/_site\/img\/baking-buddies-thumb.png",
+		"outputAbbreviatedPath": "\/_site\/img\/baking-buddies-thumb.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/_site\/img\/icon-magnify.png": {
 		"fileType": 32768,
@@ -739,6 +814,72 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+		},
+	"\/img\/baking-buddies-card-back.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 143441,
+		"inputAbbreviatedPath": "\/img\/baking-buddies-card-back.jpg",
+		"outputAbbreviatedPath": "\/img\/baking-buddies-card-back.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/baking-buddies-cards.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 175792,
+		"inputAbbreviatedPath": "\/img\/baking-buddies-cards.jpg",
+		"outputAbbreviatedPath": "\/img\/baking-buddies-cards.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/baking-buddies-cork.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 274289,
+		"inputAbbreviatedPath": "\/img\/baking-buddies-cork.jpg",
+		"outputAbbreviatedPath": "\/img\/baking-buddies-cork.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/baking-buddies-hero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 221155,
+		"inputAbbreviatedPath": "\/img\/baking-buddies-hero.jpg",
+		"outputAbbreviatedPath": "\/img\/baking-buddies-hero.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/baking-buddies-sketchbook.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 172459,
+		"inputAbbreviatedPath": "\/img\/baking-buddies-sketchbook.jpg",
+		"outputAbbreviatedPath": "\/img\/baking-buddies-sketchbook.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/baking-buddies-thumb.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 927846,
+		"inputAbbreviatedPath": "\/img\/baking-buddies-thumb.png",
+		"outputAbbreviatedPath": "\/img\/baking-buddies-thumb.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/img\/icon-magnify.png": {
 		"fileType": 32768,

@@ -2,8 +2,8 @@
 layout: detail
 ---
 <div class="container-fluid feature-box" style="background-color:{{ page.feature-bg-color }};">
-  <div class="container">
-    <img class="fadeInUp" src="/img/{{ page.feature-image }}" alt="{{ page.title }}" style="max-width:{{ page.feature-max-width }};">
+  <div class="container {% if page.hero-full %}hero-full{% endif %}">
+    <img class="fadeInUp" src="/img/{{ page.feature-image }}" alt="{{ page.title }}" {% if page.feature-max-width %} style="max-width:{{ page.feature-max-width }};" {% endif %}>
   </div>
 </div>
 <div class="container-fluid detail" style="background-color:{{ page.detail-bg-color }};">
