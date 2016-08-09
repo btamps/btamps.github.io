@@ -10,6 +10,9 @@
 }
 
 .hero-full {
+  position: relative;
+  min-height: 350px;
+  overflow: hidden;
   width: 100% !important;
   max-width: none !important;
   padding: 0 !important;
@@ -17,6 +20,9 @@
     margin: 0 !important;
     animation: none !important;
     -webkit-animation: none !important;
+    height: 350px;
+    width: auto;
+    transform: translate(-24%, 0);
   }
 }
 
@@ -116,6 +122,18 @@ figure {
   }
 }
 
+@media (min-width: 600px) {
+
+  .hero-full {
+    min-height: 0;
+    img {
+      height: auto;
+      width: 100%;
+      transform: translate(0, 0);
+    }
+  }
+}
+
 // Small devices (tablets, 768px and up)
 @media (min-width: 768px) {
   .detail {
@@ -125,6 +143,14 @@ figure {
     }
     p {
       font-size: 20px;
+    }
+  }
+  .hero-full {
+    min-height: none;
+    img {
+      height: auto;
+      width: 100%;
+      transform: translate(0, 0);
     }
   }
   .project-frontmatter .project-details,
