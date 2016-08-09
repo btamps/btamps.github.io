@@ -9,13 +9,10 @@ figure {
   }
 }
 
-figure+figure {
-  margin-top: 6em;
-}
-
 // Small devices (tablets, 768px and up)
 @media (min-width: 768px) {
   figure {
+    margin-bottom: 5em;
     &.fig-small {
       max-width: 400px;
     }
