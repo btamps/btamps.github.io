@@ -39,8 +39,7 @@
   .client-box {
     margin-bottom: 2em;
   }
-  .client-box,
-  .technique-box {
+  .client-box {
     p {
       font-size: 16px;
       font-family: $font-sans;
@@ -49,13 +48,40 @@
   .client-element {
     margin-bottom: 2em;
   }
+
+  .services-box {
+    ul {
+      padding: 0;
+      li {
+        line-height: 1.5;
+        margin-bottom: .25em;
+      }
+    }
+  }
 }
 
 .content-block {
   padding-top: 3em;
   padding-bottom: 3em;
+  .row:last-child {
+    figure:last-child {
+      margin-bottom: 0;
+    }    
+  }
+}
+
+.description {
+  &.center {
+    margin: 0 auto 5em;
+    float: none;
+    h2, p {
+      text-align: center;
+    }
+  }
 }
 figure {
+  margin-top: 0;
+  margin-bottom: 5em;
   img {
     width: 100%;
     margin: 0 auto 1em;
@@ -111,8 +137,8 @@ figure {
     }
   }
   .content-block {
-    padding-top: 5em;
-    padding-bottom: 5em;
+    padding-top: 6em;
+    padding-bottom: 6em;
   }
 }
 
