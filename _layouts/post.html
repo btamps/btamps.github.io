@@ -24,11 +24,13 @@ layout: detail
           <p style="color:{{ page.body-color }};">{{ page.industry }}</p>
         </div>
       </div>
-      <div class="technique-box col-sm-2">
+      <div class="services-box col-sm-2">
         <h4 style="color:{{ page.secondary-color }};">Services</h4>
-        {% for tag in page.categories %}
-        <p style="color:{{ page.body-color }};">{{ tag }}</p>
-        {% endfor %}
+        <ul>
+          {% for tag in page.categories %}
+          <li style="color:{{ page.body-color }};">{{ tag }}</li>
+          {% endfor %}
+        </ul>
       </div>
     </div>
   </div>
