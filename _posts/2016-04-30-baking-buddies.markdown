@@ -18,7 +18,7 @@ project-details: 'Optimizely is a firm that makes customer-experience optimizati
 <div class="container content-block">
   <div class="row">
     <div class="col-sm-8 description center">
-      <h2>Brainstorming Sketches</h2>
+      <h2>Sketching Ideas</h2>
       <p>Initially, while brainstormed animal concepts, I was thinking French bulldogs, poodles, cats and frogs would be fun possibilities. And being that Optimizely is known for A/B testing, I wanted to play with different French elements of travel and movement.</p>
     </div>
   </div>
