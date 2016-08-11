@@ -13,6 +13,9 @@ layout: detail
       <div class="project-details col-sm-7">
         <h4>Project Details</h4>
         <p style="color:{{ page.body-color }};">{{ page.project-details }}</p>
+        {% if page.project-cta-url %}
+          <button href="{{ page.project-cta-url }}">{{ page.project-cta-text }}</button>
+        {% endif %}
       </div>
       <div class="client-box col-sm-2 col-sm-offset-1">
         <div class="client-element">
