@@ -12,14 +12,17 @@ detail-bg-color: "#a3cfde"
 client: "SemiSweet"
 client-website: "https://www.semisweetdesigns.com/"
 industry: "Merchandise Design"
-project-details: 'Optimizely is a firm that makes customer-experience optimization software for companies. They tasked me to create a mascot representing their internal UI pattern library, OUI. French for “yes” and pronounced like “we”, this was a great opportunity to explore mascot designs with a French flair. '
+project-details: '<a href="https://www.semisweetdesigns.com/">SemiSweet</a>, needed some fun gift options that cater to the cookie community and bakers, alike. I was delighted to designed a fun set of friendly characters from the four main ingredients for baking cookies — Sugar, Flour, Butter, Eggs.'
+project-cta-url: "https://semisweetdesigns.com/product/baking-buddies-lapel-pins/"
+project-cta-text: "Purchase Yours"
 ---
 
 <div class="container content-block">
   <div class="row">
     <div class="col-sm-8 description center">
       <h2>Sketching Ideas</h2>
-      <p>Initially, while brainstormed animal concepts, I was thinking French bulldogs, poodles, cats and frogs would be fun possibilities. And being that Optimizely is known for A/B testing, I wanted to play with different French elements of travel and movement.</p>
+      <p>The first step was to brainstorm different ideas in my sketchbook.
+      I kept it loose while drawing with a ball point pen. This helps me to not worry about final lines, and focus on capturing the whatever things that came to my mind. At this stage, I'm exploring different body positioning, perspectives, and facial placements.</p>
     </div>
   </div>
 
