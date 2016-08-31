@@ -3,12 +3,12 @@ title:  "Baking Buddies Pins"
 date:   2016-04-30 17:55:09 -0700
 categories: ['Illustration', 'Branding', 'Packaging Design']
 thumbnail: baking-buddies-thumb.png
-feature-image: baking-buddies-hero.jpg
-hero-full: true;
+feature-image: baking-buddies-hero2.jpg
+hero-full: false;
 primary-color: "#454545"
 secondary-color: "white"
 body-color: "#333"
-detail-bg-color: "#a3cfde"
+detail-bg-color: "#b8d6e8"
 client: "SemiSweet"
 client-website: "https://www.semisweetdesigns.com/"
 industry: "Merchandise Design"
