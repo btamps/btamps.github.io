@@ -1,14 +1,15 @@
 ---
 title:  "Baking Buddies Pins"
+subhead: "Case Study"
 date:   2016-04-30 17:55:09 -0700
 categories: ['Illustration', 'Branding', 'Packaging Design']
 thumbnail: baking-buddies-thumb.png
 feature-image: baking-buddies-hero2.jpg
 hero-full: true;
 primary-color: "#454545"
-secondary-color: "white"
+secondary-color: "#486181"
 body-color: "#333"
-detail-bg-color: "#b8d6e8"
+detail-bg-color: "#eee"
 client: "SemiSweet"
 client-website: "https://www.semisweetdesigns.com/"
 industry: "Merchandise Design"
@@ -60,7 +61,7 @@ project-cta-text: "Purchase Yours"
   </div>
 </div>
 
-<div class="container-fluid content-block" style="background: #ddd;">
+<div class="container-fluid content-block" style="background: #eee;">
   <div class="container">
     <div class="row">
       <div class="col-sm-8 description center">

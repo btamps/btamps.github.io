@@ -1,5 +1,6 @@
 ---
 title:  "Swell App Illustrations"
+subhead: "Case Study"
 categories: ['Illustrations']
 thumbnail: swell-thumb.png
 client: "Swell"

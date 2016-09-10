@@ -1,5 +1,6 @@
 ---
 title:  "Looker Responsive Marketing Design"
+subhead: "Case Study"
 categories: ["Web Design", "Responsive Design", "Marketing"]
 author: Billy Tamplin
 thumbnail: pd-summit-thumb.png

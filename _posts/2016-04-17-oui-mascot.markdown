@@ -1,5 +1,6 @@
 ---
 title:  "Optimizely Mascot"
+subhead: "Case Study"
 date:   2016-04-17 17:55:09 -0700
 categories: ['Logo Design']
 thumbnail: oui-thumb.png

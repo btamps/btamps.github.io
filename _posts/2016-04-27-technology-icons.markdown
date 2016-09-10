@@ -1,9 +1,10 @@
 ---
 title:  "Cooper Icon Set"
+subhead: "Collection"
 date:   2016-04-18 17:55:09 -0700
 categories: ["Iconography", "UI Design"]
 author: Billy Tamplin
-thumbnail: tech-icons-thumb.png
+thumbnail: cooper-icons/cooper-thumb.png
 feature-image: cooper-icons/cooper-hero.png
 feature-max-width: "786px"
 feature-bg-color: '#FAFAFA'

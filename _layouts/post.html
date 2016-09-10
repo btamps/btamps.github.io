@@ -11,7 +11,7 @@ layout: detail
     <div class="row">
       <h1 class="col-sm-7" style="color:{{ page.primary-color }};">{{ page.title }}</h1>
       <div class="project-details col-sm-7">
-        <h4>Project Details</h4>
+        <h4 style="color:{{ page.secondary-color }};">Project Details</h4>
         <p style="color:{{ page.body-color }};">{{ page.project-details }}</p>
         {% if page.project-cta-url %}
           <button href="{{ page.project-cta-url }}">{{ page.project-cta-text }}</button>
@@ -57,6 +57,7 @@ layout: detail
           <img src="/img/{{ post.thumbnail }}" alt="{{ post.title }}">
           <div class="title">
             <h4>{{ post.title }}</h4>
+            <p>{{ post.subhead }}</p>
           </div>
         </a>
       </div>
