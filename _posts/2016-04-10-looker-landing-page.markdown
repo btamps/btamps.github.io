@@ -1,5 +1,5 @@
 ---
-title:  "Looker Responsive Marketing Design"
+title:  "Looker Events Landing Page"
 subhead: "Case Study"
 categories: ["Web Design", "Responsive Design", "Marketing"]
 author: Billy Tamplin
