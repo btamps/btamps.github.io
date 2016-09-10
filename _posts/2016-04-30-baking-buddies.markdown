@@ -60,8 +60,14 @@ project-cta-text: "Purchase Yours"
   </div>
 </div>
 
-<div class="container-fluid content-block" style="background: #bdc0c1;">
+<div class="container-fluid content-block" style="background: #ddd;">
   <div class="container">
+    <div class="row">
+      <div class="col-sm-8 description center">
+        <h2>Final Vector</h2>
+        <p>I also designed the front and back card backing for each pin. I kept the kitchen theme in the artwork.</p>
+      </div>
+    </div>
     <div class="row">
       <figure class="col-xs-12 col-md-8 col-md-offset-2">
         <img src="../img/baking-buddies-vector.png" alt="Final Vector">
