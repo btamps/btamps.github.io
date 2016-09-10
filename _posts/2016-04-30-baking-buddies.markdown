@@ -4,7 +4,7 @@ date:   2016-04-30 17:55:09 -0700
 categories: ['Illustration', 'Branding', 'Packaging Design']
 thumbnail: baking-buddies-thumb.png
 feature-image: baking-buddies-hero2.jpg
-hero-full: false;
+hero-full: true;
 primary-color: "#454545"
 secondary-color: "white"
 body-color: "#333"

@@ -11,7 +11,7 @@ detail-bg-color: "#4DB6AC"
 primary-color: "white"
 secondary-color: "white"
 body-color: "#111"
-client: "Personal"
+client: "Personal Project"
 industry: "Icon Design"
 project-details: 'A collection of ready to use icons. Made with dual stroke widths, these icons are easy to use and customizable.'
 ---
