@@ -15,6 +15,8 @@ body-color: "#111"
 client: "Personal Project"
 industry: "Icon Design"
 project-details: 'I made a friendly collection of pixel-perfect line icons, containing a two stroke widths style. Designed on a 24px grid, each icon is ready-to-use with mobile and web apps, forms, presentations and infographics.'
+project-cta-url: "https://www.iconfinder.com/btamps"
+project-cta-text: "Purchase"
 ---
 <section class="container-fluid content-block" style="background: #eee;">
   <div class="container">
