@@ -11,7 +11,7 @@ feature-bg-color: "#bab4d0"
 client: "Looker"
 client-website: "https://www.looker.com/"
 industry: "Technology"
-project-details: 'Looker needed a responsive landing page for their upcoming workshops and conferences. They reached out to me to design a single marketing page, displaying all the details for each event and an easy way  for visitors to sign up. This project gave me the opportunity to create a new visual style that looks great on desktops and phones.'
+project-details: 'Looker needed a responsive marketing events page for their upcoming workshops and conferences. They reached out to me to design a one-page landing page, displaying all the details for each event and an easy way  for visitors to sign up. This project gave me the opportunity to create a new visual style that looks great on desktops and phones.'
 
 ---
 
