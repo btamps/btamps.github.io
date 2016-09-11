@@ -12,6 +12,8 @@ client: "Looker"
 client-website: "https://www.looker.com/"
 industry: "Technology"
 project-details: 'Looker needed a responsive landing page for their upcoming workshops and conferences. They reached out to me to design a single marketing page, displaying all the details for each event and an easy way  for visitors to sign up. This project gave me the opportunity to create a new visual style that looks great on desktops and phones.'
+project-cta-url: "https://www.iconfinder.com/btamps"
+project-cta-text: "Purchase"
 ---
 <section class="container-fluid content-block wireframes">
   <div class="container">
