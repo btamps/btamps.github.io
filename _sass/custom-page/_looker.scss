@@ -1,0 +1,57 @@
+// .looker-lp styles
+.looker-lp {
+  .feature-box {
+    position: relative;
+    background: url('../img/looker-lp/blur-city.jpg') top center no-repeat;
+    background-size: cover;
+
+    img {
+      margin-bottom: -3em !important;
+    }
+  }
+
+  .detail {
+    padding-top: 5em;
+    background-color: #f4f4f4;
+    h1 {
+      color: #604c96;
+    }
+    h4 {
+      color: #222;
+    }
+  }
+  .wireframes {
+    background: #666;
+    h2, p {
+      color: white;
+    }
+  }
+}
+
+
+// Small devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+.looker-lp {
+  .feature-box {
+    img {
+      margin-bottom: -5em !important;
+    }
+  }
+
+  .detail {
+    padding-top: 9em;
+  }
+}
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
