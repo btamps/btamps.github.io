@@ -6,13 +6,6 @@ $dark: #444;
 $font-serif: 'Merriweather', Georgia, serif;
 $font-sans: 'Lato', Helvetica, Arial, sans-serif;
 
-// Imports
-@import "home-page";
-@import "detail-page";
-@import "nav";
-@import "figure";
-@import "animation";
-
 body {
   font-family: $font-sans;
   color: $dark;
