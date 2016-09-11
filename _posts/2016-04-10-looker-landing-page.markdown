@@ -3,7 +3,7 @@ title:  "Looker Events Landing Page"
 subhead: "Case Study"
 categories: ["Web Design", "Responsive Design", "Marketing"]
 author: Billy Tamplin
-thumbnail: pd-summit-thumb.png
+thumbnail: looker-lp/looker-lp-thumb.png
 body-class: looker-lp
 feature-image: looker-lp/hero-laptop.png
 feature-sit: true;
@@ -31,11 +31,12 @@ project-details: 'Looker needed a responsive marketing events page for their upc
 <section class="container-fluid content-block" style="background: #eee;">
   <div class="container">
     <div class="row">
-      <figure class="col-xs-8 web-window">
-        <img src="../img/looker-desktop-home.png" alt="Looker Events Page">
-      </figure>
-      <figure class="col-xs-4 web-window">
-        <img src="../img/looker-mobile-home.png" alt="Looker Events Page">
+      <div class="col-sm-8 description center">
+        <h2>From Desktops to Mobile</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+      <figure class="col-xs-12">
+        <img src="../img/looker-lp/top-hero-4.png" alt="Top headers for desktop and mobile">
       </figure>
     </div>
   </div>
