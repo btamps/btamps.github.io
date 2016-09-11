@@ -10,7 +10,7 @@
   }
 }
 
-.home-page {  
+.home-page {
   .navbar .container {
     padding-bottom: 10px;
     border-bottom: 1px solid #ddd;
@@ -57,6 +57,23 @@
 .navbar-toggle {
   margin-top: 0;
   margin-bottom: 0;
+}
+
+// show, hide the nav on post page
+.post {
+  padding-top: 74px;
+  nav {
+    height: 74px;
+    position: fixed !important;
+    top: 0;
+    transition: top 0.25s ease-in-out;
+    width: 100%;
+    height: auto;
+    z-index: 100;
+  }
+  .nav-up {
+      top: -74px;
+  }
 }
 
 // Small devices (tablets, 768px and up)
