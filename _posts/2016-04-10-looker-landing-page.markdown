@@ -6,8 +6,6 @@ author: Billy Tamplin
 thumbnail: looker-lp/looker-lp-thumb.png
 body-class: looker-lp
 feature-image: looker-lp/hero-laptop.png
-feature-sit: true;
-feature-bg-color: "#bab4d0"
 client: "Looker"
 client-website: "https://www.looker.com/"
 industry: "Technology"
