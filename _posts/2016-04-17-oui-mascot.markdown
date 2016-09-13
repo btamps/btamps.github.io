@@ -1,9 +1,9 @@
 ---
 title:  "Optimizely Mascot"
-subhead: "Case Study"
+subhead: "Logo Case Study"
 date:   2016-04-17 17:55:09 -0700
 categories: ['Logo Design']
-thumbnail: oui-thumb.png
+thumbnail: oui-thumb
 feature-image: oui-mascot-feature.png
 feature-max-width: "400px"
 feature-bg-color: "#f7f7f7"
