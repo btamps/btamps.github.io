@@ -95,6 +95,15 @@ header {
       margin: 0;
     }
   }
+  .hover-gif {
+    position: absolute;
+    display: none !important;
+  }
+  &.hover {
+    .hover-gif {
+      display: block !important;
+    }
+  }
 }
 
 footer {

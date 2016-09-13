@@ -9,8 +9,8 @@ layout: default
     <div class="col-sm-6 col-md-4">
       <div class="thumbnail">
         <a href="{{ post.url | prepend: site.baseurl }}">
-          <span class="overlay-icon"></span>
-          <img src="/img/{{ post.thumbnail }}" alt="{{ post.title }}">
+          <img src="/img/{{ post.thumbnail }}.png" alt="{{ post.title }}" class="hover-png">
+          <img src="/img/{{ post.thumbnail }}.gif" class="hover-gif" alt="{{ post.title }}">
           <div class="title">
             <h4>{{ post.title }}</h4>
             <p>{{ post.subhead }}</p>
