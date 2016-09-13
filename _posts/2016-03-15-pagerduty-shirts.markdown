@@ -1,7 +1,7 @@
 ---
-title:  "PagerDuty Developer Campaign Shirts"
-subhead: "T-Shirt Design"
+title:  "Promotional Shirts"
+subhead: "T-Shirts Design"
 categories: ["Illustration", "T-Shirts"]
 author: Billy Tamplin
-thumbnail: pd-shirts-thumb.png
+thumbnail: pd-shirts-thumb
 ---

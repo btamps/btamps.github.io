@@ -1,9 +1,9 @@
 ---
 title:  "Looker Events Landing Page"
-subhead: "Case Study"
+subhead: "Marketing Design"
 categories: ["Web Design", "Responsive Design", "Marketing"]
 author: Billy Tamplin
-thumbnail: looker-lp/looker-lp-thumb.png
+thumbnail: looker-lp/looker-lp-thumb
 body-class: looker-lp
 feature-image: looker-lp/hero-laptop.png
 client: "Looker"
