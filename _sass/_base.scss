@@ -1,5 +1,5 @@
 // Colors
-$orange: #FF6D42;
+$orange: #FF9800;
 $dark: #444;
 
 // Typography
@@ -12,8 +12,15 @@ body {
   font-size: 16px;
 }
 
-a {
-  color: $orange;
+.main-content a {
+  color: $dark;
+  border-bottom: 1px solid $orange;
+  text-decoration: none;
+  &:hover {
+    color: $orange;
+    border: none;
+    text-decoration: none;
+  }
 }
 
 .btn {
