@@ -1,7 +1,7 @@
 ---
 title:  "Baking Buddies Pins"
 subhead: "Merchandise Design"
-date:   2016-04-30 17:55:09 -0700
+date:   2016-03-30 17:55:09 -0700
 categories: ['Illustration', 'Branding', 'Packaging Design']
 thumbnail: baking-buddies/baking-buddies-thumb
 client: "SemiSweet"
