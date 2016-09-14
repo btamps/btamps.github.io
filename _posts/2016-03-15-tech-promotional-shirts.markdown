@@ -1,5 +1,5 @@
 ---
-title:  "Tech Promotional Shirts"
+title:  "Tech Branding Shirts"
 subhead: "T-Shirt Design"
 categories: ["Illustration", "T-Shirts"]
 author: Billy Tamplin
