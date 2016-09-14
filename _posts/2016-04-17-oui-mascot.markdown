@@ -16,7 +16,7 @@ project-details: 'Optimizely is a firm that makes customer-experience optimizati
 
 <div class="container content-block">
   <div class="row">
-    <div class="col-sm-7">
+    <div class="col-sm-7 description center">
       <h2>Concept Sketches</h2>
       <p>Initially, while brainstormed animal concepts, I was thinking French bulldogs, poodles, cats and frogs would be fun possibilities. And being that Optimizely is known for A/B testing, I wanted to play with different French elements of travel and movement.</p>
     </div>
@@ -41,7 +41,7 @@ project-details: 'Optimizely is a firm that makes customer-experience optimizati
 
 <div class="container content-block">
   <div class="row">
-    <div class="col-sm-7 description">
+    <div class="col-sm-7 description center">
       <h2>Refined Sketches</h2>
       <p>A front-facing French bulldog was the favorite concept out of the bunch. With that direction in mind, I then tried out different facial expressions that would pair with the French bulldog. The friendliest dog from the group was the one that was chosen.</p>
     </div>

@@ -5,14 +5,11 @@ categories: ["Illustration", "T-Shirts"]
 author: Billy Tamplin
 thumbnail: shirts/startup-thumb
 body-class: shirts
+project-details: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
 ---
 
 <section class="container content-block">
   <div class="row">
-    <div class="col-sm-8 description center">
-      <h2>Tech Shirts</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
     <figure>
       <img src="../img/shirts/shirt-devops.png" alt="">
     </figure>
