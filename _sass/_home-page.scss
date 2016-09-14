@@ -46,7 +46,7 @@ header {
   padding: 0;
   border: 0;
   border-radius: 6px;
-  position: relative;
+  background: transparent;
   margin-bottom: 2em;
   a {
     display: flex;
@@ -61,7 +61,7 @@ header {
   a:hover {
     text-decoration: none;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15);
-    transform: translateY(-1px);
+    transform: translateY(-2px);
     img {
       border-color: transparent;
     }
@@ -78,17 +78,20 @@ header {
   .title {
     padding: 15px;
     width: 100%;
+    background: white;
     -webkit-transition: all 0.2s ease;
     transition: all 0.2s ease;
     z-index: 1;
+    border-radius: 6px;
     h4 {
-      font-size: 15px;
-      line-height: 1.6;
+      font-size: 16px;
+      line-height: 1.5;
       letter-spacing: 0;
       font-weight: 700;
       text-transform: capitalize;
       margin-top: 0;
       margin-bottom: 2px;
+      font-family: $font-serif;
     }
     p {
       color: #999 !important;
