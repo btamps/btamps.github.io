@@ -11,7 +11,7 @@ project-details: 'I made a friendly collection of pixel-perfect line icons, cont
 project-cta-url: "https://www.iconfinder.com/btamps"
 project-cta-text: "Purchase"
 ---
-<section class="container content-block">
+<section class="container">
   <div class="row">
     <figure class="col-sm-8 col-sm-offset-2">
       <img src="../img/cooper-icons/cooper-hero.png" alt="Cooper Icons">

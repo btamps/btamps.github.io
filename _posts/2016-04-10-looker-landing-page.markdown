@@ -11,7 +11,7 @@ industry: "Technology"
 project-details: 'Looker needed a responsive marketing events page for their upcoming workshops and conferences. They reached out to me to design a one-page landing page, displaying all the details for each event and an easy way  for visitors to sign up. This project gave me the opportunity to create a new visual style that looks great on desktops and phones.'
 
 ---
-<section class="container content-block">
+<section class="container">
   <div class="row">
     <figure class="">
       <img src="../img/looker-lp/hero-laptop.png" alt="Looker Events Page">

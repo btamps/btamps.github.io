@@ -11,28 +11,32 @@ project-details: '<a href="https://www.semisweetdesigns.com/">SemiSweet</a>, nee
 project-cta-url: "https://semisweetdesigns.com/product/baking-buddies-lapel-pins/"
 project-cta-text: "Purchase"
 ---
-<section class="container content-block">
+<section class="container">
   <div class="row">
     <figure>
       <img src="../img/baking-buddies/baking-buddies-hero2.jpg" alt="OUI Mascot">
     </figure>
   </div>
 </section>
-<div class="container content-block">
-  <div class="row">
-    <div class="col-sm-8 description center">
-      <h2>Sketching Ideas</h2>
-      <p>The first step was to brainstorm different ideas in my sketchbook.
-      I kept it loose while drawing with a ball point pen. This helps me to not worry about final lines, and focus on capturing the whatever things that came to my mind. At this stage, I was exploring different body positioning, perspectives, and facial placements.</p>
+<section class="container-fluid content-block" style="background-color: #eee;">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 description center">
+        <h2>Sketching Ideas</h2>
+        <p>The first step was to brainstorm different ideas in my sketchbook.
+        I kept it loose while drawing with a ball point pen. This helps me to not worry about final lines, and focus on capturing the whatever things that came to my mind. At this stage, I was exploring different body positioning, perspectives, and facial placements.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <figure class="col-xs-12">    
+        <img src="../img/baking-buddies/baking-buddies-sketchbook.jpg" alt="Initial Sketches">
+      </figure>
     </div>
   </div>
+</section>
 
-  <div class="row">
-    <figure class="col-xs-12">    
-      <img src="../img/baking-buddies/baking-buddies-sketchbook.jpg" alt="Initial Sketches">
-    </figure>
-  </div>
-
+<section class="container content-block">
   <div class="row">
     <div class="col-sm-8 description center">
       <h2>Refined Sketches</h2>
@@ -59,7 +63,7 @@ project-cta-text: "Purchase"
       <img src="../img/baking-buddies/baking-buddies-sketch-sack-two.png" alt="Flour sack sketch">
     </figure>
   </div>
-</div>
+</section>
 
 <div class="container-fluid content-block" style="background: #eee;">
   <div class="container">
