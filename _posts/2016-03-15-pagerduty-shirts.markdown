@@ -3,7 +3,7 @@ title:  "Tech Company Shirts"
 subhead: "T-Shirt Design"
 categories: ["Illustration", "T-Shirts"]
 author: Billy Tamplin
-thumbnail: /shirts/startup-thumb
+thumbnail: shirts/startup-thumb
 body-class: shirts
 ---
 

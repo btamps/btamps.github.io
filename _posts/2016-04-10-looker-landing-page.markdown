@@ -5,7 +5,7 @@ categories: ["Web Design", "Responsive Design", "Marketing"]
 author: Billy Tamplin
 thumbnail: looker-lp/looker-lp-thumb
 body-class: looker-lp
-feature-image: looker-lp/hero-laptop.png
+feature-image: looker-lp/hero-laptop
 client: "Looker"
 client-website: "https://www.looker.com/"
 industry: "Technology"
