@@ -1,8 +1,14 @@
 // Detail Page
 .introduction {
   float: none;
-  margin: 100px auto;
-  text-align: center;
+  margin: 40px auto;
+  text-align: left;
+  h1 {
+    margin-bottom: 20px;
+  }
+  p {
+    font-size: 16px;
+  }
 }
 
 .content-block {
@@ -126,45 +132,16 @@ figure {
   }
 }
 
-@media (min-width: 600px) {
-
-  .hero-full {
-    min-height: 0;
-    img {
-      height: auto;
-      width: 100%;
-      transform: translate(0, 0);
-    }
-  }
-}
-
 // Small devices (tablets, 768px and up)
 @media (min-width: 768px) {
-  .detail {
-    padding-top: 4em;
+  .introduction {
+    margin: 100px auto;
+    text-align: center;
     h1 {
-      margin-bottom: 20px;
+      margin-bottom: 40px;
     }
     p {
       font-size: 20px;
-    }
-  }
-  .hero-full {
-    min-height: none;
-    img {
-      height: auto;
-      width: 100%;
-      transform: translate(0, 0);
-    }
-  }
-  .project-frontmatter .project-details,
-  .project-frontmatter .client-box {
-    margin-bottom: 0;
-  }
-  .feature-box {
-    img {
-      margin-top: 5em;
-      margin-bottom: 5em;
     }
   }
   .content-block {
