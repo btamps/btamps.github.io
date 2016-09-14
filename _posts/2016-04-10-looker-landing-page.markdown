@@ -5,14 +5,19 @@ categories: ["Web Design", "Responsive Design", "Marketing"]
 author: Billy Tamplin
 thumbnail: looker-lp/looker-lp-thumb
 body-class: looker-lp
-feature-image: looker-lp/hero-laptop
 client: "Looker"
 client-website: "https://www.looker.com/"
 industry: "Technology"
 project-details: 'Looker needed a responsive marketing events page for their upcoming workshops and conferences. They reached out to me to design a one-page landing page, displaying all the details for each event and an easy way  for visitors to sign up. This project gave me the opportunity to create a new visual style that looks great on desktops and phones.'
 
 ---
-
+<section class="container content-block">
+  <div class="row">
+    <figure class="">
+      <img src="../img/looker-lp/hero-laptop.png" alt="Looker Events Page">
+    </figure>
+  </div>
+</section>
 <section class="container-fluid content-block wireframes">
   <div class="container">
     <div class="row">

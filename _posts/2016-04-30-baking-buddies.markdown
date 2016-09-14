@@ -3,13 +3,7 @@ title:  "Baking Buddies Pins"
 subhead: "Merchandise Design"
 date:   2016-04-30 17:55:09 -0700
 categories: ['Illustration', 'Branding', 'Packaging Design']
-thumbnail: baking-buddies-thumb
-feature-image: baking-buddies-hero2.jpg
-hero-full: true;
-primary-color: "#454545"
-secondary-color: "#486181"
-body-color: "#333"
-detail-bg-color: "#eee"
+thumbnail: baking-buddies/baking-buddies-thumb
 client: "SemiSweet"
 client-website: "https://www.semisweetdesigns.com/"
 industry: "Merchandise Design"
@@ -17,7 +11,13 @@ project-details: '<a href="https://www.semisweetdesigns.com/">SemiSweet</a>, nee
 project-cta-url: "https://semisweetdesigns.com/product/baking-buddies-lapel-pins/"
 project-cta-text: "Purchase"
 ---
-
+<section class="container content-block">
+  <div class="row">
+    <figure>
+      <img src="../img/baking-buddies/baking-buddies-hero2.jpg" alt="OUI Mascot">
+    </figure>
+  </div>
+</section>
 <div class="container content-block">
   <div class="row">
     <div class="col-sm-8 description center">
@@ -29,7 +29,7 @@ project-cta-text: "Purchase"
 
   <div class="row">
     <figure class="col-xs-12">    
-      <img src="../img/baking-buddies-sketchbook.jpg" alt="Initial Sketches">
+      <img src="../img/baking-buddies/baking-buddies-sketchbook.jpg" alt="Initial Sketches">
     </figure>
   </div>
 
@@ -41,22 +41,22 @@ project-cta-text: "Purchase"
   </div>
   <div class="row">
     <figure class="col-xs-4">
-      <img src="../img/baking-buddies-sketch-eggs.png" alt="Eggs sketch">
+      <img src="../img/baking-buddies/baking-buddies-sketch-eggs.png" alt="Eggs sketch">
     </figure>
     <figure class="col-xs-4">
-      <img src="../img/baking-buddies-sketch-sugar.png" alt="Sugar sketch">
+      <img src="../img/baking-buddies/baking-buddies-sketch-sugar.png" alt="Sugar sketch">
     </figure>
     <figure class="col-xs-4">
-      <img src="../img/baking-buddies-sketch-flour.png" alt="Flour sketch">
+      <img src="../img/baking-buddies/baking-buddies-sketch-flour.png" alt="Flour sketch">
     </figure>
     <figure class="col-xs-4">
-      <img src="../img/baking-buddies-sketch-butter.png" alt="Butter sketch">
+      <img src="../img/baking-buddies/baking-buddies-sketch-butter.png" alt="Butter sketch">
     </figure>
     <figure class="col-xs-4">
-      <img src="../img/baking-buddies-sketch-sack-one.png" alt="Flour sack sketch">
+      <img src="../img/baking-buddies/baking-buddies-sketch-sack-one.png" alt="Flour sack sketch">
     </figure>
     <figure class="col-xs-4">
-      <img src="../img/baking-buddies-sketch-sack-two.png" alt="Flour sack sketch">
+      <img src="../img/baking-buddies/baking-buddies-sketch-sack-two.png" alt="Flour sack sketch">
     </figure>
   </div>
 </div>
@@ -71,12 +71,12 @@ project-cta-text: "Purchase"
     </div>
     <div class="row">
       <figure class="col-xs-12 col-md-8 col-md-offset-2">
-        <img src="../img/baking-buddies-vector.png" alt="Final Vector">
+        <img src="../img/baking-buddies/baking-buddies-vector.png" alt="Final Vector">
       </figure>
     </div>
     <div class="row">
       <figure class="col-xs-12 col-md-8 col-md-offset-2">
-        <img src="../img/baking-buddies-card-mocks.png" alt="Front and back card designs">
+        <img src="../img/baking-buddies/baking-buddies-card-mocks.png" alt="Front and back card designs">
       </figure>
     </div>
   </div>
@@ -85,13 +85,13 @@ project-cta-text: "Purchase"
 <div class="container content-block">
   <div class="row">
     <figure class="col-xs-12">
-      <img src="../img/baking-buddies-cards.jpg" alt="Pins and Cards">
+      <img src="../img/baking-buddies/baking-buddies-cards.jpg" alt="Pins and Cards">
     </figure>
     <figure class="col-xs-12">
-      <img src="../img/baking-buddies-card-back.jpg" alt="Front and Back Cards">
+      <img src="../img/baking-buddies/baking-buddies-card-back.jpg" alt="Front and Back Cards">
     </figure>
     <figure class="col-xs-12">
-      <img src="../img/baking-buddies-cork.jpg" alt="Pins on cork">
+      <img src="../img/baking-buddies/baking-buddies-cork.jpg" alt="Pins on cork">
     </figure>
   </div>
 </div>

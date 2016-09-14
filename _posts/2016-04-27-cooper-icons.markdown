@@ -5,19 +5,19 @@ date:   2016-04-18 17:55:09 -0700
 categories: ["Iconography", "UI Design"]
 author: Billy Tamplin
 thumbnail: cooper-icons/cooper-thumb
-feature-image: cooper-icons/cooper-hero.png
-feature-max-width: "786px"
-feature-bg-color: '#FAFAFA'
-detail-bg-color: "#4DB6AC"
-primary-color: "white"
-secondary-color: "white"
-body-color: "#111"
 client: "Personal Project"
 industry: "Icon Design"
 project-details: 'I made a friendly collection of pixel-perfect line icons, containing a two stroke widths style. Designed on a 24px grid, each icon is ready-to-use with mobile and web apps, forms, presentations and infographics.'
 project-cta-url: "https://www.iconfinder.com/btamps"
 project-cta-text: "Purchase"
 ---
+<section class="container content-block">
+  <div class="row">
+    <figure class="col-sm-8 col-sm-offset-2">
+      <img src="../img/cooper-icons/cooper-hero.png" alt="Cooper Icons">
+    </figure>
+  </div>
+</section>
 <section class="container-fluid content-block" style="background: #eee;">
   <div class="container">
     <div class="row">

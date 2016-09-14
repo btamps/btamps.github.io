@@ -3,17 +3,19 @@ title:  "Optimizely Mascot"
 subhead: "Logo Case Study"
 date:   2016-04-17 17:55:09 -0700
 categories: ['Logo Design']
-thumbnail: oui-thumb
-feature-image: oui-mascot-feature.png
-feature-max-width: "400px"
-feature-bg-color: "#f7f7f7"
-detail-bg-color: "#BDC9CE"
+thumbnail: oui/oui-thumb
 client: "Optimizely"
 client-website: "https://www.optimizely.com/"
 industry: "Technology"
 project-details: 'Optimizely is a firm that makes customer-experience optimization software for companies. They tasked me to create a mascot representing their internal UI pattern library, OUI. French for “yes” and pronounced like “we”, this was a great opportunity to explore mascot designs with a French flair. '
 ---
-
+<section class="container content-block">
+  <div class="row">
+    <figure class="col-sm-6 col-sm-offset-3">
+      <img src="../img/oui/oui-mascot-feature.png" alt="OUI Mascot">
+    </figure>
+  </div>
+</section>
 <div class="container content-block">
   <div class="row">
     <div class="col-sm-7 description center">
@@ -23,18 +25,18 @@ project-details: 'Optimizely is a firm that makes customer-experience optimizati
   </div>
 
   <div class="row">
-    <img class="col-xs-6 col-md-3" src="../img/oui-sketch-01.png" alt="OUI Sketches">
-    <img class="col-xs-6 col-md-3" src="../img/oui-sketch-02.png" alt="OUI Sketches">
-    <img class="col-xs-6 col-md-3" src="../img/oui-sketch-03.png" alt="OUI Sketches">
-    <img class="col-xs-6 col-md-3" src="../img/oui-sketch-04.png" alt="OUI Sketches">
-    <img class="col-xs-6 col-md-3" src="../img/oui-sketch-05.png" alt="OUI Sketches">
-    <img class="col-xs-6 col-md-3" src="../img/oui-sketch-06.png" alt="OUI Sketches">
-    <img class="col-xs-6 col-md-3" src="../img/oui-sketch-07.png" alt="OUI Sketches">
-    <img class="col-xs-6 col-md-3" src="../img/oui-sketch-08.png" alt="OUI Sketches">
-    <img class="col-xs-6 col-md-3" src="../img/oui-sketch-09.png" alt="OUI Sketches">
-    <img class="col-xs-6 col-md-3" src="../img/oui-sketch-10.png" alt="OUI Sketches">
-    <img class="col-xs-6 col-md-3" src="../img/oui-sketch-11.png" alt="OUI Sketches">
-    <img class="col-xs-6 col-md-3" src="../img/oui-sketch-12.png" alt="OUI Sketches">
+    <img class="col-xs-6 col-md-3" src="../img/oui/oui-sketch-01.png" alt="OUI Sketches">
+    <img class="col-xs-6 col-md-3" src="../img/oui/oui-sketch-02.png" alt="OUI Sketches">
+    <img class="col-xs-6 col-md-3" src="../img/oui/oui-sketch-03.png" alt="OUI Sketches">
+    <img class="col-xs-6 col-md-3" src="../img/oui/oui-sketch-04.png" alt="OUI Sketches">
+    <img class="col-xs-6 col-md-3" src="../img/oui/oui-sketch-05.png" alt="OUI Sketches">
+    <img class="col-xs-6 col-md-3" src="../img/oui/oui-sketch-06.png" alt="OUI Sketches">
+    <img class="col-xs-6 col-md-3" src="../img/oui/oui-sketch-07.png" alt="OUI Sketches">
+    <img class="col-xs-6 col-md-3" src="../img/oui/oui-sketch-08.png" alt="OUI Sketches">
+    <img class="col-xs-6 col-md-3" src="../img/oui/oui-sketch-09.png" alt="OUI Sketches">
+    <img class="col-xs-6 col-md-3" src="../img/oui/oui-sketch-10.png" alt="OUI Sketches">
+    <img class="col-xs-6 col-md-3" src="../img/oui/oui-sketch-11.png" alt="OUI Sketches">
+    <img class="col-xs-6 col-md-3" src="../img/oui/oui-sketch-12.png" alt="OUI Sketches">
   </div>
 
 </div>
@@ -48,19 +50,19 @@ project-details: 'Optimizely is a firm that makes customer-experience optimizati
   </div>
   <div class="row">
     <figure class="col-xs-12 mt-med">
-      <img src="../img/oui-refined-dogs.jpg" alt="OUI Sketches">
+      <img src="../img/oui/oui-refined-dogs.jpg" alt="OUI Sketches">
     </figure>
   </div>
 </div>
 <div class="container-fluid content-block" style="background: #f7f7f7;">
   <div class="container">
     <figure class="final fig-small centered" style="margin-bottom: 60px;">
-      <img src="../img/oui-final.png" alt="OUI Sketches">
+      <img src="../img/oui/oui-final.png" alt="OUI Sketches">
       <figcaption>Final Vector</figcaption>
     </figure>
     <div class="row">
       <figure class="col-xs-12">
-        <img src="../img/oui-monitor.png" alt="OUI in Optimizely">
+        <img src="../img/oui/oui-monitor.png" alt="OUI in Optimizely">
         <figcaption>Optimizely's Design website</figcaption>
       </figure>
     </div>
