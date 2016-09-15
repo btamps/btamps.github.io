@@ -4,14 +4,15 @@ subhead: "Logo Case Study"
 date:   2016-04-17 17:55:09 -0700
 categories: ['Logo Design']
 thumbnail: oui/oui-thumb
+body-class: oui
 client: "Optimizely"
 client-website: "https://www.optimizely.com/"
 industry: "Technology"
-project-details: 'Optimizely is a firm that makes customer-experience optimization software for companies. They tasked me to create a mascot representing their internal UI pattern library, OUI. French for “yes” and pronounced like “we”, this was a great opportunity to explore mascot designs with a French flair. '
+project-details: 'Optimizely is a firm that makes customer-experience optimization software for companies. They asked me to create a mascot representing their internal UI pattern library, OUI. French for “yes” and pronounced like “we”, this was a great opportunity to explore mascot designs with a French flair. '
 ---
 <section class="container">
   <div class="row">
-    <figure class="col-sm-6 col-sm-offset-3">
+    <figure class="col-sm-4 col-sm-offset-4">
       <img src="../img/oui/oui-mascot-feature.png" alt="OUI Mascot">
     </figure>
   </div>
