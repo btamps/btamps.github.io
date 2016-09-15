@@ -33,22 +33,6 @@ project-details: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed 
       <img src="../img/illustrations/alpha-d.png" alt="">
     </figure>
   </div>
-  <!-- <div class="row">
-    <figure class="col-sm-6">
-      <img src="../img/illustrations/alpha-e.jpg" alt="">
-    </figure>
-    <figure class="col-sm-6">
-      <img src="../img/illustrations/alpha-f.jpg" alt="">
-    </figure>
-  </div>
-  <div class="row">
-    <figure class="col-sm-6">
-      <img src="../img/illustrations/alpha-g.jpg" alt="">
-    </figure>
-    <figure class="col-sm-6">
-      <img src="../img/illustrations/alpha-h.jpg" alt="">
-    </figure>
-  </div> -->
   <div class="row">
     <figure class="col-sm-12">
       <img src="../img/illustrations/eleven.jpg" alt="">
