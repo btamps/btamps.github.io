@@ -26,10 +26,55 @@ project-details: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed 
     </figure>
   </div>
   <div class="row">
-    <figure>
+    <figure class="col-sm-6">
+      <img src="../img/illustrations/alpha-c.jpg" alt="">
+    </figure>
+    <figure class="col-sm-6">
+      <img src="../img/illustrations/alpha-d.png" alt="">
+    </figure>
+  </div>
+  <!-- <div class="row">
+    <figure class="col-sm-6">
+      <img src="../img/illustrations/alpha-e.jpg" alt="">
+    </figure>
+    <figure class="col-sm-6">
+      <img src="../img/illustrations/alpha-f.jpg" alt="">
+    </figure>
+  </div>
+  <div class="row">
+    <figure class="col-sm-6">
+      <img src="../img/illustrations/alpha-g.jpg" alt="">
+    </figure>
+    <figure class="col-sm-6">
+      <img src="../img/illustrations/alpha-h.jpg" alt="">
+    </figure>
+  </div> -->
+  <div class="row">
+    <figure class="col-sm-12">
+      <img src="../img/illustrations/eleven.jpg" alt="">
+    </figure>
+  </div>
+  <div class="row">
+    <figure class="col-sm-6">
+      <img src="../img/illustrations/pennywise.png" alt="">
+    </figure>
+    <figure class="col-sm-6">
+      <img src="../img/illustrations/oven-dog.png" alt="">
+    </figure>
+  </div>
+  <div class="row">
+    <figure class="col-sm-6">
+      <img src="../img/illustrations/hello-mac.png" alt="">
+    </figure>
+    <figure class="col-sm-6">
+      <img src="../img/illustrations/coffee.png" alt="">
+    </figure>
+  </div>
+  <div class="row">
+    <figure class="col-sm-12">
       <img src="../img/illustrations/happy-holidays.jpg" alt="">
     </figure>
-    <figure>
+    <figure class="col-sm-12">
       <img src="../img/illustrations/santa-suit.png" alt="">
     </figure>
   </div>
