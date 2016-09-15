@@ -1,6 +1,7 @@
 ---
 title: Contact
 permalink: /contact/
+body-class: contact
 ---
 
 <div class="container contact-wrapper">
