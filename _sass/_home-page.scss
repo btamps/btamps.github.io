@@ -166,7 +166,9 @@ footer {
       text-align: center;
       border-radius: 200%;
       &:hover {
-        color: $orange;
+        color: white;
+        background-color: $orange;
+        border-color: $orange;
       }
     }
   }
