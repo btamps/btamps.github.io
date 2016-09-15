@@ -2,6 +2,7 @@
 title: Contact
 permalink: /contact/
 body-class: contact
+menu: main
 ---
 
 <div class="container contact-wrapper">
@@ -33,6 +34,7 @@ body-class: contact
           <textarea class="form-control" rows="6" id="emailMessage" name="message"></textarea>
         </div>
         <button type="submit" class="btn btn-default">Send Message</button>
+        <input type="hidden" name="_next" value="/thank-you/" />
       </form>
     </div>
   </div>
