@@ -11,13 +11,13 @@ project-details: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed 
 <section class="container">
   <div class="row">
     <figure>
-      <img src="../img/shirts/shirt-devops.png" alt="">
+      <img src="../img/shirts/shirt-devops.jpg" alt="">
     </figure>
     <figure>
-      <img src="../img/shirts/shirt-build.png" alt="">
+      <img src="../img/shirts/shirt-build.jpg" alt="">
     </figure>
     <figure>
-      <img src="../img/shirts/shirt-camp.png" alt="">
+      <img src="../img/shirts/shirt-camp.jpg" alt="">
     </figure>
     <figure>
       <img src="../img/shirts/shirt-join-iso.png" alt="">
