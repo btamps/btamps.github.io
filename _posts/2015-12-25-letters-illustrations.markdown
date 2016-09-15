@@ -1,11 +1,11 @@
 ---
 title:  "Letters & Illustration"
-subhead: "Collection"
+subhead: "Misc. Collection"
 categories: ["Illustration", "Lettering"]
 author: Billy Tamplin
 body-class: illustrations
 thumbnail: illustrations/illustration-thumb
-project-details: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+project-details: 'A collection of my other lettering and illustration projects.'
 ---
 
 <section class="container">
