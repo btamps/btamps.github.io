@@ -1,0 +1,97 @@
+// .contact styles
+.contact-wrapper {
+  max-width: 600px;
+  margin: 30px 15px;
+
+  h1 {
+    margin: 0 0 .5em;
+    font-weight: 700;
+  }
+  h3 {
+    font-weight: 300;
+  }
+  form {
+    .form-control {
+      border-radius: 0;
+    }
+
+    .form-group {
+      margin-bottom: 2em;
+      position: relative;
+    }
+
+    label {
+      font-weight: 400;
+    }
+
+    .names {
+      margin-bottom: 3em;
+    }
+    .first-name{
+      margin-bottom: 3em;
+    }
+
+    .sender-first-name,
+    .sender-last-name {
+      position: absolute;
+      bottom: -2em;
+      font-size: 10px;
+    }
+
+    input[type=text], textarea {
+      -webkit-transition: border 0.25s ease-in-out;
+      transition: border 0.25s ease-in-out;
+      outline: none;
+      border: 1px solid #ccc;
+    }
+
+    input[type=text]:focus,
+    input[type=email]:focus,
+    textarea:focus {
+      border: 1px solid $dark;
+    }
+
+    button {
+      background: $orange;
+      color: white;
+      border: 0;
+      padding: 12px 40px;
+      display: block;
+      font-weight: 700;
+      &:hover {
+        background: $orange-dark;
+        color: white;
+      }
+    }
+  }
+}
+
+
+// Small devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+
+  .contact-wrapper {
+    margin: 60px auto;
+    form {
+      .names {
+        margin-bottom: 0;
+
+      }
+      .first-name{
+        margin-bottom: 0;
+      }
+    }
+  }
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
