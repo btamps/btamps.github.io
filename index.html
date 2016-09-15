@@ -1,14 +1,17 @@
 ---
 layout: default
 ---
-
-<div class="container workbox">
+<section class="container workbox">
   <div class="row">
     <div class="home-hero">
       <p>Hello, my name’s Billy.
       <h1>I’m an illustrator and designer with a friendly style and thoughtful process.</h1>
       <a class="btn" href="/contact">Let’s Work Together</a>
     </div>
+  </div>
+</section>
+<section class="container workbox">
+  <div class="row">
   {% for post in site.posts %}
     <div class="col-sm-6 col-md-4">
       <a class="thumbnail" href="{{ post.url | prepend: site.baseurl }}">
@@ -21,6 +24,5 @@ layout: default
       </a>
     </div>
   {% endfor %}
-
   </div>
-</div>
+</section>
