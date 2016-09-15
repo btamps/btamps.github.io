@@ -17,11 +17,13 @@
       <ul class="nav navbar-nav navbar-right">
         <li><a href="/">Work</a></li>
         {% for my_page in site.pages %}
-          <!-- Compare the page title to the URL -->
-          {% assign current = page.title | downcase %}
+          {% if my_page.menu == 'main' %}
+            <!-- Compare the page title to the URL -->
+            {% assign current = page.title | downcase %}
 
-          {% if my_page.title %}
-          <li><a {% if location == current %} class="nav-current page-link" {% else %}  class="page-link" {% endif %} href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
+            {% if my_page.title %}
+              <li><a {% if location == current %} class="nav-current page-link" {% else %}  class="page-link" {% endif %} href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
+            {% endif %}
           {% endif %}
         {% endfor %}
       </ul>
