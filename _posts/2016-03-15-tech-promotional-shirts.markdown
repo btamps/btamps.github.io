@@ -20,7 +20,7 @@ project-details: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed 
       <img src="../img/shirts/shirt-camp.jpg" alt="">
     </figure>
     <figure>
-      <img src="../img/shirts/shirt-join-iso.png" alt="">
+      <img src="../img/shirts/shirt-join-iso.jpg" alt="">
     </figure>
     <figure>
       <img src="../img/shirts/shirt-join-pattern.png" alt="">
