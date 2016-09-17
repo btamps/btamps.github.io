@@ -27,7 +27,11 @@ menu: main
         </div>
         <div class="form-group form-group-lg">
           <label for="exampleInputEmail1">Email Address</label>
-          <input type="email" class="form-control" name="_replyto" id="exampleInputEmail1">
+          <input type="email" class="form-control" name="email" id="exampleInputEmail1">
+        </div>
+        <div class="form-group form-group-lg">
+          <label for="subject">Subject</label>          
+          <input id="subject" class="form-control" type="text" name="_subject" />
         </div>
         <div class="form-group form-group-lg">
           <label for="emailMessage">Message</label>
