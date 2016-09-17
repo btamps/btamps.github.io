@@ -10,14 +10,25 @@ layout: detail
       </div>
     </div>
   </section>
-
   {{ content }}
 </div>
+
+
 
 <div class="container workbox">
   <hr>
   <div class="row">
+
   <h4 class="col-sm-12">More work</h4>
+
+  <div class="arrow-nav">
+    {% if page.next.url %}
+      <a class="next" href="{{page.next.url}}"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+    {% endif %}
+    {% if page.previous.url %}
+      <a class="prev" href="{{page.previous.url}}"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+    {% endif %}
+  </div>
   {% for post in site.posts %}
     <!-- Exclude Current Post -->
     {% if post.url != page.id %}
