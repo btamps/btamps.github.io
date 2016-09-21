@@ -13,14 +13,19 @@ body {
   font-size: 16px;
 }
 
-.main-content a {
+a {
   color: $dark;
-  border-bottom: 1px solid $orange;
   text-decoration: none;
   &:hover {
     color: $orange;
-    border: none;
     text-decoration: none;
+  }
+}
+
+.main-content a {
+  border-bottom: 1px solid $orange;
+  &:hover {    
+    border: none;
   }
 }
 
