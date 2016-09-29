@@ -5,7 +5,7 @@ categories: ["Illustration", "Lettering"]
 author: Billy Tamplin
 body-class: illustrations
 thumbnail: illustrations/illustration-thumb
-project-details: 'A collection of my other lettering and illustration projects.'
+project-details: 'A miscellaneous collection of my other lettering and illustration projects.'
 ---
 
 <section class="container">
