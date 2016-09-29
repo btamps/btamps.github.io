@@ -12,13 +12,6 @@
   }
 }
 
-// .home-page {
-//   .navbar .container {
-//     padding-bottom: 10px;
-//     border-bottom: 1px solid #ddd;
-//   }
-// }
-
 .nav {
   li {
     a {
@@ -29,6 +22,10 @@
       &:hover {
         color: $orange !important;
       }
+    }
+    .next, .prev {
+      font-size: 20px;
+      display: none;
     }
   }
 }
@@ -91,6 +88,11 @@
       font-size: 15px;
       margin-top: 9px;
       letter-spacing: 1.7px;
+    }
+  }
+  .nav li {
+    .next, .prev {
+      display: block !important;
     }
   }
   .post {
