@@ -7,7 +7,7 @@ menu: main
 
 <div class="container contact-wrapper">
   <div class="row">
-    <div class="col-sm-8">
+    <div class="col-sm-8 col-md-offset-2">
       <h1>Contact Me</h1>
       <h3>Fill out the form to get in touch.</h3>
       <form action="https://formspree.io/billytamplin@gmail.com"
@@ -41,5 +41,6 @@ menu: main
         <input type="hidden" name="_next" value="/thank-you/" />
       </form>
     </div>
+
   </div>
 </div>
