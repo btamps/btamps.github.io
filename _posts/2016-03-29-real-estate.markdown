@@ -6,7 +6,7 @@ thumbnail: real-estate/real-estate-thumb
 body-class: real-estate
 client: "Elenna Tamplin Realtor"
 industry: "Design"
-project-details: 'Elenna Tamplin is a Realtor in the Tampa Bay Area who’s website needed new illustrations for home buying and selling process. I was hired to design illustrations to visually communicate the process, so each step is easier to understand.'
+project-details: 'Elenna Tamplin is a real estate agent in the Tampa Bay Area who needed new graphics for her business website. She requested illustrations to visually communicate each step of the home buying and selling process. The goal was to create informative guide that made the real estate process easier to understand.'
 ---
 <section class="container">
   <div class="row">
