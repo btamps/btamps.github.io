@@ -17,7 +17,7 @@ project-details: 'Optimizely is a firm that makes customer-experience optimizati
     </figure>
   </div>
 </section>
-<div class="container content-block">
+<section class="container content-block">
   <div class="row">
     <div class="col-sm-7 description center">
       <h2>Concept Sketches</h2>
@@ -39,10 +39,9 @@ project-details: 'Optimizely is a firm that makes customer-experience optimizati
     <img class="col-xs-6 col-md-3" src="../img/oui/oui-sketch-11.png" alt="OUI Sketches">
     <img class="col-xs-6 col-md-3" src="../img/oui/oui-sketch-12.png" alt="OUI Sketches">
   </div>
+</section>
 
-</div>
-
-<div class="container content-block">
+<section class="container content-block">
   <div class="row">
     <div class="col-sm-7 description center">
       <h2>Refined Sketches</h2>
@@ -54,8 +53,8 @@ project-details: 'Optimizely is a firm that makes customer-experience optimizati
       <img src="../img/oui/oui-refined-dogs.jpg" alt="OUI Sketches">
     </figure>
   </div>
-</div>
-<div class="container-fluid content-block" style="background: #f7f7f7;">
+</section>
+<section class="container-fluid content-block" style="background: #f7f7f7;">
   <div class="container">
     <figure class="final fig-small centered" style="margin-bottom: 60px;">
       <img src="../img/oui/oui-final.png" alt="OUI Sketches">
@@ -68,4 +67,10 @@ project-details: 'Optimizely is a firm that makes customer-experience optimizati
       </figure>
     </div>
   </div>
-</div>
+</section>
+<section class="container-fluid post-closing">
+  <div class="container">
+    <h2>Fin!</h2>
+    <p>It's a shame to part so soon. You can visit the live site at <a href="http://design.optimizely.com/">design.optimizely.com</a>, or check out some of my other projects down below.</p>
+  </div>
+</section>

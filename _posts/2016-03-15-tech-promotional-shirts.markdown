@@ -30,3 +30,9 @@ project-details: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed 
     </figure>
   </div>
 </section>
+<section class="container-fluid post-closing">
+  <div class="container">
+    <h2>That’s All Folks!</h2>
+    <p>Time sure flies when you're having fun. You can find some additional work on my <a href="https://dribbble.com/billy">Dribbble page</a>, or you can read though more projects below.</p>
+  </div>
+</section>

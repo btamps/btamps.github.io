@@ -89,3 +89,9 @@ project-cta-text: "Purchase"
     </div>
   </div>
 </section>
+<section class="container-fluid post-closing">
+  <div class="container">
+    <h2>That’s All!</h2>
+    <p>It's a shame we have to part so soon. You can purchase these icons on <a href="https://www.iconfinder.com/btamps">Iconfinder.com</a>, or you can check out my other projects below.</p>
+  </div>
+</section>

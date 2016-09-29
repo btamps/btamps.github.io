@@ -99,3 +99,9 @@ project-cta-text: "Purchase"
     </figure>
   </div>
 </div>
+<section class="container-fluid post-closing">
+  <div class="container">
+    <h2>That’s It!</h2>
+    <p>Thanks for looking. You can purchase these lapel pins on <a href="https://semisweetdesigns.com/product/baking-buddies-lapel-pins/">SemiSweetDesigns.com</a>, or you can check out more of my projects below.</p>
+  </div>
+</section>
