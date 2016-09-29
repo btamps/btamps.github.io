@@ -64,6 +64,6 @@ project-details: 'Elenna Tamplin is a real estate agent in the Tampa Bay Area wh
 <section class="container-fluid post-closing">
   <div class="container">
     <h2>That’s It!</h2>
-    <p>Thanks for looking. You can these illustrations on the live site at <a href="www.elennatamplin.com/buyers">ElennaTamplin.com</a>, or you can check out my other projects below.</p>
+    <p>Thanks for looking. You can view these illustrations on the live site at <a href="www.elennatamplin.com/buyers">ElennaTamplin.com</a>, or you can check out my other projects below.</p>
   </div>
 </section>
