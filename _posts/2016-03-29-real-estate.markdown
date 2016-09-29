@@ -29,7 +29,7 @@ project-details: 'Elenna Tamplin is a real estate agent in the Tampa Bay Area wh
     </div>
     <div class="col-sm-4 feature">
       <img src="../img/real-estate/marketing.png" alt="Real Estate Illustrations">
-      <h4>Marketing</h4>
+      <h4>Market Your Home</h4>
       <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis.</p>
     </div>
   </div>
@@ -50,13 +50,13 @@ project-details: 'Elenna Tamplin is a real estate agent in the Tampa Bay Area wh
   <div class="container">
     <div class="row">
       <figure class="col-sm-4">
-        <img src="../img/real-estate/mobile-offer.png" alt="Real Estate Illustrations">
+        <img src="../img/real-estate/mobile-research.png" alt="Real Estate Illustrations">
       </figure>
       <figure class="col-sm-4">
         <img src="../img/real-estate/mobile-showings.png" alt="Real Estate Illustrations">
       </figure>
       <figure class="col-sm-4">
-        <img src="../img/real-estate/mobile-research.png" alt="Real Estate Illustrations">
+        <img src="../img/real-estate/mobile-offer.png" alt="Real Estate Illustrations">
       </figure>
     </div>
   </div>
