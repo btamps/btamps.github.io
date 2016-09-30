@@ -66,6 +66,6 @@ project-details: 'A miscellaneous collection of my other lettering and illustrat
 <section class="container-fluid post-closing">
   <div class="container">
     <h2>All Finished!</h2>
-    <p>Thanks for taking a look. You can visit my <a href="https://dribbble.com/billy">Dribbble page</a> for some additional work, or you can check out more projects below.</p>
+    <p>Thanks for stopping by. Take a look at some additional work on my <a href="https://dribbble.com/billy">Dribbble page</a>, or you can browse more projects below.</p>
   </div>
 </section>
