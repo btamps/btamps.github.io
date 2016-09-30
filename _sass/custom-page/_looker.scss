@@ -1,85 +1,30 @@
 // .looker-lp styles
 .looker-lp {
-  .feature-box {
-    position: relative;
-    background: url('../img/looker-lp/blur-city.jpg') top center no-repeat;
-    background-size: cover;
-
-    img {
-      margin-bottom: -3em !important;
+  .main-content {
+    & > .container:nth-child(1),
+    & > .container:nth-child(2) {
+      background: #eee;
+      max-width: none;
+      width: 100%;
     }
   }
 
-  .detail {
-    padding-top: 5em;
-    background-color: #f4f4f4;
-    h1 {
-      color: #604c96;
-    }
-    h4 {
-      color: #222;
-    }
+  .hero-image {
+    max-width: 1200px;
+    margin: 0 auto 3em;
   }
   .wireframes {
-    background: #ccc;
+    background: #ddd;
   }
 
   .responsive {
-    background-color: #eee;
+    background-color: #f4f4f4;
   }
   .schedules {
-    background-color: #ccc;
+    background-color: #e5e5e5;
   }
   .forms {
     background-color: #f4f4f4;
-  }
-  .palette {
-    background-color: #999;
-    p {
-      color: white;
-    }
-    .colors {
-      display: flex;
-      justify-content: space-between;
-      li {
-        display: block;
-        height: 80px;
-        width: 60px;
-        float: left;
-        position: relative;
-        border-radius: 4px;
-        box-shadow: 0 2px 4px hsla(0, 0%, 0%, .3);
-      }
-      p {
-        background: white;
-        width: 100%;
-        text-align: center;
-        padding: 10px 5px;
-        margin: 0;
-        position: absolute;
-        bottom: 0;
-        color: hsla(0, 0%, 0%, .87);
-        border-bottom-right-radius: 4px;
-        border-bottom-left-radius: 4px;
-        font-size: 9px;
-        letter-spacing: 1px;
-      }
-      .yellow {
-        background-color: #F2B431;
-      }
-      .purple {
-        background-color: #8D80BA;
-      }
-      .light-gray {
-        background-color: #CCCCCC;
-      }
-      .gray {
-        background-color: #666666;
-      }
-      .dark {
-        background-color: #393B40;
-      }
-    }
   }
 }
 
@@ -88,26 +33,11 @@
 @media (min-width: 768px) {
 
 .looker-lp {
-  .feature-box {
-    img {
-      margin-bottom: -5em !important;
-    }
+  .introduction {
+    margin-bottom: 40px;
   }
-
-  .detail {
-    padding-top: 9em;
-  }
-  .palette {
-    .colors {
-      li {
-        width: 200px;
-        height: 200px;
-        p {
-          font-size: 14px;
-          padding: 15px;
-        }
-      }
-    }
+  .hero-image {
+    margin: 0 auto 5em;
   }
 }
 
