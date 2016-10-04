@@ -40,7 +40,6 @@ client: "Optimizely"
         <img src="../img/oui/oui-mascot-feature.png" alt="OUI Mascot">
       </figure>
     </div>
-
   </div>
 </section>
 
