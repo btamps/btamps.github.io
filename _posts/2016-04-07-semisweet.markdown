@@ -23,7 +23,7 @@ body-class: semisweet
         <ul>
           <li><a href="www.semisweetdesigns.com">Semi Sweet Designs</a></li>
         </ul>
-        <h4>Project Deliverable</h4>
+        <h4>Project Deliverables</h4>
         <ul>
           <li>Web Design and Branding</li>
           <li>WordPress Integration</li>

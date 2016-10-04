@@ -7,8 +7,23 @@ body-class: illustrations
 thumbnail: illustrations/illustration-thumb
 project-details: 'A miscellaneous collection of my other lettering and illustration projects.'
 ---
+<section class="container-fluid introduction">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1 class="title">Letters & Illustration</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 summary">
+        <h4>Summary</h4>
+        <p>A miscellaneous collection of my other lettering and illustration projects.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-<section class="container">
+<section class="container work">
   <div class="row">
     <figure class="col-sm-6">
       <img src="../img/illustrations/royale-big.png" alt="">

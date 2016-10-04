@@ -6,7 +6,6 @@ author: Billy Tamplin
 thumbnail: looker-lp/looker-lp-thumb
 body-class: looker-lp
 client: "Looker"
-
 ---
 <section class="container-fluid introduction">
   <div class="container">
