@@ -1,0 +1,26 @@
+// Mixins
+$width-small:  400px;
+$width-medium: 768px;
+$width-large:  992px;
+
+@mixin responsive($width) {
+  @if $width == small-screens {
+    @media only screen and (min-width: $width-small) { @content; }
+  }
+  @else if $width == medium-screens {
+    @media only screen and (min-width: $width-medium) { @content; }
+  }
+  @else if $width == wide-screens {
+    @media only screen and (min-width: $width-large) { @content; }
+  }
+}
+
+
+%content-block {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  @include responsive(medium-screens) {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
