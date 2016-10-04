@@ -3,22 +3,49 @@ title:  "Cooper Icon Set"
 subhead: "Iconography"
 date:   2016-04-18 17:55:09 -0700
 categories: ["Iconography", "UI Design"]
-author: Billy Tamplin
+body-class: cooper
 thumbnail: cooper-icons/cooper-thumb
-client: "Personal Project"
-industry: "Icon Design"
-project-details: 'I made a friendly collection of pixel-perfect line icons, containing a two stroke widths style. Designed on a 24px grid, each icon is ready-to-use with mobile and web apps, forms, presentations and infographics.'
-project-cta-url: "https://www.iconfinder.com/btamps"
-project-cta-text: "Purchase"
 ---
-<section class="container">
-  <div class="row">
-    <figure class="col-sm-8 col-sm-offset-2">
-      <img src="../img/cooper-icons/cooper-hero.png" alt="Cooper Icons">
-    </figure>
+<section class="container-fluid introduction">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1 class="title">Cooper Icon Set</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-5">
+        <h4>Role</h4>
+        <ul>
+          <li>Designer</li>
+          <li>Illustrator</li>
+        </ul>
+        <h4>Client</h4>
+        <ul>
+          <li><a href="https://www.iconfinder.com/btamps">Project Project</a></li>
+        </ul>
+        <h4>Project Deliverable</h4>
+        <ul>
+          <li>Iconography</li>
+          <li>User Interface</li>
+        </ul>
+      </div>
+      <div class="col-md-7 summary">
+        <h4>Summary</h4>
+        <p>I made a friendly collection of pixel-perfect line icons, containing a two stroke widths style. Designed on a 24px grid, each icon is ready-to-use with mobile and web apps, forms, presentations and infographics.</p>
+        <button class="btn" href="https://www.iconfinder.com/btamps">Purchase Yours</button>
+      </div>
+    </div>
+
+    <div class="row">
+      <figure class="col-sm-12 hero-image">
+        <img src="../img/cooper-icons/cooper-hero.png" alt="Cooper Icons">
+      </figure>
+    </div>
   </div>
 </section>
-<section class="container-fluid content-block" style="background: #eee;">
+
+<section class="container-fluid design">
   <div class="container">
     <div class="row">
     <div class="col-sm-8 description center">
@@ -40,7 +67,7 @@ project-cta-text: "Purchase"
   </div>
 </section>
 
-<section class="container content-block">
+<section class="container icon-gallery">
   <div class="row">
     <figure class="col-sm-8 col-sm-offset-2">
       <img src="../img/cooper-icons/cooper-icon-gallery.png" alt="Tech Icons">
@@ -48,7 +75,7 @@ project-cta-text: "Purchase"
   </div>
 </section>
 
-<section class="container-fluid content-block full-gallery" style="background: #80CBC4;">
+<section class="container-fluid content-block full-gallery">
     <div class="row">
       <div class="col-xs-6 col-md-4">
         <img src="../img/cooper-icons/cloud-check.png" alt="Cloud services icon">
@@ -77,7 +104,7 @@ project-cta-text: "Purchase"
   </div>
 </section>
 
-<section class="container-fluid content-block" style="background: #80CBC4;">
+<section class="container-fluid ui-design">
   <div class="container side-by-side">
     <div class="row">
       <div class="col-xs-12 col-md-6">

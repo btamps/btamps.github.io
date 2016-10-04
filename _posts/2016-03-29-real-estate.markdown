@@ -42,8 +42,8 @@ body-class: real-estate
   </div>
 </section>
 
-<section class="container">
-  <div class="row features">
+<section class="container features">
+  <div class="row">
     <div class="col-sm-4 feature">
       <img src="../img/real-estate/make-offer.png" alt="Real Estate Illustrations">
       <h4>Making an Offer</h4>

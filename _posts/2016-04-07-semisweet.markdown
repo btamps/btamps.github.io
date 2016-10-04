@@ -1,21 +1,50 @@
 ---
-title:  "SemiSweet Website"
+title:  "Semi Sweet Website"
 subhead: "Blog and E-Commerce Design"
 categories: ["Branding", "Web Design", "E-Commerce"]
 thumbnail: semisweet/semisweet-thumb
 body-class: semisweet
-client: "SemiSweet Design"
-industry: "Design"
-project-details: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
 ---
-<section class="container">
-  <div class="row">
-    <figure class="hero-image">
-      <img src="../img/semisweet/hero.png" alt="SemiSweet Website">
-    </figure>
+<section class="container-fluid introduction">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1 class="title">Semi Sweet Website</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-5">
+        <h4>Role</h4>
+        <ul>
+          <li>Designer</li>
+          <li>Developer</li>
+        </ul>
+        <h4>Client</h4>
+        <ul>
+          <li><a href="www.semisweetdesigns.com">Semi Sweet Designs</a></li>
+        </ul>
+        <h4>Project Deliverable</h4>
+        <ul>
+          <li>Web Design and Branding</li>
+          <li>WordPress Integration</li>
+          <li>E-Commerce</li>
+        </ul>
+      </div>
+      <div class="col-md-7 summary">
+        <h4>Summary</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <figure class="hero-image">
+        <img src="../img/semisweet/hero.png" alt="SemiSweet Website">
+      </figure>
+    </div>
   </div>
 </section>
-<section class="container">
+
+<section class="container design-system">
   <div class="row">
     <div class="col-sm-12">
       <div class="col-sm-8 description center">

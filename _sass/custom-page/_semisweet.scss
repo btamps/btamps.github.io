@@ -1,35 +1,37 @@
 // .semisweet styles
 .semisweet {
-  .main-content {
-    & > .container:nth-child(1),
-    & > .container:nth-child(2) {
-      background: #F5F2F0;
-      max-width: none;
-      width: 100%;
-      padding-left: 24px;
-      padding-right: 24px;
+  .introduction {
+    background: #EFEBE9;
+    h4 {
+      color: #a1887f;
+    }
+    a {
+      border-color: #a1887f;
+      &:hover {
+        color: #a1887f;
+      }
     }
   }
   .hero-image {
-    max-width: 90%;
-    margin: 0 auto;
+    max-width: 100%;
+    margin: 40px auto 0;
     img {
       margin-bottom: 0;
     }
   }
-  .description {
-    padding-top: 50px;
-  }
-  h4 {
-    margin-bottom: 2em;
+  .design-system {
+    @extend %content-block;
   }
   .blog {
-    background: #EFEBE9;
+    @extend %content-block;
+    background: #eeeae8;
     figure, figure img {
       margin-bottom: 0;
     }
+    padding-bottom: 0;
   }
   .shop {
+    @extend %content-block;
     background: #D7CCC8;
     h4 {
       margin-bottom: 20px;
@@ -44,27 +46,12 @@
 // Small devices (tablets, 768px and up)
 @media (min-width: 768px) {
 
-.semisweet {
-  .introduction {
-    max-width: 800px;
-    p {
-      text-align: center;
-    }
-  }
-  .description {
-    padding-top: 100px;
-  }
-}
 
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  .semisweet {
-    .hero-image {
-      max-width: 1200px;
-    }
-  }
+
 }
 
 /* Large devices (large desktops, 1200px and up) */
