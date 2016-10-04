@@ -31,7 +31,7 @@ a {
 }
 
 .btn {
-  border-radius: 3px;
+  @include button(#999);
 }
 
 // Typography
