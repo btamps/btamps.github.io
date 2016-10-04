@@ -11,7 +11,7 @@ body-class: baking-pins
   <div class="container">
     <div class="row">
       <div class="col-sm-12">
-        <h1 class="title">Semi Sweet Website</h1>
+        <h1 class="title">Baking Buddies Pins</h1>
       </div>
     </div>
     <div class="row">

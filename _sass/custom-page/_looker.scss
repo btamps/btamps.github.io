@@ -1,54 +1,36 @@
 // .looker-lp styles
 .looker-lp {
-  .main-content {
-    & > .container:nth-child(1),
-    & > .container:nth-child(2) {
-      background: #eee;
-      max-width: none;
-      width: 100%;
+  .introduction {
+    h4 {
+      color: #8d80ba;
+    }
+    a {
+      border-color: #8d80ba;
+      &:hover {
+        color: #8d80ba;
+      }
+    }
+    .hero-image {
+      margin: 20px auto 40px;
+      @include responsive(medium-screens) {
+        margin: 50px auto 60px;
+      }
     }
   }
 
-  .hero-image {
-    max-width: 1200px;
-    margin: 0 auto 3em;
+  .wireframes,.responsive,.schedules, .forms {
+    @extend %content-block;
+    background-color: #f4f4f4;
   }
   .wireframes {
     background: #ddd;
-  }
-
-  .responsive {
-    background-color: #f4f4f4;
   }
   .schedules {
     background-color: #e5e5e5;
   }
   .forms {
-    background-color: #f4f4f4;
+    figure {
+      margin-bottom: 0;
+    }
   }
-}
-
-
-// Small devices (tablets, 768px and up)
-@media (min-width: 768px) {
-
-.looker-lp {
-  .introduction {
-    margin-bottom: 40px;
-  }
-  .hero-image {
-    margin: 0 auto 5em;
-  }
-}
-
-}
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-
-}
-
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-
 }

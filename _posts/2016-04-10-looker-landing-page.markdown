@@ -6,18 +6,44 @@ author: Billy Tamplin
 thumbnail: looker-lp/looker-lp-thumb
 body-class: looker-lp
 client: "Looker"
-client-website: "https://www.looker.com/"
-industry: "Technology"
-project-details: 'Looker needed a responsive marketing events page for their upcoming workshops and conferences. They reached out to me to design a one-page landing page, displaying all the details for each event and an easy way  for visitors to sign up. This project gave me the opportunity to create a new visual style that looks great on desktops and phones.'
 
 ---
-<section class="container">
-  <div class="row">
-    <figure class="hero-image">
-      <img src="../img/looker-lp/top-hero.png" alt="Looker Events Page">
-    </figure>
+<section class="container-fluid introduction">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1 class="title">Looker Events Landing Page</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-5">
+        <h4>Role</h4>
+        <ul>
+          <li>Designer</li>
+        </ul>
+        <h4>Client</h4>
+        <ul>
+          <li><a href="https://www.looker.com/">Looker</a></li>
+        </ul>
+        <h4>Project Deliverable</h4>
+        <ul>
+          <li>Marketing Landing Page</li>
+        </ul>
+      </div>
+      <div class="col-md-7 summary">
+        <h4>Summary</h4>
+        <p>Looker needed a responsive marketing events page for their upcoming workshops and conferences. They reached out to me to design a one-page landing page, displaying all the details for each event and an easy way  for visitors to sign up. This project gave me the opportunity to create a new visual style that looks great on desktops and phones.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <figure class="col-sm-12 hero-image">
+        <img src="../img/looker-lp/top-hero.png" alt="Looker Events Page">
+      </figure>
+    </div>
   </div>
 </section>
+
 <section class="container-fluid content-block wireframes">
   <div class="container">
     <div class="row">

@@ -12,12 +12,6 @@
       }
     }
   }
-  .hero-image {
-    margin: 60px auto;
-    @include responsive(medium-screens) {
-      margin-bottom: 100px;
-    }
-  }
   .sketching {
     @extend %content-block;
     background: #ddd;
@@ -28,5 +22,8 @@
   .final {
     @extend %content-block;
     background: #eee;
+  }
+  .photos {
+    padding-bottom: 0;
   }
 }
