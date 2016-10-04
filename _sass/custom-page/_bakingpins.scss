@@ -1,0 +1,35 @@
+// .baking-pins styles
+.baking-pins {
+  .introduction {
+    background: #f4f4f4;
+    h4 {
+      color: #999;
+    }
+    a {
+      border-color: #999;
+      &:hover {
+        color: #999;
+      }
+    }
+    .btn {
+      @include button(#999);
+    }
+  }
+  .hero-image {
+    margin: 60px auto;
+    @include responsive(medium-screens) {
+      margin-bottom: 100px;
+    }
+  }
+  .sketching {
+    @extend %content-block;
+    background: #ddd;
+  }
+  .refined, .photos {
+    @extend %content-block;
+  }
+  .final {
+    @extend %content-block;
+    background: #eee;
+  }
+}

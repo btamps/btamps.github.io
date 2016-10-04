@@ -5,20 +5,48 @@ date:   2016-03-30 17:55:09 -0700
 categories: ['Illustration', 'Branding', 'Packaging Design']
 thumbnail: baking-buddies/baking-buddies-thumb
 client: "SemiSweet"
-client-website: "https://www.semisweetdesigns.com/"
-industry: "Merchandise Design"
-project-details: '<a href="https://www.semisweetdesigns.com/">SemiSweet</a>, needed some fun gift options that cater to the cookie community and bakers, alike. I was delighted to design a fun set of friendly characters from the four main ingredients for baking cookies — Sugar, Flour, Butter, Eggs.'
-project-cta-url: "https://semisweetdesigns.com/product/baking-buddies-lapel-pins/"
-project-cta-text: "Purchase"
+body-class: baking-pins
 ---
-<section class="container">
-  <div class="row">
-    <figure>
-      <img src="../img/baking-buddies/baking-buddies-hero2.jpg" alt="OUI Mascot">
-    </figure>
+<section class="container-fluid introduction">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1 class="title">Semi Sweet Website</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-5">
+        <h4>Role</h4>
+        <ul>
+          <li>Designer</li>
+          <li>Illustrator</li>
+        </ul>
+        <h4>Client</h4>
+        <ul>
+          <li><a href="https://www.semisweetdesigns.com/">Semi Sweet Designs</a></li>
+        </ul>
+        <h4>Project Deliverable</h4>
+        <ul>
+          <li>Merchandise Design</li>
+          <li>Packaging Design</li>
+        </ul>
+      </div>
+      <div class="col-md-7 summary">
+        <h4>Summary</h4>
+        <p><a href="https://www.semisweetdesigns.com/">SemiSweet</a>, needed some fun gift options that cater to the cookie community and bakers, alike. I was delighted to design a fun set of friendly characters from the four main ingredients for baking cookies — Sugar, Flour, Butter, Eggs.</p>
+        <button class="btn" href="https://semisweetdesigns.com/product/baking-buddies-lapel-pins/">Purchase Yours</button>
+      </div>
+    </div>
+
+    <div class="row">
+      <figure class="col-sm-12 hero-image">
+        <img src="../img/baking-buddies/baking-buddies-hero2.jpg" alt="OUI Mascot">
+      </figure>
+    </div>
   </div>
 </section>
-<section class="container-fluid content-block" style="background-color: #eee;">
+
+<section class="container-fluid sketching">
   <div class="container">
     <div class="row">
       <div class="col-sm-8 description center">
@@ -36,7 +64,7 @@ project-cta-text: "Purchase"
   </div>
 </section>
 
-<section class="container content-block">
+<section class="container refined">
   <div class="row">
     <div class="col-sm-8 description center">
       <h2>Refined Sketches</h2>
@@ -65,7 +93,7 @@ project-cta-text: "Purchase"
   </div>
 </section>
 
-<div class="container-fluid content-block" style="background: #eee;">
+<div class="container-fluid final">
   <div class="container">
     <div class="row">
       <div class="col-sm-8 description center">
@@ -86,7 +114,7 @@ project-cta-text: "Purchase"
   </div>
 </div>
 
-<div class="container content-block">
+<div class="container photos">
   <div class="row">
     <figure class="col-xs-12">
       <img src="../img/baking-buddies/baking-buddies-cards.jpg" alt="Pins and Cards">
