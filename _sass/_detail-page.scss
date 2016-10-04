@@ -20,16 +20,6 @@
   }
 }
 
-.content-block {
-  padding-top: 3em;
-  padding-bottom: 3em;
-  .row:last-child {
-    figure:last-child {
-      margin-bottom: 0;
-    }
-  }
-}
-
 .description {
   &.center {
     margin: 0 auto 5em;
@@ -158,10 +148,6 @@ figure {
     p {
       font-size: 20px;
     }
-  }
-  .content-block {
-    padding-top: 6em;
-    padding-bottom: 6em;
   }
 
   .feature {
