@@ -47,20 +47,21 @@ $on-laptop:        800px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "base",
-        "mixins",
-        "layout",
-        "home-page",
-        "detail-page",
-        "nav",
-        "figure",
-        "animation",
-        "custom-page/looker",
-        "custom-page/shirts",
-        "custom-page/oui",
-        "custom-page/real-estate",
-        "custom-page/illustrations",
-        "custom-page/semisweet",
-        "custom-page/bakingpins",
-        "custom-page/contact"
+  "mixins",
+  "base",
+  "layout",
+  "home-page",
+  "detail-page",
+  "nav",
+  "figure",
+  "animation",
+  "custom-page/looker",
+  "custom-page/shirts",
+  "custom-page/oui",
+  "custom-page/real-estate",
+  "custom-page/illustrations",
+  "custom-page/cooper",
+  "custom-page/semisweet",
+  "custom-page/bakingpins",
+  "custom-page/contact"
 ;

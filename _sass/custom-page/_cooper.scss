@@ -1,0 +1,46 @@
+// .cooper styles
+.cooper {
+  .introduction {
+    h4 {
+      color: #4db6ac;
+    }
+    a {
+      border-color: #4db6ac;
+      &:hover {
+        color: #4db6ac;
+      }
+    }
+    .btn {
+      border-color: #4db6ac;
+      color: #4db6ac;
+      &:hover {
+        background-color: #4db6ac;
+        color: white;
+      }
+    }
+  }
+  .hero-image {
+    margin: 30px auto 60px;
+    @include responsive(medium-screens) {
+      margin: 60px auto 100px;
+      img {
+        max-width: 900px;
+      }
+    }
+  }
+
+  .design {
+    @extend %content-block;
+    background: #eee;
+  }
+  .icon-gallery {
+    @extend %content-block;
+    figure {
+      margin-bottom: 0;
+    }
+  }
+  .ui-design {
+    @extend %content-block;
+    background: #80CBC4;
+  }
+}
