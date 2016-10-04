@@ -1,33 +1,25 @@
 // .oui styles
 .oui {
-  .main-content {
-    & > .container:nth-child(1),
-    & > .container:nth-child(2) {
-      background: #f4f4f4;
-      max-width: none;
-      width: 100%;
+  .introduction {
+    background: #f4f4f4;
+    .hero-image {
+      margin: 60px auto 60px;
+      img {
+        max-width: 600px;
+      }
     }
   }
-  .introduction {
-    max-width: 840px;
+  .sketches, .refined, .final {
+    @extend %content-block;
   }
-}
 
-
-// Small devices (tablets, 768px and up)
-@media (min-width: 768px) {
-
-.oui {
-}
-
-}
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-
-}
-
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-
+  .final {
+    background: #f7f7f7;
+    .final-logo {
+      margin-bottom: 60px;
+      img {
+        max-width: 500px;
+      }
+    }
+  }
 }

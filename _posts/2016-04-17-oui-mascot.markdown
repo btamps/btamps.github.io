@@ -6,18 +6,45 @@ categories: ['Logo Design']
 thumbnail: oui/oui-thumb
 body-class: oui
 client: "Optimizely"
-client-website: "https://www.optimizely.com/"
-industry: "Technology"
-project-details: 'Optimizely is a firm that makes customer-experience optimization software for companies. They asked me to create a mascot representing their internal UI pattern library, OUI. French for “yes” and pronounced like “we”, this was a great opportunity to explore mascot designs with a French flair. '
 ---
-<section class="container">
-  <div class="row">
-    <figure class="col-sm-4 col-sm-offset-4">
-      <img src="../img/oui/oui-mascot-feature.png" alt="OUI Mascot">
-    </figure>
+<section class="container-fluid introduction">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1 class="title">Optimizely Mascot</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-5">
+        <h4>Role</h4>
+        <ul>
+          <li>Designer</li>
+        </ul>
+        <h4>Client</h4>
+        <ul>
+          <li><a href="https://www.optimizely.com/">Optimizely</a></li>
+        </ul>
+        <h4>Project Deliverable</h4>
+        <ul>
+          <li>Logo Mascot</li>
+        </ul>
+      </div>
+      <div class="col-md-7 summary">
+        <h4>Summary</h4>
+        <p>Optimizely is a firm that makes customer-experience optimization software for companies. They asked me to create a mascot representing their internal UI pattern library, OUI. French for “yes” and pronounced like “we”, this was a great opportunity to explore mascot designs with a French flair.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <figure class="col-sm-12 hero-image">
+        <img src="../img/oui/oui-mascot-feature.png" alt="OUI Mascot">
+      </figure>
+    </div>
+
   </div>
 </section>
-<section class="container content-block">
+
+<section class="container sketches">
   <div class="row">
     <div class="col-sm-7 description center">
       <h2>Concept Sketches</h2>
@@ -41,7 +68,7 @@ project-details: 'Optimizely is a firm that makes customer-experience optimizati
   </div>
 </section>
 
-<section class="container content-block">
+<section class="container refined">
   <div class="row">
     <div class="col-sm-7 description center">
       <h2>Refined Sketches</h2>
@@ -54,9 +81,9 @@ project-details: 'Optimizely is a firm that makes customer-experience optimizati
     </figure>
   </div>
 </section>
-<section class="container-fluid content-block" style="background: #f7f7f7;">
+<section class="container-fluid final">
   <div class="container">
-    <figure class="final fig-small centered" style="margin-bottom: 60px;">
+    <figure class="final-logo">
       <img src="../img/oui/oui-final.png" alt="OUI Sketches">
       <figcaption>Final Vector</figcaption>
     </figure>
