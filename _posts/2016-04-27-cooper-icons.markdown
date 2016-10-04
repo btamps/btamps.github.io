@@ -20,14 +20,14 @@ thumbnail: cooper-icons/cooper-thumb
           <li>Designer</li>
           <li>Illustrator</li>
         </ul>
-        <h4>Client</h4>
+        <h4>Skills</h4>
         <ul>
-          <li><a href="https://www.iconfinder.com/btamps">Project Project</a></li>
+          <li>Iconography</li>
+          <li>UI Design</li>
         </ul>
         <h4>Project Deliverable</h4>
         <ul>
-          <li>Iconography</li>
-          <li>User Interface</li>
+          <li>Icon Set (120+)</li>
         </ul>
       </div>
       <div class="col-md-7 summary">
