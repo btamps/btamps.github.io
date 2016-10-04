@@ -4,17 +4,44 @@ subhead: "Brand Illustration"
 categories: ["Branding", "UI Design"]
 thumbnail: real-estate/real-estate-thumb
 body-class: real-estate
-client: "Elenna Tamplin Realtor"
-industry: "Design"
-project-details: 'Elenna Tamplin is a real estate agent in the Tampa Bay Area who needed new graphics for her business website. She requested illustrations to visually communicate each step of the home buying and selling process. The goal was to create an informative guide that made the real estate process easier to understand.'
 ---
-<section class="container">
-  <div class="row">
-    <figure class="hero-image">
-      <img src="../img/real-estate/closing-sold.png" alt="Real Estate Illustrations">
-    </figure>
+<section class="container-fluid introduction">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1 class="title">Real Estate Process Illustrations</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-5">
+        <h4>Role</h4>
+        <ul>
+          <li>Illustrator</li>
+          <li>Designer</li>
+        </ul>
+        <h4>Client</h4>
+        <ul>
+          <li><a href="www.elennatamplin.com">Elenna Tamplin Realtor</a></li>
+        </ul>
+        <h4>Project Deliverable</h4>
+        <ul>
+          <li>Website Brand Illustrations</li>
+        </ul>
+      </div>
+      <div class="col-md-7 description">
+        <h4>Summary</h4>
+        <p>Elenna Tamplin is a real estate agent in the Tampa Bay Area who needed new graphics for her business website. She requested illustrations to visually communicate each step of the home buying and selling process. The goal was to create an informative guide that made the real estate process easier to understand.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <figure class="hero-image">
+        <img src="../img/real-estate/closing-sold.png" alt="Real Estate Illustrations">
+      </figure>
+    </div>
   </div>
 </section>
+
 <section class="container">
   <div class="row features">
     <div class="col-sm-4 feature">

@@ -1,18 +1,17 @@
 // .real-estate styles
 .real-estate {
-  .main-content {
-    & > .container:nth-child(1),
-    & > .container:nth-child(2) {
-      background: #F5F4F0;
-      max-width: none;
-      width: 100%;
-      padding-left: 24px;
-      padding-right: 24px;
-    }
-  }
+
   .introduction {
-    max-width: 840px;
-    margin-bottom: 0;
+    background: #F5F4F0;
+    h4 {
+      color: #c6b797;
+    }
+    a {
+      border-color: #c6b797;
+      &:hover {
+        color: #c6b797;
+      }
+    }
   }
   .hero-image {
     img {
