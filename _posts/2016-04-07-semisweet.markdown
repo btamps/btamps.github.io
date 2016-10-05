@@ -38,7 +38,7 @@ body-class: semisweet
 
     <div class="row">
       <figure class="hero-image">
-        <img src="../img/semisweet/hero.png" alt="SemiSweet Website">
+        <img src="../img/semisweet/hero.jpg" alt="SemiSweet Website">
       </figure>
     </div>
   </div>
