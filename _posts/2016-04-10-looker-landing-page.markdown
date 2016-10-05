@@ -37,7 +37,7 @@ client: "Looker"
 
     <div class="row">
       <figure class="col-sm-12 hero-image">
-        <img src="../img/looker-lp/top-hero.png" alt="Looker Events Page">
+        <img src="../img/looker-lp/top-hero.jpg" alt="Looker Events Page">
       </figure>
     </div>
   </div>
