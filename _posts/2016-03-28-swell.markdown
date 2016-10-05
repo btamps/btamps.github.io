@@ -17,7 +17,6 @@ body-class: swell
       <div class="col-md-5">
         <h4>Role</h4>
         <ul>
-          <li>Designer</li>
           <li>Illustrator</li>
         </ul>
         <h4>Client</h4>
@@ -99,7 +98,7 @@ body-class: swell
         <img src="../img/swell/character-bulb.png" alt="Character design">
       </figure>
 
-      <h3>Refine Sketches &amp; Final Vectors</h3>
+      <h3>Refined Sketches &amp; Final Vectors</h3>
 
       <figure>
         <img src="../img/swell/vector-queue.png" alt="Task in queue sketch">
