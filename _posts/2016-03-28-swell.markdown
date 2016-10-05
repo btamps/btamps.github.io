@@ -1,0 +1,149 @@
+---
+title:  "Swell App Illustrations"
+subhead: "In-App Illustrations"
+categories: ['Illustrations']
+thumbnail: swell/swell-thumb
+client: "Swell"
+body-class: swell
+---
+<section class="container-fluid introduction">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1 class="title">Swell App Illustrations</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-5">
+        <h4>Role</h4>
+        <ul>
+          <li>Designer</li>
+          <li>Illustrator</li>
+        </ul>
+        <h4>Client</h4>
+        <ul>
+          <li><a href="https://www.tryswell.com/">Swell</a></li>
+        </ul>
+        <h4>Project Deliverable</h4>
+        <ul>
+          <li>In-App Illustrations</li>
+        </ul>
+      </div>
+      <div class="col-md-7 summary">
+        <h4>Summary</h4>
+        <p>Swell is a to-do app that helps you get stuff done. Their team invited me to design and illustrate the app’s status messages to give users a sense of delight throughout the life of each to-do. An octopus character was used to represented the “admin” working behind-the-scenes for each to-do item.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <figure class="col-sm-12 hero-image">
+        <img src="../img/swell/hero.png" alt="Swell">
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="container-fluid sketches">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-7 description center">
+        <h2>Concept Sketches</h2>
+        <p>During the initial stage, concepts were quickly sketched for each of the app's message status. I focused on composition and character gestures while trying out different ways to convey the message.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <h4>“The task has been added to the queue, waiting for an admin to pick it up.”</h4>
+      <figure>
+        <img src="../img/swell/queue-sketch.png" alt="Task in queue sketch">
+        <figcaption>
+           We wanted the octopus to look like he’s waiting. A “ticket number” scene was favorited by the team.
+        </figcaption>
+      </figure>
+      <h4>“The task has been picked by an admin and someone is actively working on it.”</h4>
+      <figure>
+        <img src="../img/swell/work-sketch.png" alt="Task in picked up sketch">
+        <figcaption>I was trying out different ways of him working on a laptop. Setting the laptop on the floor frees up more of his arms—making him more efficient.</figcaption>
+      </figure>
+      <h4>“We’re backed up, so no one can work on it at the moment.”</h4>
+      <figure>
+        <img src="../img/swell/backed-up-sketch.png" alt="Task in backed-up sketch">
+        <figcaption>I thought having each arm doing a different task would be funny. Using multiple laptops was the favorite.</figcaption>
+      </figure>
+      <h4>“Task can’t be answered/help by an admin.”</h4>
+      <figure>
+        <img src="../img/swell/non-help-sketch.png" alt="Task is non-helpable sketch">
+        <figcaption>This status happens when a task can’t be assisted. I wanted to  show the octopus regretting he couldn’t help, but willing to offer assistance when possible.</figcaption>
+      </figure>
+      <h4>“Task Complete.”</h4>
+      <figure>
+        <img src="../img/swell/celebrate-sketch.png" alt="Task complete sketch">
+        <figcaption>We like the idea of celebrating a finished task.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="container character">
+  <div class="row">
+    <div class="col-sm-8 description center">
+      <h2>Character Design</h2>
+      <p>Swell’s team wanted an octopus to represent the “admin” role in the app. The character needed to lean towards a cute and soft feel — nothing “alien-like” in its appearance.</p>
+
+      <p>I modeled the octopus’ body to Swell’s lightbulb brand-mark. This symbol acts as a notification in the app’s UI, indicating “New Tips” from the admin are available.</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12">
+      <figure class="full">
+        <img src="../img/swell/character-bulb.png" alt="Character design">
+      </figure>
+
+      <h3>Refine Sketches &amp; Final Vectors</h3>
+
+      <figure>
+        <img src="../img/swell/vector-queue.png" alt="Task in queue sketch">
+      </figure>
+      <figure>
+        <img src="../img/swell/vector-work.png" alt="Task in picked up sketch">
+      </figure>
+      <figure>
+        <img src="../img/swell/swell-backed-up.png" alt="Task in backed-up sketch">
+      </figure>
+      <figure>
+        <img src="../img/swell/vector-help.png" alt="Task is non-helpable sketch">
+      </figure>
+      <figure>
+        <img src="../img/swell/vector-complete.png" alt="Task complete sketch">
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="container-fluid final">
+  <div class="container">
+    <div class="row">
+      <h2>Final Screenshots</h2>
+
+      <figure class="col-xs-6 col-md-3">
+        <img src="../img/swell/app-recieved.png">
+      </figure>
+      <figure class="col-xs-6 col-md-3">
+        <img src="../img/swell/app-sorry.png">
+      </figure>
+      <figure class="col-xs-6 col-md-3">
+        <img src="../img/swell/app-busy.png">
+      </figure>
+      <figure class="col-xs-6 col-md-3">
+        <img src="../img/swell/app-finished.png">
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="container-fluid post-closing">
+  <div class="container">
+    <h2>That’s It!</h2>
+    <p>Thanks for reading. You can view these illustrations on the live site at <a href="http://tips.tryswell.com/">Swell's app</a>, or you can check out my other projects below.</p>
+  </div>
+</section>
