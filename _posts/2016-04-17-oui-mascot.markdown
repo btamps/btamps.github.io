@@ -47,7 +47,7 @@ client: "Optimizely"
   <div class="row">
     <div class="col-sm-7 description center">
       <h2>Concept Sketches</h2>
-      <p>Initially, while brainstormed animal concepts, I was thinking French bulldogs, poodles, cats and frogs would be fun possibilities. And being that Optimizely is known for A/B testing, I wanted to play with different French elements of travel and movement.</p>
+      <p>Initially, while brainstorming animal concepts, I was thinking French bulldogs, poodles, cats and frogs would be fun possibilities. And being that Optimizely is known for A/B testing, I wanted to play with different French elements of travel and movement.</p>
     </div>
   </div>
 
