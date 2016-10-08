@@ -31,7 +31,7 @@ client: "Optimizely"
       </div>
       <div class="col-md-7 summary">
         <h4>Summary</h4>
-        <p>Optimizely is a firm that makes customer-experience optimization software for online companies. They commissioned me to create a mascot representing their internal UI pattern library, OUI. French for “yes” and pronounced “<i>we</i>”, this was a great opportunity to explore mascot designs with a French flair.</p>
+        <p>Optimizely is a firm that makes customer-experience optimization software for online companies. They commissioned me to create a mascot representing Optimizely’s internal UI pattern library, OUI. French for “yes” and pronounced “<i>we</i>”, this was a great opportunity to explore mascot designs with a French flair.</p>
       </div>
     </div>
 

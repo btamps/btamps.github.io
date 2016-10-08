@@ -33,7 +33,7 @@ body-class: baking-pins
       </div>
       <div class="col-md-7 summary">
         <h4>Summary</h4>
-        <p><a href="https://www.semisweetdesigns.com/">SemiSweet</a>, needed some fun gift options that cater to the cookie community and bakers, alike. I was delighted to design a fun set of friendly characters from the four main ingredients for baking cookies — Sugar, Flour, Butter, Eggs.</p>
+        <p><a href="https://www.semisweetdesigns.com/">SemiSweet</a>, invited me to design some gift options that cater to the cookie community and bakers, alike. I was delighted to create a fun set of friendly characters from the four main ingredients for baking cookies — Sugar, Flour, Butter, Eggs.</p>
         <button class="btn" href="https://semisweetdesigns.com/product/baking-buddies-lapel-pins/">Purchase Yours</button>
       </div>
     </div>
