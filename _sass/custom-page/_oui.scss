@@ -11,6 +11,9 @@
   }
   .sketches, .refined, .final {
     @extend %content-block;
+    p {
+      text-align: left;
+    }
   }
 
   .final {
