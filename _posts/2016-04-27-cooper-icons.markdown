@@ -32,7 +32,7 @@ thumbnail: cooper-icons/cooper-thumb
       </div>
       <div class="col-md-7 summary">
         <h4>Summary</h4>
-        <p>I made a friendly collection of pixel-perfect line icons, containing a two stroke widths style. Designed on a 24px grid, each icon is ready-to-use with mobile and web apps, forms, presentations and infographics.</p>
+        <p>The Cooper 120+ icon set is a friendly collection of pixel-perfect line icons, containing a two-stroke width style. Designed on a 24px grid, each icon is ready-to-use with both mobile and web applications, also well as forms, presentations and infographics.</p>
         <button class="btn" href="https://www.iconfinder.com/btamps">Purchase Yours</button>
       </div>
     </div>
@@ -57,11 +57,11 @@ thumbnail: cooper-icons/cooper-thumb
       </div>
       <div class="feature col-xs-12 col-md-4">
         <img src="../img/cooper-icons/curves-angles.png" alt="Designed on a 24px grid">
-        <p>Sharp angle details paired with soft outline curves</p>
+        <p>Sharp, inner details paired with soft, outer curves</p>
       </div>
       <div class="feature col-xs-12 col-md-4">
         <img src="../img/cooper-icons/dual-stroke.png" alt="Designed on a 24px grid">
-        <p>Bold outter strokes with finer line details</p>
+        <p>Bold, outer strokes with finer, line details</p>
       </div>
     </div>
   </div>
@@ -119,6 +119,6 @@ thumbnail: cooper-icons/cooper-thumb
 <section class="container-fluid post-closing">
   <div class="container">
     <h2>That’s All!</h2>
-    <p>Thanks for taking a look. You can purchase these icons on <a href="https://www.iconfinder.com/btamps">Iconfinder.com</a>, or you can check out my other projects below.</p>
+    <p>Thanks for taking a look. You can purchase these icons on <a href="https://www.iconfinder.com/btamps">Iconfinder.com</a>. Or, you can check out my other projects below.</p>
   </div>
 </section>
