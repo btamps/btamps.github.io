@@ -19,19 +19,19 @@ body-class: shirts
         <ul>
           <li>Designer</li>
         </ul>
-        <h4>Client</h4>
+        <h4>Clients</h4>
         <ul>
           <li><a href="https://www.pagerduty.com/">PagerDuty</a></li>
           <li><a href="https://www.looker.com/">Looker</a></li>
         </ul>
         <h4>Project Deliverable</h4>
         <ul>
-          <li>Shirt Designs</li>
+          <li>T-Shirt Designs</li>
         </ul>
       </div>
       <div class="col-md-7 summary">
         <h4>Summary</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>This is a collection of screen-printed marketing t-shirts I designed for <a href="pagerduty.com">PagerDuty</a> and <a href="looker.com">Looker</a>. These shirts were created for purposes ranging from marketing campaigns to conference swag.</p>
       </div>
     </div>
   </div>
