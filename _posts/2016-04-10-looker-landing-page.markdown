@@ -31,7 +31,7 @@ client: "Looker"
       </div>
       <div class="col-md-7 summary">
         <h4>Summary</h4>
-        <p>Looker is a data company that needed a responsive marketing events page for their upcoming workshops and conferences. They reached out to me to design a one-page landing page, displaying all the details for each event and an easy way  for visitors to sign up. This project gave me the opportunity to create a new visual style that looks great on desktops and phones.</p>
+        <p>Looker is a data company that needed a responsive marketing events page for their upcoming workshops and conferences. They reached out to me to design a one-page landing page that displayed all the details for each event and provided an easy way for visitors to sign up. This project gave me the opportunity to create a new visual style that looks great on desktops and phones.</p>
       </div>
     </div>
 
