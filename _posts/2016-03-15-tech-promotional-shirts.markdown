@@ -31,7 +31,7 @@ body-class: shirts
       </div>
       <div class="col-md-7 summary">
         <h4>Summary</h4>
-        <p>This is a collection of screen-printed marketing t-shirts I designed for <a href="pagerduty.com">PagerDuty</a> and <a href="looker.com">Looker</a>. These shirts were created for purposes ranging from marketing campaigns to conference swag.</p>
+        <p>This is a collection of screen-printed marketing t-shirts I designed for SaaS companies, <a href="pagerduty.com">PagerDuty</a> and <a href="looker.com">Looker</a>. These shirts were created for purposes ranging from marketing campaigns to conference swag.</p>
       </div>
     </div>
   </div>

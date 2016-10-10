@@ -22,6 +22,9 @@
   .wireframes,.responsive,.schedules, .forms {
     @extend %content-block;
     background-color: #f4f4f4;
+    p {
+      text-align: left;
+    }
   }
   .wireframes {
     background: #ddd;
