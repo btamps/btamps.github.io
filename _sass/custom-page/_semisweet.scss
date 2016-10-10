@@ -19,11 +19,13 @@
       margin-bottom: 0;
     }
   }
-  .design-system {
+  .design-system, .blog, .shop {
     @extend %content-block;
+    p {
+      text-align: left;
+    }
   }
   .blog {
-    @extend %content-block;
     background: #eeeae8;
     figure, figure img {
       margin-bottom: 0;
@@ -31,7 +33,6 @@
     padding-bottom: 0;
   }
   .shop {
-    @extend %content-block;
     background: #D7CCC8;
     h4 {
       margin-bottom: 20px;
