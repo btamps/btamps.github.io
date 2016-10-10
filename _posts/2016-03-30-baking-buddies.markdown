@@ -68,7 +68,6 @@ body-class: baking-pins
   <div class="row">
     <div class="col-sm-8 description center">
       <h2>Refined Sketches</h2>
-      <p>A front-facing French bulldog was the favorite concept out of the bunch. With that direction in mind, I then tried out different facial expressions that would pair with the French bulldog. The friendliest dog from the group was the one that was chosen.</p>
     </div>
   </div>
   <div class="row">
@@ -98,7 +97,7 @@ body-class: baking-pins
     <div class="row">
       <div class="col-sm-8 description center">
         <h2>Final Vector</h2>
-        <p>I also designed the front and back card backing for each pin. I kept the kitchen theme in the artwork.</p>
+        <p>To compliment the lapel pins, I designed the front and back card backing attached to each pin. I kept the style of a retro kitchen theme in the artwork.</p>
       </div>
     </div>
     <div class="row">

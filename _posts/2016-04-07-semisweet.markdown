@@ -86,7 +86,7 @@ body-class: semisweet
     <div class="row">
       <div class="col-sm-8 description center">
         <h2>Online Shop</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>The online <a href="https://semisweetdesigns.com/shop/">shop</a> was built using Woo-Commerce, fully integrated within the custom WordPress theme. Which meant the blog and store content will often link to each other. With this in mind, I designed both to have a similar look and feel.</p>
       </div>
     </div>
     <div class="row">
