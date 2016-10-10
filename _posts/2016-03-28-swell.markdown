@@ -30,7 +30,7 @@ body-class: swell
       </div>
       <div class="col-md-7 summary">
         <h4>Summary</h4>
-        <p>Swell is a to-do app that helps you get stuff done. Their team invited me to design and illustrate the app’s status messages to give users a sense of delight throughout the life of each to-do. An octopus character was used to represented the “admin” working behind-the-scenes for each to-do item.</p>
+        <p>Swell is a to-do app that helps you get stuff done. Their team invited me to design and illustrate the app’s status messages to give users a sense of delight throughout the life of each task. An octopus character was used to represented the “admin” working behind-the-scenes for each to-do item.</p>
       </div>
     </div>
 
