@@ -48,7 +48,7 @@ client: "Looker"
     <div class="row">
       <div class="col-sm-8 description center">
         <h2>Wireframes and planning</h2>
-        <p>I first met with marketing team to go over goals and content for this project. Once the content inventory was finished, I created grayscale wireframes of the layout to make sure flow and hierarchy met the expectations of the content team. This project was intended to be repurposed for multiple events and the main sections would carry-over to the next event, so I chose to keep things simple while keeping these requirements in-mind.</p>
+        <p>I first met with marketing team to go over goals and content for this project. Once content inventory was established, I created grayscale wireframes of the layout to make sure flow and hierarchy met the expectations of the content team. This landing page was intended to be repurposed for multiple events, so I had to account for all content sections.</p>
       </div>
       <figure>
         <img src="../img/looker-lp/looker-lp-wireframes.png" alt="Wireframes of content">
@@ -61,7 +61,7 @@ client: "Looker"
     <div class="row">
       <div class="col-sm-8 description center">
         <h2>From Desktop to Mobile</h2>
-        <p>Once the wireframes and layout were established, I began creating the design for this single-page responsive page. It was important to simplify the main navigation to allow users to easily ingest the content and sign-up. My solution was to use anchor tags in the top menu that quickly scrolled the user to the relevant content.</p>
+        <p>After getting approval on the wireframes, I began creating the design for this responsive page. It was important to simplify the main navigation to allow users to easily ingest the content and sign-up. My solution was to use anchor tags in the top menu that quickly scrolled the user down to the relevant content on the page.</p>
       </div>
       <figure class="col-xs-12">
         <img src="../img/looker-lp/looker-full-page.png" alt="Full landing page">

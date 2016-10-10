@@ -32,7 +32,7 @@ body-class: semisweet
       </div>
       <div class="col-md-7 summary">
         <h4>Summary</h4>
-        <p><a href="www.semisweetdesigns.com">Semi Sweet</a> is a website that showcases unique cookie cutters for purchase, paired with step-by-step cookie decorating tutorials. As the sole designer and developer, my goal was to design, organize, and build a seamless blog and online store using WordPress and Woo-Commerce.</p>
+        <p><a href="www.semisweetdesigns.com">Semi Sweet</a> is a website that showcases unique cookie cutters for purchase, paired with step-by-step cookie decorating tutorials. As the sole designer and developer for this project, my goal was to organize, design, and build a seamless blog and online store using WordPress and Woo-Commerce.</p>
       </div>
     </div>
 
@@ -46,11 +46,11 @@ body-class: semisweet
 
 <section class="container design-system">
   <div class="row">
-    <div class="col-sm-12">
-      <div class="col-sm-8 description center">
-        <h2>Design System</h2>
-        <p>My goal was to design a seamless style, persisting from blog to online store pages. First, I had to assess the content and fine all common design patterns throughout the site's pages. From the information I gathered, I created a system of design elements including colors, typographical hierarchy, form fields and button styles. Creating this design system first not only kept things consistent, but also saved time when coding all patterns for both website templates and stylesheets.</p>
-      </div>
+    <div class="col-sm-8 description center">
+      <h2>Design System</h2>
+      <p>My goal was to  establish and implement a visual language the carries over from blog to online store pages. First, I had to assess the content and fine all common design patterns throughout the site's pages. From the information I gathered, I created a system of design elements including colors, typographical hierarchy, form fields and button styles. Creating this design system first not only kept things consistent, but also saved me time when coding all patterns for website templates and stylesheets.</p>
+    </div>
+    <div class="col-sm-12">      
       <h3>Colors</h3>
       <figure>
         <img src="../img/semisweet/colors.png" alt="Real Estate Illustrations">
@@ -69,11 +69,11 @@ body-class: semisweet
 <section class="container-fluid blog">
   <div class="container">
     <div class="row">
+      <div class="col-sm-8 description center">
+        <h2>Responsive Blog</h2>
+        <p>Semi Sweet’s <a href="www.semisweetdesigns.com/blog">blog</a> is filled with cookie decorating tutorials and recipes. With each post containing beautiful photography, I choose to keep the layout clean and simple — allowing the big photos to color the page.</p>
+      </div>
       <div class="col-sm-12">
-        <div class="col-sm-8 description center">
-          <h2>Responsive Blog</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </div>
         <figure>
           <img src="../img/semisweet/blog-full.png" alt="Real Estate Illustrations">
         </figure>  
@@ -84,11 +84,9 @@ body-class: semisweet
 <section class="container-fluid shop">
   <div class="container">
     <div class="row">
-      <div class="col-sm-12">
-        <div class="col-sm-8 description center">
-          <h2>Online Shop</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </div>
+      <div class="col-sm-8 description center">
+        <h2>Online Shop</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       </div>
     </div>
     <div class="row">
