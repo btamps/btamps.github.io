@@ -12,16 +12,17 @@
       }
     }
   }
-  .sketching {
+  .sketching, .refined, .photos, .final {
     @extend %content-block;
+  }
+  .sketching {
     background: #ddd;
   }
-  .refined, .photos {
-    @extend %content-block;
-  }
   .final {
-    @extend %content-block;
     background: #eee;
+    figure {
+      margin-bottom: 0;
+    }
   }
   .photos {
     padding-bottom: 0;

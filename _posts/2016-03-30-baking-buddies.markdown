@@ -68,6 +68,7 @@ body-class: baking-pins
   <div class="row">
     <div class="col-sm-8 description center">
       <h2>Refined Sketches</h2>
+      <p>After iterating through the sketches, we wanted the pins to visually belong to the same “family” or set. To do this, I settled on a top down, three-quarter view for each pin’s position. I also made sure each pin had the the same “pie-slice” eye style.</p>
     </div>
   </div>
   <div class="row">
@@ -97,13 +98,18 @@ body-class: baking-pins
     <div class="row">
       <div class="col-sm-8 description center">
         <h2>Final Vector</h2>
-        <p>To compliment the lapel pins, I designed the front and back card backing attached to each pin. I kept the style of a retro kitchen theme in the artwork.</p>
+        <p>The finished pins are outlined in polished black nickel and colored with soft pastel colors.</p>
       </div>
     </div>
     <div class="row">
       <figure class="col-xs-12 col-md-8 col-md-offset-2">
         <img src="../img/baking-buddies/baking-buddies-vector.png" alt="Final Vector">
       </figure>
+    </div>
+    <div class="row">
+      <div class="col-sm-8 description center">
+        <p>To compliment the lapel pins, I designed the front and back card backing attached to each pin. I kept the colors similar to the pins with a retro-style kitchen theme in the artwork.</p>
+      </div>
     </div>
     <div class="row">
       <figure class="col-xs-12 col-md-8 col-md-offset-2">
