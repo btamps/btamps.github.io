@@ -23,7 +23,7 @@ body-class: baking-pins
         </ul>
         <h4>Client</h4>
         <ul>
-          <li><a href="https://www.semisweetdesigns.com/">Semi Sweet Designs</a></li>
+          <li><a href="https://www.semisweetdesigns.com/" target="_blank">Semi Sweet Designs</a></li>
         </ul>
         <h4>Project Deliverable</h4>
         <ul>
@@ -33,7 +33,7 @@ body-class: baking-pins
       </div>
       <div class="col-md-7 summary">
         <h4>Summary</h4>
-        <p><a href="https://www.semisweetdesigns.com/">SemiSweet</a>, invited me to design some gift options that cater to the cookie community and bakers, alike. I was delighted to create a fun set of friendly characters from the four main ingredients for baking cookies — Sugar, Flour, Butter, Eggs.</p>
+        <p><a href="https://www.semisweetdesigns.com/" target="_blank">SemiSweet</a>, invited me to design some gift options that cater to the cookie community and bakers, alike. I was delighted to create a fun set of friendly characters from the four main ingredients for baking cookies — Sugar, Flour, Butter, Eggs.</p>
         <a class="btn" href="https://semisweetdesigns.com/product/baking-buddies-lapel-pins/" target="_blank">Purchase Yours</a>
       </div>
     </div>
@@ -135,6 +135,6 @@ body-class: baking-pins
 <section class="container-fluid post-closing">
   <div class="container">
     <h2>That’s It!</h2>
-    <p>Thanks for looking. You can purchase these lapel pins on <a href="https://semisweetdesigns.com/product/baking-buddies-lapel-pins/">SemiSweetDesigns.com</a>, or you can check out more of my projects below.</p>
+    <p>Thanks for looking. You can purchase these lapel pins on <a href="https://semisweetdesigns.com/product/baking-buddies-lapel-pins/" target="_blank">SemiSweetDesigns.com</a>, or you can check out more of my projects below.</p>
   </div>
 </section>
