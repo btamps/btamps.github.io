@@ -21,7 +21,7 @@ body-class: semisweet
         </ul>
         <h4>Client</h4>
         <ul>
-          <li><a href="www.semisweetdesigns.com" target="_blank">Semi Sweet Designs</a></li>
+          <li><a href="https://www.semisweetdesigns.com" target="_blank">Semi Sweet Designs</a></li>
         </ul>
         <h4>Project Deliverables</h4>
         <ul>
@@ -32,7 +32,7 @@ body-class: semisweet
       </div>
       <div class="col-md-7 summary">
         <h4>Summary</h4>
-        <p><a href="www.semisweetdesigns.com" target="_blank">Semi Sweet</a> is a website that showcases unique cookie cutters for purchase, paired with step-by-step cookie decorating tutorials. As the sole designer and developer for this project, my goal was to organize, design, and build a seamless blog and online store using WordPress and Woo-Commerce.</p>
+        <p><a href="https://www.semisweetdesigns.com" target="_blank">Semi Sweet</a> is a website that showcases unique cookie cutters for purchase, paired with step-by-step cookie decorating tutorials. As the sole designer and developer for this project, my goal was to organize, design, and build a seamless blog and online store using WordPress and Woo-Commerce.</p>
       </div>
     </div>
 
@@ -71,7 +71,7 @@ body-class: semisweet
     <div class="row">
       <div class="col-sm-8 description center">
         <h2>Responsive Blog</h2>
-        <p>Semi Sweet’s <a href="www.semisweetdesigns.com/blog" target="_blank">blog</a> is filled with cookie decorating tutorials and recipes. With each post containing beautiful photography, I choose to keep the layout clean and simple — allowing the big photos to color the page.</p>
+        <p>Semi Sweet’s <a href="https://www.semisweetdesigns.com/blog" target="_blank">blog</a> is filled with cookie decorating tutorials and recipes. With each post containing beautiful photography, I choose to keep the layout clean and simple — allowing the big photos to color the page.</p>
       </div>
       <div class="col-sm-12">
         <figure>
@@ -113,6 +113,6 @@ body-class: semisweet
 <section class="container-fluid post-closing">
   <div class="container">
     <h2>That’s It!</h2>
-    <p>Thanks for reading. You can visit the live site at <a href="www.semisweetdesigns.com/" target="_blank">SemiSweetDesigns.com</a>, or you can check out my other projects below.</p>
+    <p>Thanks for reading. You can visit the live site at <a href="https://www.semisweetdesigns.com/" target="_blank">SemiSweetDesigns.com</a>, or you can check out my other projects below.</p>
   </div>
 </section>

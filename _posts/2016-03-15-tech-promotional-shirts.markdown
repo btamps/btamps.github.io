@@ -21,8 +21,8 @@ body-class: shirts
         </ul>
         <h4>Clients</h4>
         <ul>
-          <li><a href="https://www.pagerduty.com/">PagerDuty</a></li>
-          <li><a href="https://www.looker.com/">Looker</a></li>
+          <li><a href="https://www.pagerduty.com/" target="_blank">PagerDuty</a></li>
+          <li><a href="https://www.looker.com/" target="_blank">Looker</a></li>
         </ul>
         <h4>Project Deliverable</h4>
         <ul>
@@ -31,7 +31,7 @@ body-class: shirts
       </div>
       <div class="col-md-7 summary">
         <h4>Summary</h4>
-        <p>This is a collection of screen-printed marketing t-shirts I designed for SaaS companies, <a href="pagerduty.com">PagerDuty</a> and <a href="looker.com">Looker</a>. These shirts were created for purposes ranging from marketing campaigns to conference swag.</p>
+        <p>This is a collection of screen-printed marketing t-shirts I designed for SaaS companies, <a href="https://www.pagerduty.com/" target="_blank">PagerDuty</a> and <a href="https://www.looker.com/" target="_blank">. These shirts were created for purposes ranging from marketing campaigns to conference swag.</p>
       </div>
     </div>
   </div>
@@ -62,6 +62,6 @@ body-class: shirts
 <section class="container-fluid post-closing">
   <div class="container">
     <h2>That’s All Folks!</h2>
-    <p>Time sure flies when you're having fun. You can find some additional work on my <a href="https://dribbble.com/billy">Dribbble page</a>, or you can read though more projects below.</p>
+    <p>Time sure flies when you're having fun. You can find some additional work on my <a href="https://dribbble.com/billy" target="_blank">Dribbble page</a>, or you can read though more projects below.</p>
   </div>
 </section>
