@@ -22,7 +22,7 @@ client: "Optimizely"
         </ul>
         <h4>Client</h4>
         <ul>
-          <li><a href="https://www.optimizely.com/">Optimizely</a></li>
+          <li><a href="https://www.optimizely.com/" target="_blank">Optimizely</a></li>
         </ul>
         <h4>Project Deliverable</h4>
         <ul>

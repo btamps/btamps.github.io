@@ -22,7 +22,7 @@ client: "Looker"
         </ul>
         <h4>Client</h4>
         <ul>
-          <li><a href="https://www.looker.com/">Looker</a></li>
+          <li><a href="https://www.looker.com/" target="_blank">Looker</a></li>
         </ul>
         <h4>Project Deliverable</h4>
         <ul>
@@ -31,7 +31,7 @@ client: "Looker"
       </div>
       <div class="col-md-7 summary">
         <h4>Summary</h4>
-        <p><a href="looker.com">Looker</a> is a data company that needed a responsive marketing events page for their upcoming workshops and conferences. They reached out to me to design a single landing page that displayed all the details for each event and also provided an easy way for visitors to sign up. This project gave me the opportunity to create a new visual style that looks great on desktops and phones.</p>
+        <p><a href="https://www.looker.com/" target="_blank">Looker</a> is a data company that needed a responsive marketing events page for their upcoming workshops and conferences. They reached out to me to design a single landing page that displayed all the details for each event and also provided an easy way for visitors to sign up. This project gave me the opportunity to create a new visual style that looks great on desktops and phones.</p>
       </div>
     </div>
 

@@ -21,7 +21,7 @@ body-class: semisweet
         </ul>
         <h4>Client</h4>
         <ul>
-          <li><a href="www.semisweetdesigns.com">Semi Sweet Designs</a></li>
+          <li><a href="www.semisweetdesigns.com" target="_blank">Semi Sweet Designs</a></li>
         </ul>
         <h4>Project Deliverables</h4>
         <ul>
@@ -32,7 +32,7 @@ body-class: semisweet
       </div>
       <div class="col-md-7 summary">
         <h4>Summary</h4>
-        <p><a href="www.semisweetdesigns.com">Semi Sweet</a> is a website that showcases unique cookie cutters for purchase, paired with step-by-step cookie decorating tutorials. As the sole designer and developer for this project, my goal was to organize, design, and build a seamless blog and online store using WordPress and Woo-Commerce.</p>
+        <p><a href="www.semisweetdesigns.com" target="_blank">Semi Sweet</a> is a website that showcases unique cookie cutters for purchase, paired with step-by-step cookie decorating tutorials. As the sole designer and developer for this project, my goal was to organize, design, and build a seamless blog and online store using WordPress and Woo-Commerce.</p>
       </div>
     </div>
 
