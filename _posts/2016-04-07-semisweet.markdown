@@ -71,7 +71,7 @@ body-class: semisweet
     <div class="row">
       <div class="col-sm-8 description center">
         <h2>Responsive Blog</h2>
-        <p>Semi Sweet’s <a href="www.semisweetdesigns.com/blog">blog</a> is filled with cookie decorating tutorials and recipes. With each post containing beautiful photography, I choose to keep the layout clean and simple — allowing the big photos to color the page.</p>
+        <p>Semi Sweet’s <a href="www.semisweetdesigns.com/blog" target="_blank">blog</a> is filled with cookie decorating tutorials and recipes. With each post containing beautiful photography, I choose to keep the layout clean and simple — allowing the big photos to color the page.</p>
       </div>
       <div class="col-sm-12">
         <figure>
@@ -86,7 +86,7 @@ body-class: semisweet
     <div class="row">
       <div class="col-sm-8 description center">
         <h2>Online Shop</h2>
-        <p>The online <a href="https://semisweetdesigns.com/shop/">shop</a> was built using Woo-Commerce, fully integrated within the custom WordPress theme. Which meant the blog and store content will often link to each other. With this in mind, I designed both to have a similar look and feel.</p>
+        <p>The online <a href="https://semisweetdesigns.com/shop/" target="_blank">shop</a> was built using Woo-Commerce, fully integrated within the custom WordPress theme. Which meant the blog and store content will often link to each other. With this in mind, I designed both to have a similar look and feel.</p>
       </div>
     </div>
     <div class="row">
@@ -113,6 +113,6 @@ body-class: semisweet
 <section class="container-fluid post-closing">
   <div class="container">
     <h2>That’s It!</h2>
-    <p>Thanks for reading. You can visit the live site at <a href="www.semisweetdesigns.com/">SemiSweetDesigns.com</a>, or you can check out my other projects below.</p>
+    <p>Thanks for reading. You can visit the live site at <a href="www.semisweetdesigns.com/" target="_blank">SemiSweetDesigns.com</a>, or you can check out my other projects below.</p>
   </div>
 </section>

@@ -32,8 +32,8 @@ thumbnail: cooper-icons/cooper-thumb
       </div>
       <div class="col-md-7 summary">
         <h4>Summary</h4>
-        <p>The Cooper icon set is a friendly collection of 120+ pixel-perfect line icons, containing a dual-stroke width style. Designed on a 24px grid, each icon is ready-to-use with both mobile and web applications, also well as forms, presentations and infographics.</p>
-        <button class="btn" href="https://www.iconfinder.com/btamps">Purchase Yours</button>
+        <p>The Cooper icon set is a collection of 120+ pixel-perfect line icons, containing a dual-stroke width style. Designed on a 24px grid, each icon is ready-to-use on both mobile and web apps, forms, presentations and infographics.</p>
+        <button class="btn" href="https://www.iconfinder.com/btamps" target="_blank">Purchase Yours</button>
       </div>
     </div>
 
@@ -119,6 +119,6 @@ thumbnail: cooper-icons/cooper-thumb
 <section class="container-fluid post-closing">
   <div class="container">
     <h2>That’s All!</h2>
-    <p>Thanks for taking a look. You can purchase these icons on <a href="https://www.iconfinder.com/btamps">Iconfinder.com</a>. Or, you can check out my other projects below.</p>
+    <p>Thanks for taking a look. You can purchase these icons on <a href="https://www.iconfinder.com/btamps" target="_blank">Iconfinder.com</a>. Or, you can check out my other projects below.</p>
   </div>
 </section>

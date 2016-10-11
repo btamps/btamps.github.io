@@ -21,7 +21,7 @@ body-class: swell
         </ul>
         <h4>Client</h4>
         <ul>
-          <li><a href="https://www.tryswell.com/">Swell</a></li>
+          <li><a href="http://tips.tryswell.com" target="_blank">Swell</a></li>
         </ul>
         <h4>Project Deliverable</h4>
         <ul>
@@ -30,7 +30,7 @@ body-class: swell
       </div>
       <div class="col-md-7 summary">
         <h4>Summary</h4>
-        <p>Swell is a to-do app that helps you get stuff done. Their team invited me to design and illustrate the app’s status messages to give users a sense of delight throughout the life of each task. An octopus character was used to represented the “admin” working behind-the-scenes for each to-do item.</p>
+        <p><a href="http://tips.tryswell.com" target="_blank">Swell</a> is a to-do app that helps you get stuff done. Their team invited me to design and illustrate the app’s status messages to give users a sense of delight throughout the life of each task. An octopus character was used to represented the “admin” working behind-the-scenes for each to-do item.</p>
       </div>
     </div>
 
@@ -143,6 +143,6 @@ body-class: swell
 <section class="container-fluid post-closing">
   <div class="container">
     <h2>That’s It!</h2>
-    <p>Thanks for reading. You can view these illustrations on the live site at <a href="http://tips.tryswell.com/">Swell's app</a>, or you can check out my other projects below.</p>
+    <p>Thanks for reading. You can view these illustrations on the live site at <a href="http://tips.tryswell.com" target="_blank">Swell's app</a>, or you can check out my other projects below.</p>
   </div>
 </section>
