@@ -21,7 +21,7 @@ body-class: real-estate
         </ul>
         <h4>Client</h4>
         <ul>
-          <li><a href="www.elennatamplin.com">Elenna Tamplin Realtor</a></li>
+          <li>Elenna Tamplin Realtor</li>
         </ul>
         <h4>Project Deliverable</h4>
         <ul>
