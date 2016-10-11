@@ -11,6 +11,14 @@
         color: #999;
       }
     }
+    .btn {
+      border: 2px solid #999;
+      color: #999;
+      &:hover {
+        background-color: #999;
+        color: white;
+      }
+    }
   }
   .sketching, .refined, .photos, .final {
     @extend %content-block;
