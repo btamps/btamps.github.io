@@ -18,13 +18,12 @@ body-class: real-estate
         <img src="../img/real-estate/closing-sold.png" alt="Real Estate Illustrations">
       </figure>
     </div>
-    
+
     <div class="row">
       <div class="col-md-5">
         <h4>Role</h4>
         <ul>
           <li>Illustrator</li>
-          <li>Designer</li>
         </ul>
         <h4>Client</h4>
         <ul>
