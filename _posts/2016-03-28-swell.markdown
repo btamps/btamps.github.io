@@ -13,6 +13,17 @@ body-class: swell
         <h1 class="title">Swell App Illustrations</h1>
       </div>
     </div>
+
+    <div class="row">
+      <figure class="col-sm-12 hero-image">
+        <img src="../img/swell/hero.png" alt="Swell">
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="container-fluid project-details">
+  <div class="container">
     <div class="row">
       <div class="col-md-5">
         <h4>Role</h4>
@@ -32,12 +43,6 @@ body-class: swell
         <h4>Summary</h4>
         <p><a href="http://tips.tryswell.com" target="_blank">Swell</a> is a to-do app that helps you get stuff done. Their team invited me to design and illustrate the app’s status messages to give users a sense of delight throughout the life of each task. An octopus character was used to represented the “admin” working behind-the-scenes for each to-do item.</p>
       </div>
-    </div>
-
-    <div class="row">
-      <figure class="col-sm-12 hero-image">
-        <img src="../img/swell/hero.png" alt="Swell">
-      </figure>
     </div>
   </div>
 </section>

@@ -20,9 +20,7 @@
     }
   }
   .hero-image {
-    margin: 30px auto 60px;
     @include responsive(medium-screens) {
-      margin: 60px auto 100px;
       img {
         max-width: 900px;
       }

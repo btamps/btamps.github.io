@@ -12,6 +12,16 @@ body-class: semisweet
         <h1 class="title">Semi Sweet Website</h1>
       </div>
     </div>
+
+    <div class="row">
+      <figure class="hero-image">
+        <img src="../img/semisweet/hero.jpg" alt="SemiSweet Website">
+      </figure>
+    </div>
+  </div>
+</section>
+<section class="container-fluid project-details">
+  <div class="container">
     <div class="row">
       <div class="col-md-5">
         <h4>Role</h4>
@@ -34,12 +44,6 @@ body-class: semisweet
         <h4>Summary</h4>
         <p><a href="https://www.semisweetdesigns.com" target="_blank">Semi Sweet</a> is a website that showcases unique cookie cutters for purchase, paired with step-by-step cookie decorating tutorials. As the sole designer and developer for this project, my goal was to organize, design, and build a seamless blog and online store using WordPress and Woo-Commerce.</p>
       </div>
-    </div>
-
-    <div class="row">
-      <figure class="hero-image">
-        <img src="../img/semisweet/hero.jpg" alt="SemiSweet Website">
-      </figure>
     </div>
   </div>
 </section>

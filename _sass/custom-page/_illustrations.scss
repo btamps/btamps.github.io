@@ -2,8 +2,8 @@
 .illustrations {
   background: #f4f4f4;
   .work {
-    margin-top: 40px;
-    figure:last-child {
+    margin-top: 0;
+    .row:last-child figure:last-child {
       margin-bottom: 0;
     }
   }

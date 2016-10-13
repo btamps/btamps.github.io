@@ -5,6 +5,9 @@
     .hero-image {
       margin-top: 30px;
       margin-bottom: -160px;
+      @include responsive(medium-screens) {
+        margin-bottom: -200px;
+      }
       img {
         max-width: 600px;
       }
@@ -19,23 +22,19 @@
       }
     }
   }
-  .sketches, .character, .final {
+  .project-details, .sketches, .character, .final {
     @extend %content-block;
   }
-  .sketches:before {
-    content: "";
-    display: block;
-    height: 210px;
-    background-color: white;
-    margin-bottom: 60px;
+  .project-details {
+    padding-top: 150px;
+    padding-bottom: 60px;
     @include responsive(medium-screens) {
-      margin-bottom: 100px;
-      height: 240px;
+      padding-top: 200px;
+      padding-bottom: 80px;
     }
   }
   .sketches {
     background: #eee;
-    padding-top: 0;
     .description {
       p {
         text-align: left;

@@ -14,6 +14,13 @@ body-class: baking-pins
         <h1 class="title">Baking Buddies Pins</h1>
       </div>
     </div>
+
+    <div class="row">
+      <figure class="col-sm-12 hero-image">
+        <img src="../img/baking-buddies/baking-buddies-hero2.jpg" alt="OUI Mascot">
+      </figure>
+    </div>
+    
     <div class="row">
       <div class="col-md-5">
         <h4>Role</h4>
@@ -36,12 +43,6 @@ body-class: baking-pins
         <p><a href="https://www.semisweetdesigns.com/" target="_blank">SemiSweet</a>, invited me to design some gift options that cater to the cookie community and bakers, alike. I was delighted to create a fun set of friendly characters from the four main ingredients for baking cookies — Sugar, Flour, Butter, Eggs.</p>
         <a class="btn" href="https://semisweetdesigns.com/product/baking-buddies-lapel-pins/" target="_blank">Purchase Yours</a>
       </div>
-    </div>
-
-    <div class="row">
-      <figure class="col-sm-12 hero-image">
-        <img src="../img/baking-buddies/baking-buddies-hero2.jpg" alt="OUI Mascot">
-      </figure>
     </div>
   </div>
 </section>

@@ -12,6 +12,13 @@ body-class: real-estate
         <h1 class="title">Real Estate Process Illustrations</h1>
       </div>
     </div>
+
+    <div class="row">
+      <figure class="hero-image">
+        <img src="../img/real-estate/closing-sold.png" alt="Real Estate Illustrations">
+      </figure>
+    </div>
+    
     <div class="row">
       <div class="col-md-5">
         <h4>Role</h4>
@@ -32,12 +39,6 @@ body-class: real-estate
         <h4>Summary</h4>
         <p>Elenna Tamplin is a real estate agent in the Tampa Bay Area who needed new graphics for her business website. She requested illustrations to visually communicate each step of the home buying and selling process. The goal was to create an informative guide that made the real estate process easier to understand.</p>
       </div>
-    </div>
-
-    <div class="row">
-      <figure class="hero-image">
-        <img src="../img/real-estate/closing-sold.png" alt="Real Estate Illustrations">
-      </figure>
     </div>
   </div>
 </section>

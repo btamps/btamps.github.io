@@ -11,6 +11,12 @@
         color: #999;
       }
     }
+    .hero-image {
+      margin-top: 20px;
+      @include responsive(medium-screens) {
+        margin-top: 40px;  
+      }
+    }
     .btn {
       border: 2px solid #999;
       color: #999;

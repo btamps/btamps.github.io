@@ -13,6 +13,13 @@ thumbnail: cooper-icons/cooper-thumb
         <h1 class="title">Cooper Icon Set</h1>
       </div>
     </div>
+
+    <div class="row">
+      <figure class="col-sm-12 hero-image">
+        <img src="../img/cooper-icons/cooper-hero.png" alt="Cooper Icons">
+      </figure>
+    </div>
+
     <div class="row">
       <div class="col-md-5">
         <h4>Role</h4>
@@ -35,12 +42,6 @@ thumbnail: cooper-icons/cooper-thumb
         <p>The Cooper icon set is a collection of 120+ pixel-perfect line icons, containing a dual-stroke width style. Designed on a 24px grid, each icon is ready-to-use on both mobile and web apps, forms, presentations and infographics.</p>
         <a class="btn" href="https://www.iconfinder.com/btamps" target="_blank">Purchase Yours</a>
       </div>
-    </div>
-
-    <div class="row">
-      <figure class="col-sm-12 hero-image">
-        <img src="../img/cooper-icons/cooper-hero.png" alt="Cooper Icons">
-      </figure>
     </div>
   </div>
 </section>

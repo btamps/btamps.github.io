@@ -14,7 +14,7 @@
     .hero-image {
       margin: 20px auto 40px;
       @include responsive(medium-screens) {
-        margin: 50px auto 60px;
+        margin: 30px auto 60px;
       }
     }
   }
