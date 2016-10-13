@@ -20,7 +20,7 @@ client: "Looker"
         <img src="../img/looker-lp/top-hero.jpg" alt="Looker Events Page">
       </figure>
     </div>
-    
+
     <div class="row">
       <div class="col-md-5">
         <h4>Role</h4>
@@ -103,7 +103,7 @@ client: "Looker"
       </figure>
       <div class="col-sm-8 description center">
         <h2>The Result</h2>
-        <p>The result featured a fully responsive experience and an increase in the number of mobile sign-ups, compare to other Looker landing pages.</p>
+        <p>The result featured a fully responsive experience and an increase in the number of mobile sign-ups.</p>
       </div>
     </div>
   </div>
