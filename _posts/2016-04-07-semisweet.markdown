@@ -26,7 +26,8 @@ body-class: semisweet
       <div class="col-md-5">
         <h4>Role</h4>
         <ul>
-          <li>Designer</li>
+          <li>Brand Designer</li>
+          <li>Web Designer</li>
           <li>Developer</li>
         </ul>
         <h4>Client</h4>
