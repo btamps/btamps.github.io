@@ -97,7 +97,7 @@ body-class: semisweet
   <div class="container">
     <div class="row">
       <div class="col-sm-8 description center">
-        <h2>Responsive Blog</h2>
+        <h2>Blog</h2>
         <p>Semi Sweet’s <a href="https://www.semisweetdesigns.com/blog" target="_blank">blog</a> is filled with cookie decorating tutorials and recipes. Since each post contains beautiful photography, I chose to keep the background layout mostly light or bright white. The high contrast made the photos pop, while drawing more attention to the colorful accents, like the header nav bar and action buttons.</p>
       </div>
       <div class="col-sm-12">
