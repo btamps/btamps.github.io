@@ -53,7 +53,9 @@ body-class: semisweet
   <div class="row">
     <div class="col-sm-8 description center">
       <h2>Design System</h2>
-      <p>My goal was to  establish and implement a visual language the carries over from blog to online store pages. First, I had to assess the content and fine all common design patterns throughout the site's pages. From the information I gathered, I created a system of design elements including colors, typographical hierarchy, form fields and button styles. Creating this design system first not only kept things consistent, but also saved me time when coding all patterns for website templates and stylesheets.</p>
+      <p>The client is a male baker, which is quite unique in the the cookie decorating community. He requested a website reflecting a cheerful yet masculine design that visually conveyed a guy is the mastermind behind these cookies.</p>
+      <p>My goal was to establish and implement a visual language that was bright white with colorful accents. The color combination of reds and blues with brown/neutral undertones helped achieve the masculine vibe the client wanted. This language also needed to carry over from the blog to online store pages.</p>
+      <p>First, I had to assess the content and fine all common design patterns throughout the site's pages. From the information I gathered, I created a system of design elements including colors, typographical hierarchy, form fields and button styles. Creating this design system first not only kept things consistent, but also saved me time when coding all patterns for website templates and stylesheets.</p>
     </div>
     <div class="col-sm-12">      
       <h3>Colors</h3>
@@ -96,7 +98,7 @@ body-class: semisweet
     <div class="row">
       <div class="col-sm-8 description center">
         <h2>Responsive Blog</h2>
-        <p>Semi Sweet’s <a href="https://www.semisweetdesigns.com/blog" target="_blank">blog</a> is filled with cookie decorating tutorials and recipes. With each post containing beautiful photography, I choose to keep the layout clean and simple — allowing the big photos to color the page.</p>
+        <p>Semi Sweet’s <a href="https://www.semisweetdesigns.com/blog" target="_blank">blog</a> is filled with cookie decorating tutorials and recipes. Since each post contains beautiful photography, I chose to keep the background layout mostly light or bright white. The high contrast made the photos pop, while drawing more attention to the colorful accents, like the header nav bar and action buttons.</p>
       </div>
       <div class="col-sm-12">
         <figure>
