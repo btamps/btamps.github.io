@@ -53,6 +53,12 @@
     p {
       text-align: left;
     }
+    a {
+      border-color: #ff5352;
+      &:hover {
+        color: #ff5352;
+      }
+    }
   }
   .design-system {
     p {
