@@ -65,7 +65,10 @@
     figure.brandmark {
       margin-bottom: 0;
       img {
-        max-width: 180px;
+        max-width: 100px;
+        @include responsive(medium-screens) {
+          max-width: 180px;
+        }
       }
     }
   }
