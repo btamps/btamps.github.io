@@ -78,8 +78,13 @@ body-class: semisweet
         <p>When designing SemiSweet’s logo, I was inspired by the characteristics of royal icing used to decorate cookies. I wanted the letterforms to mimic the look of shiny, hand-piped icing. Also, I took special consideration of the capital “S”. I wanted it to flow seamlessly with the rest of the design while being distinct enough to stand alone as its own brandmark.</p>
       </div>
       <div class="col-sm-12">
-        <figure>
+        <figure class="wordmark">
           <img src="../img/semisweet/ss-logo.svg" alt="Semi Sweet Logo">
+          <figcaption>Logotype</figcaption>
+        </figure>
+        <figure class="brandmark">
+          <img src="../img/semisweet/ss-brandmark.svg" alt="Semi Sweet brandmark">
+          <figcaption>Brandmark</figcaption>
         </figure>  
       </div>
     </div>

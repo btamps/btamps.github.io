@@ -56,10 +56,16 @@
   }
   .logo {
     background: #AFD6E5;
-    figure {
-      margin-bottom: 0;
+    figure.wordmark {
       img {
         max-width: 800px;
+      }
+    }
+
+    figure.brandmark {
+      margin-bottom: 0;
+      img {
+        max-width: 180px;
       }
     }
   }
