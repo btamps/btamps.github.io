@@ -48,10 +48,19 @@
       }
     }
   }
-  .design-system, .blog, .shop {
+  .design-system,.logo, .blog, .shop {
     @extend %content-block;
     p {
       text-align: left;
+    }
+  }
+  .logo {
+    background: #AFD6E5;
+    figure {
+      margin-bottom: 0;
+      img {
+        max-width: 800px;
+      }
     }
   }
   .blog {

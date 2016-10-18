@@ -57,16 +57,31 @@ body-class: semisweet
     <div class="col-sm-12">      
       <h3>Colors</h3>
       <figure>
-        <img src="../img/semisweet/colors.png" alt="Real Estate Illustrations">
+        <img src="../img/semisweet/colors.png" alt="Semi Sweet colors">
       </figure>
       <h3>Typography</h3>
       <figure>
-        <img src="../img/semisweet/typography.png" alt="Real Estate Illustrations">
+        <img src="../img/semisweet/typography.png" alt="Semi Sweet typography">
       </figure>
       <h3>Buttons and Forms</h3>
       <figure>
-        <img src="../img/semisweet/buttons-forms.png" alt="Real Estate Illustrations">
+        <img src="../img/semisweet/buttons-forms.png" alt="Semi Sweet buttons and forms">
       </figure>   
+    </div>
+  </div>
+</section>
+<section class="container-fluid logo">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 description center">
+        <h2>Logo Design</h2>
+        <p>When designing SemiSweet’s logo, I was inspired by the characteristics of royal icing used to decorate cookies. I wanted the letterforms to mimic the look of shiny, hand-piped icing. Also, I took special consideration of the capital “S”. I wanted it to flow seamlessly with the rest of the design while being distinct enough to stand alone as its own brandmark.</p>
+      </div>
+      <div class="col-sm-12">
+        <figure>
+          <img src="../img/semisweet/ss-logo.svg" alt="Semi Sweet Logo">
+        </figure>  
+      </div>
     </div>
   </div>
 </section>
@@ -79,7 +94,7 @@ body-class: semisweet
       </div>
       <div class="col-sm-12">
         <figure>
-          <img src="../img/semisweet/blog-full.png" alt="Real Estate Illustrations">
+          <img src="../img/semisweet/blog-full.png" alt="Semi Sweet blog">
         </figure>  
       </div>
     </div>
@@ -97,18 +112,18 @@ body-class: semisweet
       <div class="col-sm-6">
         <h4>Shop Home</h4>
         <figure>
-          <img src="../img/semisweet/shop-home.png" alt="Real Estate Illustrations">
+          <img src="../img/semisweet/shop-home.png" alt="Semi Sweet shop">
         </figure>
       </div>
 
       <div class="col-sm-6">
         <h4>Product Detail</h4>
         <figure>
-          <img src="../img/semisweet/shop-detail.png" alt="Real Estate Illustrations">
+          <img src="../img/semisweet/shop-detail.png" alt="Semi Sweet shop page">
         </figure>
         <h4>Cart</h4>
         <figure>
-          <img src="../img/semisweet/cart.png" alt="Real Estate Illustrations">
+          <img src="../img/semisweet/cart.png" alt="Semi Sweet shop cart">
         </figure>
       </div>
     </div>
