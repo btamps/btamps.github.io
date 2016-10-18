@@ -78,7 +78,7 @@ body-class: semisweet
     <div class="row">
       <div class="col-sm-8 description center">
         <h2>Logo Design</h2>
-        <p>When designing SemiSweet’s logo, I was inspired by the characteristics of royal icing used to decorate cookies. I wanted the letterforms to mimic the look of shiny, hand-piped icing. Also, I took special consideration of the capital “S”. I wanted it to flow seamlessly with the rest of the design while being distinct enough to stand alone as its own brandmark.</p>
+        <p>When designing SemiSweet’s logo, I was inspired by the characteristics of <a href="https://semisweetdesigns.com/2013/10/03/updated-royal-icing-recipe/" target="_blank">royal icing</a> used to decorate cookies. I wanted the letterforms to mimic the look of shiny, hand-piped icing. Also, I took special consideration of the capital “S”. I wanted it to flow seamlessly with the rest of the design while being distinct enough to stand alone as its own brandmark.</p>
       </div>
       <div class="col-sm-12">
         <figure class="wordmark">
