@@ -48,7 +48,7 @@ client: "Optimizely"
   <div class="row">
     <div class="col-sm-7 description center">
       <h2>Concept Sketches</h2>
-      <p>My process of determining the mascot began with gathering the requirements from Optimizely's design team. Because their UI library is referred to as <a href="https://github.com/optimizely/oui" target="_blank">OUI</a> (French for “yes” and pronounced “<i>we</i>”), the design team wanted an animal that would pair well with a French-related elements. This lead me to brainstorm animals typically associated with France, like French bulldogs, poodles, cats and frogs. Being that Optimizely is known for A/B testing, I also wanted to play with different French themes of travel and movement, such as vintage race cars, hot-air balloons, bikes, and planes.</p>
+      <p>My process of determining the mascot began with gathering the requirements from Optimizely's design team. Because their UI library is referred to as <a href="https://github.com/optimizely/oui" target="_blank">OUI</a> (French for “yes” and pronounced “<i>we</i>”), the design team wanted an animal that would pair well with French-related elements. This lead me to brainstorm animals typically associated with France, like French bulldogs, poodles, cats and frogs. Being that Optimizely is known for A/B testing, I also wanted to play with different French themes of travel and movement, such as vintage race cars, hot-air balloons, bikes, and planes.</p>
     </div>
   </div>
 
