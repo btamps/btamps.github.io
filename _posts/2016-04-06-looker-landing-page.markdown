@@ -76,7 +76,7 @@ client: "Looker"
     <div class="row">
       <div class="col-sm-8 description center">
         <h2>Schedules</h2>
-        <p>Looker’s marketing team needed me to design two schedule layouts for this landing page. The first one, shown below, was designed for events that have speaker profile photos readily available. The photo of the speaker is displayed next to the related content time block.</p>
+        <p>Looker’s marketing team needed me to design two schedule layouts for this landing page. The first one, shown below, was designed for events that had speaker profile photos readily available. The photo of the speaker is displayed next to the related content time block.</p>
       </div>
       <figure class="col-xs-12">
         <img src="../img/looker-lp/schedule-icons.png" alt="Schedules with icons">
