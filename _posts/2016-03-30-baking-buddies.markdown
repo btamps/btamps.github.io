@@ -20,7 +20,7 @@ body-class: baking-pins
         <img src="../img/baking-buddies/baking-buddies-hero2.jpg" alt="OUI Mascot">
       </figure>
     </div>
-    
+
     <div class="row">
       <div class="col-md-5">
         <h4>Role</h4>
@@ -109,7 +109,7 @@ body-class: baking-pins
     </div>
     <div class="row">
       <div class="col-sm-8 description center">
-        <p>To compliment the lapel pins, I designed the front and back card backing attached to each pin. I kept the colors similar to the pins with a retro-style kitchen theme in the artwork.</p>
+        <p>To complement the lapel pins, I designed the front and back card backing that would be attached to each pin. I added a retro-style kitchen theme in the artwork, while keeping the colors on the cards similar to the colors used on the pins.</p>
       </div>
     </div>
     <div class="row">
