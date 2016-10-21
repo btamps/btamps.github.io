@@ -20,7 +20,7 @@ client: "Optimizely"
         <img src="../img/oui/oui-mascot-feature.png" alt="OUI Mascot">
       </figure>
     </div>
-    
+
     <div class="row">
       <div class="col-md-5">
         <h4>Role</h4>
@@ -48,7 +48,7 @@ client: "Optimizely"
   <div class="row">
     <div class="col-sm-7 description center">
       <h2>Concept Sketches</h2>
-      <p>When brainstorming mascot concepts, I focused on animals typically associated with France. Those animals included French bulldogs, poodles, cats and frogs. Being that Optimizely is known for A/B testing, I also wanted to play with different French elements of travel and movement.</p>
+      <p>My process of determining the mascot began with gathering the requirements from Optimizely's design team. Because their UI library is referred to as <a href="http://design.optimizely.com/" target="_blank">OUI</a> (French for “yes” and pronounced “<i>we</i>”), the design team wanted an animal that would pair well with a French-related elements. This lead me to brainstorm animals typically associated with France, like French bulldogs, poodles, cats and frogs. Being that Optimizely is known for A/B testing, I also wanted to play with different French themes of travel and movement—such as vintage race cars, hot-air balloons, bikes and planes.</p>
     </div>
   </div>
 
@@ -72,7 +72,7 @@ client: "Optimizely"
   <div class="row">
     <div class="col-sm-7 description center">
       <h2>Refined Sketches</h2>
-      <p>A front-facing French bulldog was the favorite concept from the design team. With that direction in mind, I then tried out different facial expressions that would pair with the French bulldog.</p>
+      <p>A front-facing French bulldog was the Optimizely’s favorite concept from my sketches. With that direction in mind, I then tried out various facial expressions that would complement the French bulldog.</p>
       <p>Vetting a number of iterations and sketches with the design team, we collaborated on the best fit that accomplished a friendly looking dog with clear French elements in the silhouette — like a beret and scarf.</p>
     </div>
   </div>
