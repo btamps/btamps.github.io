@@ -69,7 +69,7 @@ body-class: baking-pins
   <div class="row">
     <div class="col-sm-8 description center">
       <h2>Refined Sketches</h2>
-      <p>After iterating through the sketches, we wanted the pins to visually belong to the same “family” or set. To do this, I settled on a top down, three-quarter view for each pin’s position. I also made sure each pin had the the same “pie-slice” eye style.</p>
+      <p>After iterating through the sketches, we wanted the pins to visually belong to the same “family” or set. To do this, I settled on a top down, three-quarter view for each pin’s position. I also made sure each pin had similar “pie-slice” eye style. Maintaining this consistency helped tie the pins together.</p>
     </div>
   </div>
   <div class="row">
