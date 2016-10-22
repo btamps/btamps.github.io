@@ -53,7 +53,7 @@ body-class: baking-pins
       <div class="col-sm-8 description center">
         <h2>Sketching Ideas</h2>
         <p>The first step was to brainstorm different ideas in my sketchbook.
-        I kept it loose while drawing with a ball point pen. This helps me to not worry about final lines, and focus on capturing the whatever things that came to my mind. At this stage, I was exploring different body positioning, perspectives, and facial placements.</p>
+        I kept it loose while drawing with a ball point pen. This helps me to not worry about final lines, and mainly focus on capturing whatever things that came to my mind. At this stage, I was exploring different body positioning, perspectives, and facial placements.</p>
       </div>
     </div>
 
