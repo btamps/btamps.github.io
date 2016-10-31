@@ -218,7 +218,7 @@ exclude_from_nav: true
         <li>The letter forms are great contrast to the simplified rounded brand images</li>
         <li>Natively installed font from iOS 6+, no custom fonts needed</li>
         <li>Nice variation of weights</li>
-        <li>Readable at smaller text sizes</li>
+        <li>Legible at small text sizes</li>
       </ul>
 
       <h4>Other design changes</h4>
