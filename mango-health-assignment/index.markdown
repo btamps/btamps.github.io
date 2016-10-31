@@ -213,7 +213,7 @@ exclude_from_nav: true
       <p>My recommendation (above) is the most effective because it gives insight of how to use the app, fits well with the existing UI design pattern, and requires no app changes. I also believe the simple shapes and colorful images matches the brand of Mango Health and would motivate the user to click to learn more. </p>
 
       <h4>Typography</h4>
-      <p>I chose to keep Avenir Next for these reasons:</p>
+      <p>I chose to keep Avenir Next for the following reasons:</p>
       <ul>
         <li>The letter forms are great contrast to the simplified rounded brand images</li>
         <li>Natively installed font from iOS 6+, no custom fonts needed</li>
