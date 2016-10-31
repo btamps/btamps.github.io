@@ -45,14 +45,14 @@ exclude_from_nav: true
         <img src="../img/mango/mango-options.png" alt="Mango Health">
       </figure>
       <div class="col-sm-8 description center">
-        <p>I thought the first two illustrations conveyed their messaging well, while the third illustration for “Tips on Getting Started” seemed a little vague. Since I felt the illustration was the weakest, I chose this to be the problem I would work on.</p>
+        <p>I thought the first two illustrations conveyed their messaging well, while the third illustration for “Tips on Getting Started” seemed a little vague. Since I felt the third illustration was the weakest, I chose that to be the problem I would work on.</p>
 
         <h4>What is the image trying to communicate?</h4>
-        <p>This image is trying to communicate tips on getting started using the app. A medicine bottle and hand suggest adding in your prescriptions.</p>
+        <p>This image is trying to communicate tips on getting started when first using the app. A medicine bottle and hand suggest adding in your prescriptions.</p>
 
         <h4>Is it doing a good job? Why or why not?</h4>
         <p>Although the image does a good job at implying users are to enter in medications, however, it doesn’t give insight to what the tips are for getting started. The content for “tips” say, by using Mango Health everyday, you’ll be able to earn points and level up. As you level up, you can have a chance to win rewards every week in a raffle.</p>
-        <p>I will provide some suggestions of how I would solve this problem below.</p>
+        <p>I provide some suggestions of how I would solve this problem below.</p>
       </div>
     </div>
   </div>
@@ -67,8 +67,8 @@ exclude_from_nav: true
         <h2>Friendly Greeting People</h2>
       </div>
       <div class="col-sm-12">
-        <p>From my experience in Marketing, users tend to resonate with illustrations of people. Even though no tips are shown in the image, I thought this entice users new to the app to click and view the content. This images is saying, “Hey there. Let’s make the most out of this app.”</p>
-        <p>While sketching these people, I was inspired by the simple, clean shapes of medication shown in the app. I wanted the people to have similar shapes.</p>
+        <p>From my experience in Marketing, users tend to resonate with illustrations of people. Even though no tips are shown in the image, I thought showing illustrated people would entice new users to click and view the content. This images is saying, “Hey there. Let’s make the most out of this app.”</p>
+        <p>While sketching these people, I was inspired by the simple, clean shapes of medication shown in the app. I wanted to create people that would pair well with other shapes used in the app.</p>
       </div>
     </div>
 
@@ -112,7 +112,7 @@ exclude_from_nav: true
         <h2>Bringing the Gifts Forward</h2>
       </div>
       <div class="col-sm-12">
-        <p>I thought it would be great idea to call out items you can purchase with the rewards. Seeing actual items is a great way to bring the value forward and motivate users to continue using the app.</p>
+        <p>I thought it would be great idea to bring out items you can purchase with the Mango Health’s rewards. Seeing actual items is a great way to bring the value forward and motivate users to continue using the app.</p>
         <p>I also took this time to explore a line-art "outer-stroke" illustration style.</p>
       </div>
     </div>
@@ -164,7 +164,7 @@ exclude_from_nav: true
         <h2>3 Step Progression</h2>
       </div>
       <div class="col-sm-12">
-        <p>I wanted to create an illustration that would give more insight into the actual content of “tips on getting started”. My idea here is to show the user’s journey with Mango Health. By adding medication and taking them on time, you can earn points and win gifts. It was important to visually show progression through different parts of Mango Health.</p>
+        <p>I wanted to create an illustration that would give more insight into the contents of “tips on getting started”. My idea here is to show the user’s journey with Mango Health. By adding medication and taking them on time, you can earn points and win gifts. It was also important to visually show progression through these different features of Mango Health.</p>
       </div>
     </div>
     <div class="row sketches">
