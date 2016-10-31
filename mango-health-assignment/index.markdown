@@ -51,7 +51,7 @@ exclude_from_nav: true
         <p>This image is trying to communicate tips on getting started when the user first uses the app. Illustrations of a medicine bottle and a hand suggest inputting prescriptions into the app.</p>
 
         <h4>Is it doing a good job? Why or why not?</h4>
-        <p>Although the image does imply users to enter in medications, it does not give insight as what the tips are for getting started. The content for “tips” mention, by using Mango Health everyday, the user will be able to earn points and level up. Leveling up grants more chances to win rewards every week in a raffle.</p>
+        <p>Although the image does imply users to enter in medications, it does not give insight as what the “tips” are for getting started. The content for “tips” mention, by using Mango Health everyday, the user will be able to earn points and level up. Leveling up grants more chances to win rewards every week in a raffle.</p>
         <p>I provided some suggestions of how I would communicate this better through illustrations below.</p>
       </div>
     </div>
@@ -210,7 +210,7 @@ exclude_from_nav: true
       <img src="../img/mango/final-shadow-1.png" alt="Mango Health" style="max-width: 330px;">
     </figure>
     <div class="col-sm-12">
-      <p>My recommendation (above) is the most effective because it gives insight of how to use the app, fits well with the existing UI design pattern, and requires no app changes. I also believe the simple shapes and colorful images matches the brand of Mango Health and would motivate the user to click to learn more. </p>
+      <p>My recommendation (above) is the most effective because it gives insight of how to use the app, fits well with the existing UI design pattern, and requires no app changes. I also believe the simple shapes and colorful images match the brand of Mango Health and would motivate the user to click to learn more. </p>
 
       <h4>Typography</h4>
       <p>I chose to keep Avenir Next for the following reasons:</p>
