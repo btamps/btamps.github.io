@@ -29,7 +29,7 @@ exclude_from_nav: true
     <div class="row">
       <div class="col-xs-12 summary">
         <h4>Summary</h4>
-        <p>This is my response to the visual design assignment. I chose to go with the last one "Tips on getting started". My goal is for you to get a good understanding of how I approach problems and glance into my illustration style range.</p>
+        <p>This is my response to Mango Health’s visual design assignment. My goal is for you to gain a good understanding of my thought process, how I approach problems, and my illustration exploration.</p>
       </div>
     </div>
   </div>
@@ -45,13 +45,14 @@ exclude_from_nav: true
         <img src="../img/mango/mango-options.png" alt="Mango Health">
       </figure>
       <div class="col-sm-8 description center">
-        <p>I thought the first two illustrations conveyed the messaging well, while the third illustration for "Tips of Getting Started" seemed a little vague. Since I felt it was the weakest, I chose this to be the problem to work on.</p>
+        <p>I thought the first two illustrations conveyed their messaging well, while the third illustration for “Tips on Getting Started” seemed a little vague. Since I felt the illustration was the weakest, I chose this to be the problem I would work on.</p>
 
         <h4>What is the image trying to communicate?</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <p>This image is trying to communicate tips on getting started using the app. A medicine bottle and hand suggest adding in your prescriptions.</p>
 
         <h4>Is it doing a good job? Why or why not?</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <p>Although the image does a good job at implying users are to enter in medications, however, it doesn’t give insight to what the tips are for getting started. The content for “tips” say, by using Mango Health everyday, you’ll be able to earn points and level up. As you level up, you can have a chance to win rewards every week in a raffle.</p>
+        <p>I will provide some suggestions of how I would solve this problem below.</p>
       </div>
     </div>
   </div>
@@ -66,7 +67,8 @@ exclude_from_nav: true
         <h2>Friendly Greeting People</h2>
       </div>
       <div class="col-sm-12">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>From my experience in Marketing, users tend to resonate with illustrations of people. Even though no tips are shown in the image, I thought this entice users new to the app to click and view the content. This images is saying, “Hey there. Let’s make the most out of this app.”</p>
+        <p>While sketching these people, I was inspired by the simple, clean shapes of medication shown in the app. I wanted the people to have similar shapes.</p>
       </div>
     </div>
 
@@ -84,16 +86,16 @@ exclude_from_nav: true
         <div class="pros">
           <h3>Pros</h3>
           <ul>
-            <li>The use of people grabs the attention of users new to the app</li>
-            <li>Colorful style matches current branding</li>
-            <li>Stays within the current design pattern</li>
+            <li>Illustrations of people can grab the attention of new app users</li>
+            <li>Colorful style and simple shapes matches current branding</li>
+            <li>Fits within the current design pattern of the UI</li>
             <li>Style lends well to animation</li>
           </ul>
         </div>
         <div class="cons">
           <h3>Cons</h3>
           <ul>
-            <li>Image doesn't show actual "tips" of the app</li>
+            <li>Image doesn't show actual "tips" of the content</li>
           </ul>
         </div>
       </div>
@@ -107,21 +109,22 @@ exclude_from_nav: true
     <div class="row option-detail">    
       <div class="col-xs-12">
         <h4>Option 2</h4>
-        <h2>Bring the Gifts Forward</h2>
+        <h2>Bringing the Gifts Forward</h2>
       </div>
       <div class="col-sm-12">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>I thought it would be great idea to call out items you can purchase with the rewards. Seeing actual items is a great way to bring the value forward and motivate users to continue using the app.</p>
+        <p>I also took this time to explore a line-art "outer-stroke" illustration style.</p>
       </div>
     </div>
 
     <div class="row sketches">
       <div class="col-xs-12 col-md-6">
         <img src="../img/mango/option-value-sketch1.png" alt="Mango Health" style="max-width: 330px;">
-        <p>I wanted to showcase different rewards across the top. The CTA button links to reward view.</p>
+        <p>I wanted to showcase different rewards across the top. The CTA button links to rewards view.</p>
       </div>      
       <div class="col-xs-12 col-md-6">
         <img src="../img/mango/option-value-sketch2.png" alt="Mango Health" style="max-width: 330px;">
-        <p>Shows items that could be purchased from a Starbucks gift card with the CTA button links to reward view.</p>
+        <p>Shows items that could be purchased from a Starbucks gift card with the CTA button linking to rewards view.</p>
       </div>
     </div>
 
@@ -133,7 +136,7 @@ exclude_from_nav: true
         <div class="pros">
           <h3>Pros</h3>
           <ul>
-            <li>Shows actual items that could purchased with gift cards.</li>
+            <li>Shows items that could purchased with gift cards.</li>
             <li>Could motivate users to continue using the app for the rewards</li>
             <li>Promotes other features of the app</li>
           </ul>
@@ -141,8 +144,10 @@ exclude_from_nav: true
         <div class="cons">
           <h3>Cons</h3>
           <ul>
-            <li>Doesn't fit the current UI and might require engineering effort to change</li>
+            <li>Although, it does a great job of showing user what they can win, it doesn't show other "tips", like entering in medications.</li>
+            <li>While other options are just images, this option requires extra copy.</li>
             <li>Only shows one reward at a time</li>
+            <li>The outer-stroke style doesn't quite match current branding</li>
             <li>Extra height pushes the other content blocks down</li>
           </ul>
         </div>
@@ -155,21 +160,21 @@ exclude_from_nav: true
   <div class="container side-by-side">
     <div class="row option-detail">    
       <div class="col-xs-12">
-        <h4>Option 3</h4>
+        <h4>My Recommendation</h4>
         <h2>3 Step Progression</h2>
       </div>
       <div class="col-sm-12">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>I wanted to create an illustration that would give more insight into the actual content of “tips on getting started”. My idea here is to show the user’s journey with Mango Health. By adding medication and taking them on time, you can earn points and win gifts. It was important to visually show progression through different parts of Mango Health.</p>
       </div>
     </div>
     <div class="row sketches">
       <div class="col-xs-12 col-md-6">
         <img src="../img/mango/option-progress-sketch2.png" alt="Mango Health" style="max-width: 330px;">
-        <p>I was trying to show progression through hexagons with dotted lines.</p>
+        <p>I was trying to show progression through hexagons and dotted lines.</p>
       </div>      
       <div class="col-xs-12 col-md-6">
         <img src="../img/mango/option-progress-sketch.png" alt="Mango Health" style="max-width: 330px;">
-        <p>I used background arrows to help give a hint of progression.</p>
+        <p>I used background arrows to help give a visual hint of progression.</p>
       </div>
     </div>
     <div class="row">
@@ -180,17 +185,17 @@ exclude_from_nav: true
         <div class="pros">
           <h3>Pros</h3>
           <ul>          
-            <li>Shows the user's journey through the app</li>
-            <li>Shows how the app works</li>
-            <li>Arrow indicates progression</li>
-            <li>Stays within the current design pattern</li>
-            <li>Colorful style matches current branding</li>
+            <li>Shows the user’s journey with the app</li>
+            <li>Visually summarizes how the app works</li>
+            <li>Arrows indicates progression</li>
+            <li>Paper cut-out look and colorful style matches current branding</li>
+            <li>Stays within the current UI design pattern</li>
           </ul>
         </div>
         <div class="cons">
           <h3>Cons</h3>
           <ul>
-            <li>It's possible to have a negative response to showing medicine next to receiving gifts</li>
+            <li>Less copy could confuse users</li>
             <li>Limited space on top of dashboard view.</li>
           </ul>
         </div>
@@ -200,9 +205,26 @@ exclude_from_nav: true
 </section>
 <section class="container-fluid post-closing">
   <div class="container">
-    <h2>Thank You!</h2>
+    <h2>Final Thoughts</h2>
+    <figure class="col-xs-12">
+      <img src="../img/mango/final-shadow-1.png" alt="Mango Health" style="max-width: 330px;">
+    </figure>
     <div class="col-sm-12">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p>My recommendation (above) is the most effective because it gives insight of how to use the app, fits well with the existing UI design pattern, and requires no app changes. I also believe the simple shapes and colorful images matches the brand of Mango Health and would motivate the user to click to learn more. </p>
+
+      <h4>Typography</h4>
+      <p>I chose to keep Avenir Next for these reasons:</p>
+      <ul>
+        <li>The letter forms are great contrast to the simplified rounded brand images</li>
+        <li>Natively installed font from iOS 6+, no custom fonts needed</li>
+        <li>Nice variation of weights</li>
+      </ul>
+
+      <h4>Other design changes</h4>
+      <ul>
+        <li>Gave the card titles in all-caps more letter-spacing for better readability</li>
+        <li>Refined the schedule icons to match overall style of the UI</li>
+      </ul>
     </div>
   </div>
 </section>
