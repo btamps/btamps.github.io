@@ -145,7 +145,7 @@ exclude_from_nav: true
           <h3>Cons</h3>
           <ul>
             <li>Although, it does a great job of showing user what they can win, it doesn't show other “tips”, like entering in medications.</li>
-            <li>While other options are just images, this option requires extra copy.</li>
+            <li>While other options are just images, this option requires extra copy</li>
             <li>Only shows one reward at a time</li>
             <li>The outer-stroke style doesn't quite match current branding</li>
             <li>Extra height of the card pushes the other content blocks down</li>
@@ -196,7 +196,7 @@ exclude_from_nav: true
           <h3>Cons</h3>
           <ul>
             <li>Less copy could confuse users</li>
-            <li>Limited space on top of dashboard view.</li>
+            <li>Limited space on top of dashboard view</li>
           </ul>
         </div>
       </div>
@@ -210,7 +210,7 @@ exclude_from_nav: true
       <img src="../img/mango/final-shadow-1.png" alt="Mango Health" style="max-width: 330px;">
     </figure>
     <div class="col-sm-12">
-      <p>My recommendation (above) is the most effective because it gives insight of how to use the app, fits well with the existing UI design pattern, and requires no app changes. I also believe the simple shapes and colorful images match the brand of Mango Health and would motivate the user to click to learn more. </p>
+      <p>My recommendation (above) is the most effective because it gives insight of how to use the app, fits well with the existing UI design pattern, and requires no app changes. I also believe the simple shapes and colorful images match the brand of Mango Health and would motivate the user to click to learn more.</p>
 
       <h4>Typography</h4>
       <p>I chose to keep Avenir Next for the following reasons:</p>
@@ -218,6 +218,7 @@ exclude_from_nav: true
         <li>The letter forms are great contrast to the simplified rounded brand images</li>
         <li>Natively installed font from iOS 6+, no custom fonts needed</li>
         <li>Nice variation of weights</li>
+        <li>Readable at small text sizes</li>
       </ul>
 
       <h4>Other design changes</h4>
