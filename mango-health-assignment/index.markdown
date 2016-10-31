@@ -67,7 +67,7 @@ exclude_from_nav: true
         <h2>Friendly Greeting People</h2>
       </div>
       <div class="col-sm-12">
-        <p>From my experience in Marketing, users tend to resonate with illustrations of people. Even though no tips are shown in the image, I thought showing illustrated people would entice new users to click and view the content. This images is saying, “Hey there. Let’s make the most out of this app.”</p>
+        <p>From my experience in Marketing, users tend to resonate with illustrations of people. Even though no tips are shown in the image, I thought showing illustrated people would entice new users to click and view the content. This image is saying, “Hey there. Let’s make the most out of this app.”</p>
         <p>While sketching these people, I was inspired by the simple, clean shapes of medication shown in the app. I wanted to create people in a round, tablet-shaped pill design style, which would pair well with other shapes used in the app.</p>
       </div>
     </div>
@@ -144,11 +144,11 @@ exclude_from_nav: true
         <div class="cons">
           <h3>Cons</h3>
           <ul>
-            <li>Although, it does a great job of showing user what they can win, it doesn't show other "tips", like entering in medications.</li>
+            <li>Although, it does a great job of showing user what they can win, it doesn't show other “tips”, like entering in medications.</li>
             <li>While other options are just images, this option requires extra copy.</li>
             <li>Only shows one reward at a time</li>
             <li>The outer-stroke style doesn't quite match current branding</li>
-            <li>Extra height pushes the other content blocks down</li>
+            <li>Extra height of the card pushes the other content blocks down</li>
           </ul>
         </div>
       </div>
@@ -174,7 +174,7 @@ exclude_from_nav: true
       </div>      
       <div class="col-xs-12 col-md-6">
         <img src="../img/mango/option-progress-sketch.png" alt="Mango Health" style="max-width: 330px;">
-        <p>I wanted to show all parts of the "tips" while using background arrows to give a visual hint of progression.</p>
+        <p>I wanted to show all parts of the “tips” while using background arrows to give a visual hint of progression.</p>
       </div>
     </div>
     <div class="row">
