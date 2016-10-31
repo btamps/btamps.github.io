@@ -29,7 +29,7 @@ exclude_from_nav: true
     <div class="row">
       <div class="col-xs-12 summary">
         <h4>Summary</h4>
-        <p>This is my response to Mango Health’s visual design assignment. My goal is for you to gain a good understanding of my thought process, how I approach problems, and my illustration exploration.</p>
+        <p>This is my response to Mango Health’s visual design assignment. My goal is for the design team to gain a good understanding of my thought process, my approach to problem solving, and my illustration exploration.</p>
       </div>
     </div>
   </div>
@@ -45,7 +45,7 @@ exclude_from_nav: true
         <img src="../img/mango/mango-options.png" alt="Mango Health">
       </figure>
       <div class="col-sm-8 description center">
-        <p>I thought the first two illustrations conveyed their messaging well, while the third illustration for “Tips on Getting Started” seemed a little vague. Since I felt the third illustration was the weakest, I chose that to be the problem I would work on.</p>
+        <p>I thought the first two illustrations conveyed their messaging well, while the third illustration for “Tips on Getting Started” seemed a little vague. Since I felt the 3rd illustration could better communicate its message, I chose this to be the problem I would work on.</p>
 
         <h4>What is the image trying to communicate?</h4>
         <p>This image is trying to communicate tips on getting started when first using the app. A medicine bottle and hand suggest adding in your prescriptions.</p>
