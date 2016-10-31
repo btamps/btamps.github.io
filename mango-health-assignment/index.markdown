@@ -46,6 +46,12 @@ exclude_from_nav: true
       </figure>
       <div class="col-sm-8 description center">
         <p>I thought the first two illustrations conveyed the messaging well, while the third illustration for "Tips of Getting Started" seemed a little vague. Since I felt it was the weakest, I chose this to be the problem to work on.</p>
+
+        <h4>What is the image trying to communicate?</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+        <h4>Is it doing a good job? Why or why not?</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
       </div>
     </div>
   </div>
@@ -175,8 +181,8 @@ exclude_from_nav: true
           <h3>Pros</h3>
           <ul>          
             <li>Shows the user's journey through the app</li>
-            <li>Show's "how-it-works" in a nutshell</li>
-            <li>Arrow shows progression</li>
+            <li>Shows how the app works</li>
+            <li>Arrow indicates progression</li>
             <li>Stays within the current design pattern</li>
             <li>Colorful style matches current branding</li>
           </ul>
@@ -184,8 +190,8 @@ exclude_from_nav: true
         <div class="cons">
           <h3>Cons</h3>
           <ul>
-            <li>It's possible showing meds next to receiving gifts is a negative for some people</li>
-            <li>Limited top real estate on dashboard</li>
+            <li>It's possible to have a negative response to showing medicine next to receiving gifts</li>
+            <li>Limited space on top of dashboard view.</li>
           </ul>
         </div>
       </div>
@@ -195,5 +201,8 @@ exclude_from_nav: true
 <section class="container-fluid post-closing">
   <div class="container">
     <h2>Thank You!</h2>
+    <div class="col-sm-12">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
   </div>
 </section>
