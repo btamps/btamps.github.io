@@ -112,7 +112,7 @@ exclude_from_nav: true
         <h2>Bringing the Gifts Forward</h2>
       </div>
       <div class="col-sm-12">
-        <p>I thought it would be great idea to bring out items you can purchase with the Mango Health’s rewards. Seeing actual items is a great way to bring the value forward and motivate users to continue using the app.</p>
+        <p>I thought it would be great idea to pull out items you can purchase with the Mango Health’s rewards. Seeing the actual items is a great way to bring the value forward and motivate users to continue using the app.</p>
         <p>I also took this time to explore a line-art "outer-stroke" illustration style.</p>
       </div>
     </div>
