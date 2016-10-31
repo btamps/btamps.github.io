@@ -170,11 +170,11 @@ exclude_from_nav: true
     <div class="row sketches">
       <div class="col-xs-12 col-md-6">
         <img src="../img/mango/option-progress-sketch2.png" alt="Mango Health" style="max-width: 330px;">
-        <p>I was trying to show progression through hexagons and dotted lines.</p>
+        <p>I was trying to show progression through hexagons and dotted lines. Having the three different hexagons feel like 3 clickable buttons.</p>
       </div>      
       <div class="col-xs-12 col-md-6">
         <img src="../img/mango/option-progress-sketch.png" alt="Mango Health" style="max-width: 330px;">
-        <p>I used background arrows to help give a visual hint of progression.</p>
+        <p>I wanted to show all parts of the "tips" while using background arrows to give a visual hint of progression.</p>
       </div>
     </div>
     <div class="row">
