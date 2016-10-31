@@ -109,7 +109,7 @@ exclude_from_nav: true
     <div class="row option-detail">    
       <div class="col-xs-12">
         <h4>Option 2</h4>
-        <h2>Bringing the Gifts Forward</h2>
+        <h2>Bring the Gifts Forward</h2>
       </div>
       <div class="col-sm-12">
         <p>I thought it would be great idea to pull out items you can purchase with the Mango Health’s rewards. Seeing the actual items is a great way to bring the value forward and motivate users to continue using the app.</p>
