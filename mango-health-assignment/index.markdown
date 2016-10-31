@@ -29,7 +29,7 @@ exclude_from_nav: true
     <div class="row">
       <div class="col-xs-12 summary">
         <h4>Summary</h4>
-        <p>This is my response to Mango Health’s visual design assignment. My goal is for the design team to gain a good understanding of my thought process, my approach to problem solving, and my illustration exploration.</p>
+        <p>This is my response to Mango Health’s visual design assignment. My goal is for the design team to gain a good understanding of my thought process, my approach to problem solving, and my illustrative exploration.</p>
       </div>
     </div>
   </div>
@@ -45,14 +45,14 @@ exclude_from_nav: true
         <img src="../img/mango/mango-options.png" alt="Mango Health">
       </figure>
       <div class="col-sm-8 description center">
-        <p>I thought the first two illustrations conveyed their messaging well, while the third illustration for “Tips on Getting Started” seemed a little vague. Since I felt the 3rd illustration could better communicate its message, I chose this to be the problem I would work on.</p>
+        <p>I thought the first two illustrations conveyed their messaging well, while the third illustration for “Tips on Getting Started” seemed a little vague. Since I felt the 3rd illustration could better communicate its message, I chose this to be the option I work on.</p>
 
         <h4>What is the image trying to communicate?</h4>
-        <p>This image is trying to communicate tips on getting started when first using the app. A medicine bottle and hand suggest adding in your prescriptions.</p>
+        <p>This image is trying to communicate tips on getting started when first using the app. A medicine bottle and hand suggest inputting prescriptions into the app.</p>
 
         <h4>Is it doing a good job? Why or why not?</h4>
-        <p>Although the image does a good job at implying users are to enter in medications, however, it doesn’t give insight to what the tips are for getting started. The content for “tips” say, by using Mango Health everyday, you’ll be able to earn points and level up. As you level up, you can have a chance to win rewards every week in a raffle.</p>
-        <p>I provide some suggestions of how I would solve this problem below.</p>
+        <p>Although the image does imply users to enter in medications, it does not give insight as what the tips are for getting started. The content for “tips” mention, by using Mango Health everyday, the user will be able to earn points and level up. Leveling up grants more chances to win rewards every week in a raffle.</p>
+        <p>I provided some suggestions of how I would communicate this better through illustrations below.</p>
       </div>
     </div>
   </div>
@@ -136,7 +136,7 @@ exclude_from_nav: true
         <div class="pros">
           <h3>Pros</h3>
           <ul>
-            <li>Shows items that could purchased with gift cards.</li>
+            <li>Shows items that could purchased with gift cards</li>
             <li>Could motivate users to continue using the app for the rewards</li>
             <li>Promotes other features of the app</li>
           </ul>
@@ -164,7 +164,7 @@ exclude_from_nav: true
         <h2>3 Step Progression</h2>
       </div>
       <div class="col-sm-12">
-        <p>I wanted to create an illustration that would give more insight into the contents of “tips on getting started”. My idea here is to show the user’s journey with Mango Health. By adding medication and taking them on time, you can earn points and win gifts. It was also important to visually show progression through these different features of Mango Health.</p>
+        <p>I wanted to create an illustration that would give more insight into the contents of “tips on getting started”. My idea here is to show the user’s journey with Mango Health. By adding medication and taking them on time, the user can earn points and win gifts. It was also important to visually show progression through these different features of the Mango Health app.</p>
       </div>
     </div>
     <div class="row sketches">
