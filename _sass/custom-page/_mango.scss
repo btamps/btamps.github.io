@@ -1,0 +1,143 @@
+// .mango styles
+.mango {
+  .introduction {
+    background: #FF794C;
+    h3 {
+      text-align: center;
+      color: white;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      font-size: 14px;
+    }
+    .logo-image {
+      margin-bottom: 30px;
+      img {
+        max-width: 180px;
+        @include responsive(medium-screens) {
+          max-width: 300px;
+        }
+      }
+    }
+    .mango-hero {
+      margin-bottom: 0;
+      img {
+        max-width: 800px;
+      }
+    }
+  }
+  .project-details, .mango-options, .option {
+    @extend %content-block;
+  }
+  .mango-options {
+    background: #e9e9e9;
+    p {
+      text-align: left;
+    }
+  }
+  .project-details {
+    .summary {
+      max-width: 800px;
+      margin: 0 auto;
+      float: none;
+    }
+  }
+  h4 {
+    color: #FF794C;
+  }
+  h2 {
+    font-family: $font-sans;
+    font-weight: 900;
+  }
+
+  .option {
+    border-bottom: 1px solid #eee;
+    .option-text {
+      margin-top: 30px;
+    }
+    h4 {
+      margin-bottom: 10px;
+    }
+    .pros, .cons {
+      h3 {
+        margin-bottom: 20px;
+      }
+      ul {
+        padding-left: 1.25em;
+        margin-bottom: 30px;
+        li {
+          margin-bottom: 10px;
+          list-style: none;
+          position: relative;
+          &:before {
+            content: "•";
+            display: block;
+            position: absolute;
+            left: -18px;
+            top: 0;
+          }
+        }
+      }
+    }
+    &.gifts, &.greeting, &.final {
+      .sketches {
+        margin-top: 0;
+        margin-bottom: 40px;
+        @include responsive(medium-screens) {
+          margin: 0 auto 100px;
+        }
+      }
+    }
+    &.gifts, &.final {
+      .sketches {
+        p {
+          max-width: 330px;
+          margin: 20px auto 40px;
+          font-size: 16px;
+          color: #666;
+          @include responsive(medium-screens) {
+            margin: 20px auto 0;
+          }
+        }
+      }
+    }
+    &.greeting {
+      .sketches {
+      }
+    }
+    .pros {
+      h3, li, li:before {
+        color: #36b0bf;
+      }
+    }
+    .cons {
+      h3, li, li:before {
+        color: #f6997d;
+      }
+    }
+    .option-detail {
+      margin: 0 auto 40px;
+      @include responsive(medium-screens) {
+        margin: 0 auto 100px;
+      }
+      max-width: 800px;
+    }
+  }
+}
+
+
+
+
+// Small devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
