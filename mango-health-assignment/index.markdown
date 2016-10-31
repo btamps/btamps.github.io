@@ -51,7 +51,7 @@ exclude_from_nav: true
         <p>This image is trying to communicate tips on getting started when the user first uses the app. Illustrations of a medicine bottle and a hand suggest inputting prescriptions into the app.</p>
 
         <h4>Is it doing a good job? Why or why not?</h4>
-        <p>Although the image does imply users to enter in medications, it does not give insight of what the “tips” are for getting started. The content for tips mention, by using Mango Health everyday, the user will be able to earn points and level up. Leveling up grants more chances to win rewards every week in a raffle.</p>
+        <p>Although the image does imply users to enter in medications, it does not give insight of what the “tips” are for getting started. The content for tips mention, by using Mango Health everyday, the user will be able to earn points and level up. Leveling up unlocks the chance to win higher value rewards every week in a raffle.</p>
         <p>I provided some suggestions of how I would communicate this better through illustrations below.</p>
       </div>
     </div>
