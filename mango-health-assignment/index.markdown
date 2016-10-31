@@ -187,7 +187,7 @@ exclude_from_nav: true
           <ul>          
             <li>Shows the user’s journey with the app</li>
             <li>Visually summarizes how the app works</li>
-            <li>Arrows indicates progression</li>
+            <li>Arrows indicate progression</li>
             <li>Paper cut-out look and colorful style matches current branding</li>
             <li>Stays within the current UI design pattern</li>
           </ul>
