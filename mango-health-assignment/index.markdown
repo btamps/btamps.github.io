@@ -48,7 +48,7 @@ exclude_from_nav: true
         <p>I thought the first two illustrations conveyed their messaging well, while the third illustration for “Tips on Getting Started” seemed a little vague. Since I felt the 3rd illustration could better communicate its message, I chose this to be the option I work on.</p>
 
         <h4>What is the image trying to communicate?</h4>
-        <p>This image is trying to communicate tips on getting started when first using the app. A medicine bottle and hand suggest inputting prescriptions into the app.</p>
+        <p>This image is trying to communicate tips on getting started when the user first uses the app. Illustrations of a medicine bottle and a hand suggest inputting prescriptions into the app.</p>
 
         <h4>Is it doing a good job? Why or why not?</h4>
         <p>Although the image does imply users to enter in medications, it does not give insight as what the tips are for getting started. The content for “tips” mention, by using Mango Health everyday, the user will be able to earn points and level up. Leveling up grants more chances to win rewards every week in a raffle.</p>
@@ -68,7 +68,7 @@ exclude_from_nav: true
       </div>
       <div class="col-sm-12">
         <p>From my experience in Marketing, users tend to resonate with illustrations of people. Even though no tips are shown in the image, I thought showing illustrated people would entice new users to click and view the content. This images is saying, “Hey there. Let’s make the most out of this app.”</p>
-        <p>While sketching these people, I was inspired by the simple, clean shapes of medication shown in the app. I wanted to create people that would pair well with other shapes used in the app.</p>
+        <p>While sketching these people, I was inspired by the simple, clean shapes of medication shown in the app. I wanted to create people in a round, tablet-shaped pill design style, which would pair well with other shapes used in the app.</p>
       </div>
     </div>
 
@@ -161,7 +161,7 @@ exclude_from_nav: true
     <div class="row option-detail">    
       <div class="col-xs-12">
         <h4>My Recommendation</h4>
-        <h2>3 Step Progression</h2>
+        <h2>3-Step Progression</h2>
       </div>
       <div class="col-sm-12">
         <p>I wanted to create an illustration that would give more insight into the contents of “tips on getting started”. My idea here is to show the user’s journey with Mango Health. By adding medication and taking them on time, the user can earn points and win gifts. It was also important to visually show progression through these different features of the Mango Health app.</p>
