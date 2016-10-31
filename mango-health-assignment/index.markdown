@@ -113,7 +113,7 @@ exclude_from_nav: true
       </div>
       <div class="col-sm-12">
         <p>I thought it would be great idea to pull out items you can purchase with the Mango Health’s rewards. Seeing the actual items is a great way to bring the value forward and motivate users to continue using the app.</p>
-        <p>I also took this time to explore a line-art "outer-stroke" illustration style.</p>
+        <p>I also took this time to explore a line-art “outer-stroke” illustration style.</p>
       </div>
     </div>
 
