@@ -95,7 +95,7 @@ exclude_from_nav: true
         <div class="cons">
           <h3>Cons</h3>
           <ul>
-            <li>Image doesn't show actual "tips" of the content</li>
+            <li>Image doesn't show actual "tips" from the content</li>
           </ul>
         </div>
       </div>
