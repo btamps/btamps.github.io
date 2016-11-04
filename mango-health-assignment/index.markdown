@@ -67,7 +67,7 @@ exclude_from_nav: true
         <h2>Friendly Greeting People</h2>
       </div>
       <div class="col-sm-12">
-        <p>From my experience in Marketing, users tend to resonate with illustrations of people. Even though no tips are shown in the image, I thought showing illustrated people would entice new users to click and view the content. This image is saying, “Hey there. Let’s make the most out of this app.”</p>
+        <p>From my experience in Marketing, illustrations of people is a great way to to grab the user’s attention. Even though no tips are shown in the image, I thought showing illustrated people would entice new users to click and view the content. This image is saying, “Hey there. Let’s make the most out of this app.”</p>
         <p>While sketching these people, I was inspired by the simple, clean shapes of medication shown in the app. I wanted to create people in a round, tablet-shaped pill design style, which would pair well with other shapes used in the app.</p>
       </div>
     </div>
