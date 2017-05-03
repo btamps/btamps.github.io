@@ -119,7 +119,7 @@ thumbnail: cooper-icons/cooper-thumb
 </section>
 <section class="container-fluid post-closing">
   <div class="container">
-    <h2>That’s All!</h2>
-    <p>Thanks for taking a look. You can purchase these icons on <a href="https://www.iconfinder.com/btamps" target="_blank">Iconfinder.com</a>. Or, you can check out my other projects below.</p>
+    <h2>Thanks for taking a look!</h2>
+    <p>You can purchase these icons on <a href="https://www.iconfinder.com/btamps" target="_blank">Iconfinder.com</a>. Or, you can check out my other projects below.</p>
   </div>
 </section>

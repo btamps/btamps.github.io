@@ -325,6 +325,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/_sass\/custom-page\/_mango.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_sass\/custom-page\/_mango.scss",
+		"outputAbbreviatedPath": "\/_sass\/css\/_mango.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/_sass\/custom-page\/_oui.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -1068,6 +1084,149 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/img\/mango\/final-flat-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 43709,
+		"inputAbbreviatedPath": "\/_site\/img\/mango\/final-flat-1.png",
+		"outputAbbreviatedPath": "\/_site\/img\/mango\/final-flat-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/mango\/final-flat.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 203397,
+		"inputAbbreviatedPath": "\/_site\/img\/mango\/final-flat.png",
+		"outputAbbreviatedPath": "\/_site\/img\/mango\/final-flat.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/mango\/final-shadow-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44238,
+		"inputAbbreviatedPath": "\/_site\/img\/mango\/final-shadow-1.png",
+		"outputAbbreviatedPath": "\/_site\/img\/mango\/final-shadow-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/mango\/mango-hero.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 127598,
+		"inputAbbreviatedPath": "\/_site\/img\/mango\/mango-hero.png",
+		"outputAbbreviatedPath": "\/_site\/img\/mango\/mango-hero.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/mango\/mango-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25531,
+		"inputAbbreviatedPath": "\/_site\/img\/mango\/mango-logo.png",
+		"outputAbbreviatedPath": "\/_site\/img\/mango\/mango-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/mango\/mango-options.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 117834,
+		"inputAbbreviatedPath": "\/_site\/img\/mango\/mango-options.png",
+		"outputAbbreviatedPath": "\/_site\/img\/mango\/mango-options.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/mango\/mango-people-sketch.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 149736,
+		"inputAbbreviatedPath": "\/_site\/img\/mango\/mango-people-sketch.png",
+		"outputAbbreviatedPath": "\/_site\/img\/mango\/mango-people-sketch.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/mango\/option-people-greeting.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 49021,
+		"inputAbbreviatedPath": "\/_site\/img\/mango\/option-people-greeting.png",
+		"outputAbbreviatedPath": "\/_site\/img\/mango\/option-people-greeting.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/mango\/option-progress-sketch.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 119740,
+		"inputAbbreviatedPath": "\/_site\/img\/mango\/option-progress-sketch.png",
+		"outputAbbreviatedPath": "\/_site\/img\/mango\/option-progress-sketch.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/mango\/option-progress-sketch2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 105086,
+		"inputAbbreviatedPath": "\/_site\/img\/mango\/option-progress-sketch2.png",
+		"outputAbbreviatedPath": "\/_site\/img\/mango\/option-progress-sketch2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/mango\/option-value-sketch1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 121846,
+		"inputAbbreviatedPath": "\/_site\/img\/mango\/option-value-sketch1.png",
+		"outputAbbreviatedPath": "\/_site\/img\/mango\/option-value-sketch1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/mango\/option-value-sketch2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 119333,
+		"inputAbbreviatedPath": "\/_site\/img\/mango\/option-value-sketch2.png",
+		"outputAbbreviatedPath": "\/_site\/img\/mango\/option-value-sketch2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/mango\/option-value.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 55578,
+		"inputAbbreviatedPath": "\/_site\/img\/mango\/option-value.png",
+		"outputAbbreviatedPath": "\/_site\/img\/mango\/option-value.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/img\/oui\/oui-final.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1497,6 +1656,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/img\/semisweet\/semisweet-thumb_old.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 106312,
+		"inputAbbreviatedPath": "\/_site\/img\/semisweet\/semisweet-thumb_old.png",
+		"outputAbbreviatedPath": "\/_site\/img\/semisweet\/semisweet-thumb_old.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/img\/semisweet\/shop-detail.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1883,6 +2053,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/looker-landing-page.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/mango-health-assignment\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/mango-health-assignment\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -2584,6 +2763,149 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/mango\/final-flat-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 43709,
+		"inputAbbreviatedPath": "\/img\/mango\/final-flat-1.png",
+		"outputAbbreviatedPath": "\/img\/mango\/final-flat-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/mango\/final-flat.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 203397,
+		"inputAbbreviatedPath": "\/img\/mango\/final-flat.png",
+		"outputAbbreviatedPath": "\/img\/mango\/final-flat.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/mango\/final-shadow-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44238,
+		"inputAbbreviatedPath": "\/img\/mango\/final-shadow-1.png",
+		"outputAbbreviatedPath": "\/img\/mango\/final-shadow-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/mango\/mango-hero.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 127598,
+		"inputAbbreviatedPath": "\/img\/mango\/mango-hero.png",
+		"outputAbbreviatedPath": "\/img\/mango\/mango-hero.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/mango\/mango-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25531,
+		"inputAbbreviatedPath": "\/img\/mango\/mango-logo.png",
+		"outputAbbreviatedPath": "\/img\/mango\/mango-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/mango\/mango-options.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 117834,
+		"inputAbbreviatedPath": "\/img\/mango\/mango-options.png",
+		"outputAbbreviatedPath": "\/img\/mango\/mango-options.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/mango\/mango-people-sketch.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 149736,
+		"inputAbbreviatedPath": "\/img\/mango\/mango-people-sketch.png",
+		"outputAbbreviatedPath": "\/img\/mango\/mango-people-sketch.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/mango\/option-people-greeting.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 49021,
+		"inputAbbreviatedPath": "\/img\/mango\/option-people-greeting.png",
+		"outputAbbreviatedPath": "\/img\/mango\/option-people-greeting.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/mango\/option-progress-sketch.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 119740,
+		"inputAbbreviatedPath": "\/img\/mango\/option-progress-sketch.png",
+		"outputAbbreviatedPath": "\/img\/mango\/option-progress-sketch.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/mango\/option-progress-sketch2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 105086,
+		"inputAbbreviatedPath": "\/img\/mango\/option-progress-sketch2.png",
+		"outputAbbreviatedPath": "\/img\/mango\/option-progress-sketch2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/mango\/option-value-sketch1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 121846,
+		"inputAbbreviatedPath": "\/img\/mango\/option-value-sketch1.png",
+		"outputAbbreviatedPath": "\/img\/mango\/option-value-sketch1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/mango\/option-value-sketch2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 119333,
+		"inputAbbreviatedPath": "\/img\/mango\/option-value-sketch2.png",
+		"outputAbbreviatedPath": "\/img\/mango\/option-value-sketch2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/mango\/option-value.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 55578,
+		"inputAbbreviatedPath": "\/img\/mango\/option-value.png",
+		"outputAbbreviatedPath": "\/img\/mango\/option-value.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/oui\/oui-final.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3009,6 +3331,17 @@
 		"initialSize": 295691,
 		"inputAbbreviatedPath": "\/img\/semisweet\/semisweet-thumb.png",
 		"outputAbbreviatedPath": "\/img\/semisweet\/semisweet-thumb.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/semisweet\/semisweet-thumb_old.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 106312,
+		"inputAbbreviatedPath": "\/img\/semisweet\/semisweet-thumb_old.png",
+		"outputAbbreviatedPath": "\/img\/semisweet\/semisweet-thumb_old.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
