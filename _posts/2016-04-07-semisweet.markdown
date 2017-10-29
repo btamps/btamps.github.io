@@ -1,5 +1,5 @@
 ---
-title:  "Semi Sweet Website"
+title:  "Semi Sweet Designs Website"
 subhead: "Blog and E-Commerce Design"
 categories: ["Branding", "Web Design", "E-Commerce"]
 thumbnail: semisweet/semisweet-thumb
@@ -9,13 +9,13 @@ body-class: semisweet
   <div class="container">
     <div class="row">
       <div class="col-sm-12">
-        <h1 class="title">Semi Sweet Website</h1>
+        <h1 class="title">Semi Sweet Designs Website</h1>
       </div>
     </div>
 
     <div class="row">
       <figure class="hero-image">
-        <img src="../img/semisweet/hero.jpg" alt="SemiSweet Website">
+        <img src="../img/semisweet/hero.jpg" alt="Semi Sweet Website">
       </figure>
     </div>
   </div>
