@@ -17,11 +17,11 @@ menu: main
           <div class="row names">
             <div class="col-md-6 first-name">
               <label for="senderFirst" class="sender-first-name">First Name</label>
-              <input type="text" class="form-control" name="first-name" id="senderFirst">
+              <input type="text" class="form-control" name="first-name" id="senderFirst" required>
             </div>
             <div class="col-md-6 last-name">
               <label for="senderLast" class="sender-last-name">Last Name</label>
-              <input type="text" class="form-control" name="last-name" id="senderLast">
+              <input type="text" class="form-control" name="last-name" id="senderLast" required>
             </div>
           </div>
         </div>
