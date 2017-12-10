@@ -6,8 +6,9 @@ menu: main
 ---
 
 <div class="container contact-wrapper">
-  <div class="row">
-    <div class="col-sm-8 col-md-offset-2">
+  <div class="row justify-content-md-center">
+    <div class="col-sm-8">
+      <img src="../img/ui/send-email.svg"/>
       <h1>Contact Me</h1>
       <h3>Fill out the form to get in touch.</h3>
       <form action="https://formspree.io/billytamplin@gmail.com"
