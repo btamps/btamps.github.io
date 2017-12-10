@@ -1,16 +1,19 @@
 // .contact styles
-.contact {
-  background: #f4f4f4;
-}
-
 .contact-wrapper {
-  padding-top: 40px;
+  padding: 40px 0;
+  img {
+    max-width: 150px;
+    margin: 0 auto 30px;
+    display: block;
+  }
   h1 {
-    margin: 0 0 .5em;
+    margin: 0 0 20px;
     font-weight: 700;
+    text-align: center;
   }
   h3 {
     font-weight: 300;
+    text-align: center;
   }
   form {
     .form-control {
@@ -24,6 +27,7 @@
 
     label {
       font-weight: 400;
+      margin-top: 5px;
     }
 
     .names {
@@ -36,7 +40,7 @@
     .sender-first-name,
     .sender-last-name {
       position: absolute;
-      bottom: -2em;
+      bottom: -2.5em;
       font-size: 10px;
     }
 
@@ -60,7 +64,7 @@
       padding: 12px 40px;
       display: block;
       font-weight: 700;
-      margin: 0 auto 20px;
+      margin: 0 auto;
       &:hover {
         background: $orange-dark;
         color: white;
@@ -72,10 +76,8 @@
 
 // Small devices (tablets, 768px and up)
 @media (min-width: 768px) {
-
-
   .contact-wrapper {
-    padding-top: 80px;
+    padding: 80px 0;
     form {
       .names {
         margin-bottom: 0;
@@ -85,7 +87,7 @@
         margin-bottom: 0;
       }
       button {
-        margin: 0 0 30px;
+        margin: 0;
       }
     }
   }
