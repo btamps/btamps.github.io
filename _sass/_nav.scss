@@ -12,13 +12,14 @@
   }
 }
 
-.nav {
+.navbar-nav {
   li {
-    a {
+    a.nav-link {
       font-family: $font-sans;
       text-transform: uppercase;
       letter-spacing: 1.5px;
       font-size: 14px;
+      color: $gray !important;
       &:hover {
         color: $orange !important;
       }
@@ -27,19 +28,14 @@
       font-size: 20px;
       display: none;
     }
-
-    &:last-child {
-      a {
-        padding-right: 0;
-      }
-    }
   }
 }
 
 .navbar-brand {
   padding: 0;
   margin-left: 0;
-  height: auto;
+  text-transform: uppercase;
+  color: $dark;
   &:hover {
     color: $orange !important;
   }
@@ -91,9 +87,8 @@
       margin-left: 0;
     }
     span {
-      font-size: 15px;
-      margin-top: 9px;
-      letter-spacing: 1.7px;
+      font-size: 18px;
+      margin-top: 7px;
     }
   }
   .nav li {
@@ -103,9 +98,6 @@
   }
   .post {
     padding-top: 74px;
-    nav {
-      height: 74px;
-    }
     .nav-up {
         top: -74px;
     }
