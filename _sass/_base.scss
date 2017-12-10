@@ -1,8 +1,9 @@
 // Colors
-$orange: #FF9100;
-$orange-dark: #FF6D00;
-$dark: #444;
-$gray: #999;
+$orange: #ff9800;
+$orange-dark: #f57c00;
+$dark: #37474f;
+$gray: #546e7a;
+$background-color: #f4f4f4;
 
 // Typography
 $font-serif: 'Merriweather', Georgia, serif;
@@ -11,6 +12,7 @@ $font-sans: 'Lato', Helvetica, Arial, sans-serif;
 body {
   font-family: $font-sans;
   color: $dark;
+  background: $background-color;
   font-size: 16px;
 }
 
@@ -33,7 +35,7 @@ a {
 }
 
 .btn {
-  @include button(#999);
+  @include button($orange);
 }
 
 // Typography
