@@ -32,8 +32,8 @@ $width-large:  992px;
 }
 
 @mixin button($color) {
-  @include rounded(4px);
-  padding: 12px 20px;
+  @include rounded(3px);
+  padding: 12px 30px;
   margin: 20px 0;
   border: 2px solid $color;
   font-size: 14px;
