@@ -5,7 +5,7 @@ body-class: contact
 ---
 
 <div class="container contact-wrapper">
-  <div class="row justify-content-md-center">
+  <div class="row justify-content-center">
     <div class="col-sm-8">
       <img src="../img/ui/thank-you.svg"/>
       <h1>Thank You</h1>

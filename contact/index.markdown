@@ -6,7 +6,7 @@ menu: main
 ---
 
 <div class="container contact-wrapper">
-  <div class="row justify-content-md-center">
+  <div class="row justify-content-center">
     <div class="col-sm-8">
       <img src="../img/ui/send-email.svg"/>
       <h1>Contact Me</h1>
