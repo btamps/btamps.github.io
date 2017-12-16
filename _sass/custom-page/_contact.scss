@@ -2,8 +2,8 @@
 .contact-wrapper {
   padding: 40px 20px 20px;
   img {
-    max-width: 150px;
-    margin: 0 auto 30px;
+    max-width: 120px;
+    margin: 0 auto 20px;
     display: block;
   }
   h1 {
@@ -89,8 +89,9 @@
 @media (min-width: 768px) {
   .contact-wrapper {
     padding: 50px 0;
-    h1 {
-      margin-bottom: 20px;
+    img {
+      max-width: 150px;
+      margin-bottom: 30px;
     }
     form {
       label {
