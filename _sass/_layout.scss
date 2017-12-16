@@ -13,6 +13,12 @@
   margin-top: 2em;
 }
 
+.three-across {
+  .row div {
+    margin-bottom: 40px;
+  }
+}
+
 // Small devices (tablets, 768px and up)
 @media (min-width: 768px) {
   .container {
@@ -27,6 +33,11 @@
   .mt-med {
     margin-top: 4em;
   }
+  .three-across {
+    .row div {
+      margin-bottom: 0;    
+    }
+  }
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -38,6 +49,6 @@
 @media (min-width: 1400px) {
   .container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1300px;
   }
 }
