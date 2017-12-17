@@ -1,23 +1,19 @@
 // .oui styles
 .oui {
-  .introduction {
-    background: #f4f4f4;
-    .hero-image {
-      img {
-        max-width: 600px;
-      }
+  .hero-image {
+    @extend %content-block;
+    background: white;
+    img {
+      max-width: 500px;
     }
   }
   .sketches, .refined, .final {
     @extend %content-block;
-    p {
-      text-align: left;
-      margin-bottom: 1em;
-    }
+    background: white;
   }
 
   .final {
-    background: #f7f7f7;
+    background: white;
     .final-logo {
       margin-bottom: 60px;
       img {
