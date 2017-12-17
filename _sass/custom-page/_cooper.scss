@@ -19,26 +19,91 @@
       }
     }
   }
+  .block-wrapper {
+
+  }
   .hero-image {
-    @include responsive(medium-screens) {
+    background: white;
+    padding: 40px;
+    margin: 0;
       img {
-        max-width: 900px;
+        margin-bottom: 0;
+      }
+    @include responsive(medium-screens) {
+      padding: 120px;
+      img {
+        max-width: 970px;
       }
     }
   }
-
   .design {
-    @extend %content-block;
-    background: #eee;
+    background: white;
+    padding: 60px;
+    h2{
+      margin-bottom: 3rem;
+    }
+    @include responsive(medium-screens) {
+      padding: 100px 40px;
+      h2{
+        margin-bottom: 5rem;
+      }
+    }
   }
   .icon-gallery {
-    @extend %content-block;
-    figure {
+    background: white;
+    padding: 60px;
+    @include responsive(medium-screens) {
+      padding: 100px 40px;
+    }
+    figure, figure img {
       margin-bottom: 0;
     }
   }
   .ui-design {
     @extend %content-block;
     background: #80CBC4;
+  }
+  .full-gallery {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    overflow: hidden;
+    img {
+      width: 48px;
+      height: 48px;
+      margin: 0 auto 10px;
+      display: block;
+    }
+    .row {
+      div {
+        padding-top: 100px !important;
+        padding-bottom: 80px !important;
+      }
+      div:nth-child(1) {
+        background: #2196F3;
+      }
+      div:nth-child(2) {
+        background: #00BCD4;
+      }
+      div:nth-child(3) {
+        background: #4CAF50;
+      }
+      div:nth-child(4) {
+        background: #FFC107;
+      }
+      div:nth-child(5) {
+        background: #FF5722;
+      }
+      div:nth-child(6) {
+        background: #673AB7;
+      }
+      p {
+        color: white;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: bold;
+        font-size: 12px;
+      }
+    }
   }
 }
