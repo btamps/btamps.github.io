@@ -7,6 +7,9 @@
   padding-right: 0;
 }
 
+section {
+  margin-bottom: 40px;
+}
 
 // Margin Helper Classes
 .mt-med {
@@ -25,6 +28,9 @@
     padding-left: 0;
     padding-right: 0;
   }
+  section {
+    margin-bottom: 60px;
+  }
   .main-content {
     h2, p {
       text-align: left;
@@ -35,7 +41,7 @@
   }
   .three-across {
     .row div {
-      margin-bottom: 0;    
+      margin-bottom: 0;
     }
   }
 }

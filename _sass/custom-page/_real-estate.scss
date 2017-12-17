@@ -1,8 +1,5 @@
 // .real-estate styles
 .real-estate {
-  section {
-    margin-bottom: 40px;
-  }
   figure, img {
     margin: 0;
   }
@@ -33,10 +30,6 @@
 // Small devices (tablets, 768px and up)
 @media (min-width: 768px) {
   .real-estate {
-    section {
-      margin-bottom: 60px;
-    }
-
     .text-box {
       padding: 100px 80px;
       p {
