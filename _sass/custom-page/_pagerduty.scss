@@ -1,0 +1,16 @@
+// .oui styles
+.pagerduty {
+  .icon-group {
+    @extend %content-block;
+    background: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    img {
+      max-width: 960px;
+      margin-bottom: 0;
+    }
+  }
+  .chaos {
+    background: white;
+  }
+}
