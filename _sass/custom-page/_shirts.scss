@@ -1,13 +1,18 @@
 // .shirts styles
 .shirts {
-  background: #f4f4f4;
-  .work {
-    margin-top: 0;
-    figure:last-child {
+  .designs {
+    figure {
+      margin-bottom: 40px;
+      @include responsive(medium-screens) {
+        margin-bottom: 60px;
+      }
+      img {
+        margin-bottom: 0;
+      }
+    }
+
+    & > .row:last-child figure {
       margin-bottom: 0;
     }
-  }
-  figure {
-    box-shadow: 0 2px 6px hsla(0, 0%, 0%, .2);
   }
 }
