@@ -9,11 +9,11 @@ body-class: real-estate
   <div class="row">
     <div class="col-md-3 title">
       <h4>Project</h4>
-      <h1>Home Buying Process</h1>
+      <h1>Real Estate Process Illustrations</h1>
     </div>
     <div class="col-md-6 overview">
       <h4>Overview</h4>
-      <p>Elenna Tamplin is a real estate agent in the Tampa Bay Area. To help current and potential clients, Elenna needed a better way to communicate each step of the home buying and selling process. The goal was to create a visually informative guide that made the real estate process easier to understand and align expectations for all parties.</p>
+      <p>Elenna Tamplin is a real estate agent in the Tampa, Florida. To help current and potential clients, Elenna needed a better way to communicate each step of the home buying and selling process. The goal was to create a visually informative guide that made the real estate process easier to understand and align expectations for all parties.</p>
     </div>
     <div class="col-md-2 offset-md-1 role">
       <h4>Role</h4>
