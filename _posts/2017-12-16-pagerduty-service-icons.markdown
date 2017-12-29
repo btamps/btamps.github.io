@@ -40,6 +40,15 @@ body-class: pagerduty
 </section>
 
 <section class="container">
+  <div class="row">
+    <div class="col-md-8 offset-md-2">
+      <h3>Messy Chaos</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+  </div>
+</section>
+
+<section class="container">
   <div class="col">
     <div class="row chaos">
       <figure class="col">
@@ -48,10 +57,11 @@ body-class: pagerduty
     </div>
   </div>
 </section>
+
 <section class="container">
   <div class="row">
     <div class="col-md-8 offset-md-2">
-      <h3>Organized Chaos</h3>
+      <h3>Organized All Alerts</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
   </div>
