@@ -28,27 +28,27 @@ body-class: looker
 </div>
 
 <section class="container">
-  <div class="row icons">
-    <figure class="col-6">
-      <img src="../img/workplace-perks/perks-bank.png" alt="Workplace Perk Icons">
+  <div class="row justify-content-center">
+    <figure class="col-12 col-md-4">
+      <img src="../img/looker-value-posters/poster-size/looker-title.png" alt="Looker Value Posters">
     </figure>
-    <figure class="col-6">
-      <img src="../img/workplace-perks/perks-lunch.png" alt="Workplace Perk Icons">
+    <figure class="col-12 col-md-4">
+      <img src="../img/looker-value-posters/poster-size/do.png" alt="Looker Value Posters">
     </figure>
-    <figure class="col-6">
-      <img src="../img/workplace-perks/perks-laptop.png" alt="Workplace Perk Icons">
+    <figure class="col-12 col-md-4">
+      <img src="../img/looker-value-posters/poster-size/check-your-ego.png" alt="Looker Value Posters">
     </figure>
-    <figure class="col-6">
-      <img src="../img/workplace-perks/perks-gym.png" alt="Workplace Perk Icons">
+    <figure class="col-12 col-md-4">
+      <img src="../img/looker-value-posters/poster-size/time-to-shred.png" alt="Looker Value Posters">
     </figure>
-    <figure class="col-6">
-      <img src="../img/workplace-perks/perks-bus.png" alt="Workplace Perk Icons">
+    <figure class="col-12 col-md-4">
+      <img src="../img/looker-value-posters/poster-size/misfit-toys.png" alt="Looker Value Posters">
     </figure>
-    <figure class="col-6">
-      <img src="../img/workplace-perks/perks-insurance.png" alt="Workplace Perk Icons">
+    <figure class="col-12 col-md-4">
+      <img src="../img/looker-value-posters/poster-size/love-looker-love.png" alt="Looker Value Posters">
     </figure>
-    <figure class="col-6">
-      <img src="../img/workplace-perks/perks-vacation.png" alt="Workplace Perk Icons">
+    <figure class="col-12 col-md-6 align-self-center">
+      <img src="../img/looker-value-posters/poster-size/kitchen-table.png" alt="Looker Value Posters">
     </figure>
   </div>
 </section>
