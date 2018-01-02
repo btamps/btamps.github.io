@@ -1,36 +1,21 @@
 // .baking-pins styles
 .baking-pins {
-  .introduction {
-    background: #f4f4f4;
-    h4 {
-      color: #999;
-    }
-    a {
-      border-color: #999;
-      &:hover {
-        color: #999;
-      }
-    }
-    .hero-image {
-      margin-top: 20px;
-      @include responsive(medium-screens) {
-        margin-top: 40px;  
-      }
-    }
-    .btn {
-      border: 2px solid #999;
-      color: #999;
-      &:hover {
-        background-color: #999;
-        color: white;
-      }
-    }
-  }
+
   .sketching, .refined, .photos, .final {
     @extend %content-block;
+    margin-bottom: 0;
   }
   .sketching {
     background: #ddd;
+  }
+  .sketches {
+    margin-top: 60px;
+    figure {
+      margin-bottom: 20px;
+    }
+  }
+  .tween-text {
+    margin-bottom: 60px;
   }
   .final {
     background: #eee;
@@ -39,6 +24,8 @@
     }
   }
   .photos {
-    padding-bottom: 0;
+    figure {
+      margin-bottom: 40px;
+    }
   }
 }
