@@ -1,6 +1,68 @@
 // .oui styles
 .hackster {
+  h2 {
+    text-align: center;
+    font-family: $font-sans;
+  }
+  .people, .icons, .drone, .services {
+    h2 {
+      margin-bottom: 40px;
+      @include responsive(medium-screens) {
+        margin-bottom: 60px;
+      }
+    }
+  }
+  .people {
+    background-image: -owg-linear-gradient(180deg, #f4f4f4 91.3%, #fff 0%);
+    background-image: -webkit-linear-gradient(180deg, #f4f4f4 91.3%, #fff 0%);
+    background-image: -moz-linear-gradient(180deg, #f4f4f4 91.3%, #fff 0%);
+    background-image: -o-linear-gradient(180deg, #f4f4f4 91.3%, #fff 0%);
+    background-image: linear-gradient(180deg, #f4f4f4 91.3%, #fff 0%);
+    margin-bottom: 0;
+    figure {
+      max-width: 1100px;
+      margin: 0 auto;
+      img {
+        margin: 0;
+      }
+    }
+  }
+  .world {
+    background-image: -owg-linear-gradient(180deg, #fff 61%, #f4f4f4 0%);
+    background-image: -webkit-linear-gradient(180deg, #fff 61%, #f4f4f4 0%);
+    background-image: -moz-linear-gradient(180deg, #fff 61%, #f4f4f4 0%);
+    background-image: -o-linear-gradient(180deg, #fff 61%, #f4f4f4 0%);
+    background-image: linear-gradient(180deg, #fff 61%, #f4f4f4 0%);
+    padding-top: 60px;
+    @include responsive(medium-screens) {
+      background-image: -owg-linear-gradient(180deg, #fff 55.7%, #f4f4f4 0%);
+      background-image: -webkit-linear-gradient(180deg, #fff 55.7%, #f4f4f4 0%);
+      background-image: -moz-linear-gradient(180deg, #fff 55.7%, #f4f4f4 0%);
+      background-image: -o-linear-gradient(180deg, #fff 55.7%, #f4f4f4 0%);
+      background-image: linear-gradient(180deg, #fff 55.7%, #f4f4f4 0%);
+      padding-top: 100px;
+    }
+    figure {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+  }
+  .drone {
+    background: white;
+    padding: 60px 0;
+    @include responsive(medium-screens) {
+      padding: 100px 0;
+    }
+  }
   .icons {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    @include responsive(medium-screens) {
+      margin-top: 100px;
+      margin-bottom: 100px;
+    }
+  }
+  .services {
     figure {
       margin-bottom: 20px;
     }

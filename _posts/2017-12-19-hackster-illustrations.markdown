@@ -28,34 +28,66 @@ body-class: hackster
   </div>
 </div>
 
+<section class="container-fluid people">
+  <div class="container">
+    <div class="row">
+      <figure class="col-12">
+        <img src="../img/hackster/people.png" alt="Hackster Illustrations">
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="container-fluid world">
+  <div class="container">
+    <h2>Hackster Connects the Hardware Community</h2>
+    <div class="row">
+      <figure class="col-12">
+        <img src="../img/hackster/world-hero.png" alt="Hackster Illustrations">
+      </figure>
+    </div>
+  </div>
+</section>
+
 <section class="container">
-  <div class="row icons">
-    <figure class="col-6 col-md-4">
-      <img src="../img/workplace-perks/perks-bank.png" alt="Workplace Perk Icons">
+  <div class="row">
+    <figure class="col drone">
+      <img src="../img/hackster/drone-work.png" alt="Hackster Illustrations">
     </figure>
-    <figure class="col-6 col-md-4">
-      <img src="../img/workplace-perks/perks-lunch.png" alt="Workplace Perk Icons">
+  </div>
+</section>
+
+<section class="container icons">
+  <h2>Topic Icons</h2>
+  <div class="row justify-content-center">
+    <figure class="col-md-9">
+      <img src="../img/hackster/hackster-about-icons.png" alt="Hackster Illustrations">
     </figure>
-    <figure class="col-6 col-md-4">
-      <img src="../img/workplace-perks/perks-laptop.png" alt="Workplace Perk Icons">
-    </figure>
-    <figure class="col-6 col-md-4">
-      <img src="../img/workplace-perks/perks-gym.png" alt="Workplace Perk Icons">
-    </figure>
-    <figure class="col-6 col-md-4">
-      <img src="../img/workplace-perks/perks-bus.png" alt="Workplace Perk Icons">
-    </figure>
-    <figure class="col-6 col-md-4">
-      <img src="../img/workplace-perks/perks-insurance.png" alt="Workplace Perk Icons">
-    </figure>
-    <figure class="col-6 col-md-4">
-      <img src="../img/workplace-perks/perks-vacation.png" alt="Workplace Perk Icons">
-    </figure>
-    <figure class="col-6 col-md-4">
-      <img src="../img/workplace-perks/perks-dog.png" alt="Workplace Perk Icons">
-    </figure>
-    <figure class="col-6 col-md-4">
-      <img src="../img/workplace-perks/perks-stocks.png" alt="Workplace Perk Icons">
-    </figure>
+  </div>
+</section>
+
+<section class="container services">
+  <div class="container">
+    <h2>Service Illustrations</h2>
+    <div class="row">
+      <figure class="col-md-4">
+        <img src="../img/hackster/social-media.png" alt="Hackster Illustrations">
+      </figure>
+      <figure class="col-md-4">
+        <img src="../img/hackster/platform-computer.png" alt="Hackster Illustrations">
+      </figure>
+      <figure class="col-md-4">
+        <img src="../img/hackster/rocket.png" alt="Hackster Illustrations">
+      </figure>
+      <figure class="col-md-4">
+        <img src="../img/hackster/planning.png" alt="Hackster Illustrations">
+      </figure>
+      <figure class="col-md-4">
+        <img src="../img/hackster/contests.png" alt="Hackster Illustrations">
+      </figure>
+      <figure class="col-md-4">
+        <img src="../img/hackster/analytics.png" alt="Hackster Illustrations">
+      </figure>
+    </div>
   </div>
 </section>
