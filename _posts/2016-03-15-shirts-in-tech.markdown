@@ -31,32 +31,22 @@ body-class: shirts
 <section class="container designs">
   <div class="row">
     <figure class="col">
-      <img src="../img/shirts/shirt-devops.jpg" alt="Develops Everyday Shirt">
+      <img src="../img/shirts/learn-build-scale_shirt.jpg" alt="Learn Build Scale Shirt">
     </figure>
   </div>
   <div class="row">
     <figure class="col">
-      <img src="../img/shirts/shirt-build.jpg" alt="Let's Build Shirt">
+      <img src="../img/shirts/devops_shirt.jpg" alt="Develops Everyday Shirt">
     </figure>
   </div>
   <div class="row">
     <figure class="col">
-      <img src="../img/shirts/shirt-camp.jpg" alt="">
+      <img src="../img/shirts/build_shirt.jpg" alt="Let’s Build Shirt">
     </figure>
   </div>
   <div class="row">
     <figure class="col">
-      <img src="../img/shirts/shirt-join-iso.jpg" alt="">
-    </figure>
-  </div>
-  <div class="row">
-    <figure class="col">
-      <img src="../img/shirts/shirt-join-pattern.png" alt="">
-    </figure>
-  </div>
-  <div class="row">
-    <figure class="col">
-      <img src="../img/shirts/shirt-iso-2.png" alt="">
+      <img src="../img/shirts/shirt-join-pattern.png" alt="Join.Data Shirt">
     </figure>
   </div>
 </section>
