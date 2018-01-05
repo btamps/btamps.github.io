@@ -1,14 +1,13 @@
 // .illustrations styles
 .illustrations {
-  background: #f4f4f4;
   .work {
     margin-top: 0;
     .row:last-child figure:last-child {
       margin-bottom: 0;
     }
   }
-  figure img {
-    box-shadow: 0 2px 6px hsla(0, 0%, 0%, .2);
+  figure {
+    margin-bottom: 20px;
   }
 }
 
