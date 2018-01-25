@@ -11,7 +11,7 @@ body-class: looker
     </div>
     <div class="col-md-6 overview">
       <h4>Overview</h4>
-      <p>Looker lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      <p>Looker hired me to illustrate each of their core values as posters to hang around their Santa Cruz HQ office. Hand-drawn illustration—in combination with their brand palette—was used to give more of an organic, human characteristic, relating back to the people they're building products for.</p>
     </div>
     <div class="col-md-2 offset-md-1 role">
       <h4>Role</h4>

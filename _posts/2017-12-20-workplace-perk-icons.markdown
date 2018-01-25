@@ -11,7 +11,7 @@ body-class: perk-icons
     </div>
     <div class="col-md-6 overview">
       <h4>Overview</h4>
-      <p>PagerDuty is a technology company that helps IT organizations automate software alerts into fast actionable solutions. I worked on creating iconography and illustrations to show how their services organize messy alerts from the internet.</p>
+      <p>This set of icons was created to showcase the different company benefits. These icons were made to be used for the client’s company careers landing page.</p>
     </div>
     <div class="col-md-2 offset-md-1 role">
       <h4>Role</h4>

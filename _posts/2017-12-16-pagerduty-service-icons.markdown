@@ -42,8 +42,9 @@ body-class: pagerduty
 <section class="container">
   <div class="row">
     <div class="col-md-8 offset-md-2">
-      <h3>Messy Chaos</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <h3>Chaotic Mess</h3>
+      <p>PagerDuty needed a visual representation of “before” and “after” signing up for their services. These illustrations would be used in a pitch deck where the sales team would introduce the product to potential clients.</p>
+      <p>The image below, illustrates how big online companies use different third-party services for their businesses to fully operate. And if any of those services go offline, it can often times be messy to find and contact the right person to resolve the problem.</p>
     </div>
   </div>
 </section>
@@ -62,7 +63,7 @@ body-class: pagerduty
   <div class="row">
     <div class="col-md-8 offset-md-2">
       <h3>Organized All Alerts</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p>Alerts are all organized as they pass through PagerDuty’s platform. Then instantly, the correct teams gets alerted and the scheduled person on “duty” will get notified to resolve the problem.</p>
     </div>
   </div>
 </section>

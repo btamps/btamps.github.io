@@ -12,7 +12,7 @@ body-class: shirts
     </div>
     <div class="col-md-6 overview">
       <h4>Overview</h4>
-      <p>This is a collection of screen-printed marketing t-shirts I designed for SaaS companies, <a href="https://www.pagerduty.com/" target="_blank">PagerDuty</a> and <a href="https://www.looker.com/" target="_blank">Looker</a>. These shirts were created for purposes ranging from marketing campaigns to conference swag.</p>
+      <p>This is a collection of marketing t-shirts I designed for technology companies, <a href="https://hackster.io/" target="_blank">Hackster</a>, <a href="https://www.pagerduty.com/" target="_blank">PagerDuty</a> and <a href="https://www.looker.com/" target="_blank">Looker</a>. These shirts were created for purposes ranging from marketing campaigns to conference swag.</p>
     </div>
     <div class="col-md-2 offset-md-1 role">
       <h4>Role</h4>

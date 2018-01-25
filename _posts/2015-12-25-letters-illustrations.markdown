@@ -11,7 +11,7 @@ body-class: illustrations
     </div>
     <div class="col-md-6 overview">
       <h4>Overview</h4>
-      <p>A miscellaneous collection of my other lettering and illustration projects.</p>
+      <p>A collection of illustration and lettering projects that I worked on for clients or myself throughout the years.</p>
     </div>
     <div class="col-md-2 offset-md-1 role">
       <h4>Role</h4>
