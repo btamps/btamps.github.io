@@ -11,7 +11,7 @@ body-class: semisweet
     </div>
     <div class="col-md-6 overview">
       <h4>Overview</h4>
-      <p><a href="https://www.semisweetdesigns.com" target="_blank">Semi Sweet</a> is a website that showcases unique cookie cutters for purchase, paired with step-by-step cookie decorating tutorials. My role was to create brand illustrations for shop and email communications from different stages of Semi Sweet’s sales funnel.</p>
+      <p><a href="https://www.semisweetdesigns.com" target="_blank">Semi Sweet</a> is a website that showcases unique cookie cutters for purchase, paired with step-by-step cookie decorating tutorials. My role was to create brand illustrations to draw attention and add emphasis to key areas of communications, such as current processing times and where to sign up for the newsletter.</p>
     </div>
     <div class="col-md-2 offset-md-1 role">
       <h4>Role</h4>
@@ -44,30 +44,23 @@ body-class: semisweet
   </div>
 
   <div class="row work">
-    <div class="col-md-6">
+    <div class="col-md-4">
       <figure>
         <img src="../img/semisweet/processing-shipment.png" alt="Semi Sweet Designs Processing">
       </figure>
     </div>
-    <div class="col-md-6">
-      <figure>
-        <img src="../img/semisweet/now-shipping.png" alt="Semi Sweet Designs Shipping">
-      </figure>
-    </div>
-  </div>
-
-  <div class="row work">
-    <div class="col-md-6">
+    <div class="col-md-4">
       <figure>
         <img src="../img/semisweet/mix-it-up.png" alt="Semi Sweet Designs">
       </figure>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-4">
       <figure>
         <img src="../img/semisweet/stamp.png" alt="Semi Sweet Designs">
       </figure>
     </div>
   </div>
+
 </section>
 
 <section class="container-fluid post-closing">
