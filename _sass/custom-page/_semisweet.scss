@@ -1,119 +1,27 @@
 // .semisweet styles
 .semisweet {
-  .introduction {
-    background: #f6f2f1;
-    h4 {
-      color: #a1887f;
-    }
-    a {
-      border-color: #a1887f;
-      &:hover {
-        color: #a1887f;
+  background-color: #f9f9f9;
+
+  .work {
+    figure {
+      margin-bottom: 40px;
+      @include responsive(medium-screens) {
+        margin-bottom: 60px;
       }
     }
   }
-  .hero-image {
-    max-width: 100%;
-    margin: 0 auto -60px;
-    @include responsive(medium-screens) {
-      margin: -20px auto -60px;
-    }
-    img {
-      margin-bottom: 0;
-    }
-  }
-  .project-details {
+
+  figure.wordmark {
+    background: #e0f5ff;
     padding-top: 60px;
     padding-bottom: 60px;
     @include responsive(medium-screens) {
-      padding-top: 80px;
-      padding-bottom: 60px;
+      padding-top: 100px;
+      padding-bottom: 100px;
     }
-    background: #eeeae8;
-    h4 {
-      color: #a1887f;
-    }
-    a {
-      border-color: #a1887f;
-      &:hover {
-        color: #a1887f;
-      }
-    }
-    ul {
-      list-style: none;
-      margin: 0 0 30px 0;
-      padding-left: 0;
-      li {
-        line-height: 1.6;
-      }
-    }
-  }
-  .design-system,.logo, .blog, .shop {
-    @extend %content-block;
-    p {
-      text-align: left;
-    }
-    a {
-      border-color: #ff5352;
-      &:hover {
-        color: #ff5352;
-      }
-    }
-  }
-  .design-system {
-    p {
-      margin-bottom: 1em;
-    }
-  }
-  .logo {
-    background: #AFD6E5;
-    figure.wordmark {
-      img {
-        max-width: 800px;
-      }
-    }
-
-    figure.brandmark {
-      margin-bottom: 0;
-      img {
-        max-width: 100px;
-        @include responsive(medium-screens) {
-          max-width: 180px;
-        }
-      }
-    }
-  }
-  .blog {
-    background: #eeeae8;
-    figure, figure img {
+    img {
+      max-width: 75%;
       margin-bottom: 0;
     }
-    padding-bottom: 0;
   }
-  .shop {
-    background: #D7CCC8;
-    h4 {
-      margin-bottom: 20px;
-      padding-left: 5px;
-    }
-    figure, figure img {
-    }
-  }
-}
-
-
-// Small devices (tablets, 768px and up)
-@media (min-width: 768px) {
-
-
-}
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-
-}
-
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-
 }
