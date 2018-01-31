@@ -1,4 +1,13 @@
 .about {
+  a.link {
+    border-bottom: 1px solid $orange;
+    &:hover {
+      border: none;
+    }
+  }
+  .photo {
+    border-radius: 200%;
+  }
   .block {
     margin-bottom: 60px;
   }
