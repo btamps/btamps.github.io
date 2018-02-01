@@ -34,6 +34,7 @@ menu: main
         <li>Concept and Strategy</li>
         <li>Team Management</li>
       </ul>
+      <a href="/about/billy-tamplin_resume.pdf" class="btn resume">Download Resume</a>
     </div>
   </div>
 </div>
