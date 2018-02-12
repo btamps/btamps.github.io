@@ -11,7 +11,7 @@ body-class: hackster
     </div>
     <div class="col-md-6 overview">
       <h4>Overview</h4>
-      <p>Hackster helps people around the world learn how to design, create and program Internet-connected hardware. I created illustrations for their About Us page to showcase the benefits of using their platform and joining the hardware community.</p>
+      <p>Hackster helps people around the world learn how to design, create and program Internet-connected hardware. I created illustrations for their <a href="https://www.hackster.io/about">About Us page</a> to showcase the benefits of using their platform and joining the hardware community.</p>
     </div>
     <div class="col-md-2 offset-md-1 role">
       <h4>Role</h4>
