@@ -41,7 +41,7 @@ exclude_from_nav: true
         <h4>Who is the target audience?</h4>
         <ul>
           <li>College Students</li>
-          <li>People who are already subscribers and like binge watching new shows</li>
+          <li>People who are already subscribers and enjoys binge watching new shows</li>
           <li>Fans of pop-culture</li>
         </ul>
 
@@ -191,7 +191,7 @@ exclude_from_nav: true
     <div class="row">
       <div class="col-sm-8 offset-sm-2">
         <h2>Netflix Brand Palette and Ratios</h2>
-        <p>Before implementing my design in Illustrator, I checked online with <a href="https://brand.netflix.com/en/assets/brand-color/">Netflix’s style guidelines</a> to make sure I worked within the brand. Below you can see the primary and secondary color palettes. I plan to follow these palette ratios when arranging the final colors.</p>
+        <p>Before implementing my design in Illustrator, I checked online with <a href="https://brand.netflix.com/en/assets/brand-color/">Netflix’s style guidelines</a> to make sure I worked within the brand. Below you can see their primary and secondary color palettes. I plan to follow these palette ratios when arranging the final colors.</p>
         <h4>Primary Palette</h4>
         <figure>
           <img src="../img/netflix/primary-palette.png" alt="Netflix Styles">
