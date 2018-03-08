@@ -191,7 +191,7 @@ exclude_from_nav: true
     <div class="row">
       <div class="col-sm-8 offset-sm-2">
         <h2>Netflix Brand Palette and Ratios</h2>
-        <p>Before implementing my design in Illustrator, I checked online with <a href="https://brand.netflix.com/en/assets/brand-color/">Netflix’s style guide</a> to make sure I worked within the brand guidelines. Below you can see their primary and secondary color palettes. I plan to follow these palette ratios when arranging the final colors.</p>
+        <p>Before implementing my design in Illustrator, I checked online with <a href="https://brand.netflix.com/en/assets/brand-color/">Netflix’s style guide</a> to make sure I worked within the brand guidelines. Below you can see their primary and secondary color palettes. I plan to follow these color ratios when arranging my final colors.</p>
         <h4>Primary Palette</h4>
         <figure>
           <img src="../img/netflix/primary-palette.png" alt="Netflix Styles">
