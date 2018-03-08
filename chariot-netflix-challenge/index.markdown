@@ -188,17 +188,19 @@ exclude_from_nav: true
 </section>
 <section class="container-fluid style-guide">
   <div class="container">
-    <div class="col-sm-8 offset-sm-2">
-      <h2>Netflix Brand Palette and Ratios</h2>
-      <p>Before implementing my design in Illustrator, I checked online with <a href="https://brand.netflix.com/en/assets/brand-color/">Netflix’s style guidelines</a> to make sure I worked within the brand. Below you can see the primary and secondary color palettes. I plan to follow these palette ratios when arranging the final colors.</p>
-      <h4>Primary Palette</h4>
-      <figure>
-        <img src="../img/netflix/primary-palette.png" alt="Netflix Styles">
-      </figure>
-      <h4>Secondary Palette</h4>
-      <figure>
-        <img src="../img/netflix/secondary-palette.png" alt="Netflix Styles">
-      </figure>
+    <div class="row">
+      <div class="col-sm-8 offset-sm-2">
+        <h2>Netflix Brand Palette and Ratios</h2>
+        <p>Before implementing my design in Illustrator, I checked online with <a href="https://brand.netflix.com/en/assets/brand-color/">Netflix’s style guidelines</a> to make sure I worked within the brand. Below you can see the primary and secondary color palettes. I plan to follow these palette ratios when arranging the final colors.</p>
+        <h4>Primary Palette</h4>
+        <figure>
+          <img src="../img/netflix/primary-palette.png" alt="Netflix Styles">
+        </figure>
+        <h4>Secondary Palette</h4>
+        <figure>
+          <img src="../img/netflix/secondary-palette.png" alt="Netflix Styles">
+        </figure>
+      </div>
     </div>
   </div>
 </section>
