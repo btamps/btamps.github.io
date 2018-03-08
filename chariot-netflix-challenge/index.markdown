@@ -204,23 +204,28 @@ exclude_from_nav: true
 </section>
 <section class="container-fluid option deliverables">
   <div class="container">
-    <div class="col-sm-8 offset-sm-2">
-      <h2>Deliverables</h2>
-      <p>Below are mockups of the finished ads for the campaign. Even though I’d like to create more iconic car options, I only had time to work on a Batmobile version.</p>
-      <h3>Instagram Ad</h3>
-      <figure class="col-12">
-        <img src="../img/netflix/instagram.png" alt="Netflix Ads" style="max-width: 500px;">
-      </figure>
-      <h3>Interstitial Ad</h3>
-      <figure class="col-12">
-        <img src="../img/netflix/interstitial.png" alt="Netflix Ads" style="max-width: 500px;">
-      </figure>
+    <div class="row">
+      <div class="col-sm-8 offset-sm-2">
+        <h2>Deliverables</h2>
+        <p>Below are mockups of the finished ads for the campaign. Even though I’d like to create more iconic car options, I only had time to work on a Batmobile version.</p>
+        <h3>Instagram Ad</h3>
+        <figure class="col-12">
+          <img src="../img/netflix/instagram.png" alt="Netflix Ads" style="max-width: 500px;">
+        </figure>
+        <h3>Interstitial Ad</h3>
+        <figure class="col-12">
+          <img src="../img/netflix/interstitial.png" alt="Netflix Ads" style="max-width: 500px;">
+        </figure>
+      </div>
     </div>
-    <div class="col-12">
-      <h3>Billboard</h3>
-      <figure class="col-12">
-        <img src="../img/netflix/billboard.jpg" alt="Netflix Ads">
-      </figure>
+
+    <div class="row">
+      <div class="col-12">
+        <h3>Billboard</h3>
+        <figure class="col-12">
+          <img src="../img/netflix/billboard.jpg" alt="Netflix Ads">
+        </figure>
+      </div>
     </div>
   </div>
 </section>
