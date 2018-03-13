@@ -86,7 +86,7 @@ exclude_from_nav: true
               <ul>
                 <li>Maybe too literal, or not exciting enough</li>
                 <li>Relies too much on Netflix’s logo to convey “entertainment”</li>
-                <li>Might make people question, <i>“Wait, what does Netflix have to do with pizza?”</i> (but curiousity might be a good thing)</li>
+                <li>Might make people question, <i>“Wait, what does Netflix have to do with pizza?”</i> (but curiosity might be a good thing)</li>
               </ul>
             </div>
           </div>
