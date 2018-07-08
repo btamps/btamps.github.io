@@ -11,7 +11,7 @@ body-class: chariot-riders
     </div>
     <div class="col-md-6 overview">
       <h4>Overview</h4>
-      <p>I created this infographic for Chariot to share with customers and the general public. This infographic shows the results of a user survey of riders about their experience with Chariot and the reasons they ride. </p>
+      <p>I created this infographic for Chariot. Users of their service were surveyed of about their experience with Chariot and the reasons they ride. My role was to organize and illustrate the results of the survey into an infographic that can be shared with customers and the general public.</p>
     </div>
     <div class="col-md-2 offset-md-1 role">
       <h4>Role</h4>
