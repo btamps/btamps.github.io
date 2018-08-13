@@ -1,0 +1,48 @@
+// .highfive styles
+.highfive {
+  figure {
+    img {
+      margin: 0;
+    }
+  }
+  .home,
+  .pricing,
+  .guaranteed,
+  .icon-page  {
+    padding-top: 40px;
+    @include responsive(medium-screens) {
+      padding-top: 100px;
+    }
+    margin-bottom: 0;
+  }
+  .fast-company,
+  .guaranteed{
+    padding: 40px 0;
+    @include responsive(medium-screens) {
+      padding: 100px 0;
+    }
+    margin-bottom: 0;
+    background-image: linear-gradient(0deg, #EFF5FD 0%, #D3D3F3 100%);
+  }
+  .home,
+  .pricing,
+  .icon-page  {
+    background-image: linear-gradient(0deg, #A26EEA 0%, #AC99F9 100%);
+  }
+
+  .guaranteed {
+    padding-bottom: 0;
+  }
+  .icons {
+    padding-top: 40px;
+    @include responsive(medium-screens) {
+      padding-top: 100px;
+    }
+  }
+  .icon-page {
+    margin-bottom: 40px;
+    @include responsive(medium-screens) {
+      padding-top: 60px;
+    }
+  }
+}
