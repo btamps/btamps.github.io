@@ -11,7 +11,7 @@ body-class: highfive
     </div>
     <div class="col-md-6 overview">
       <h4>Overview</h4>
-      <p>I worked with <a href="highfive.com">Highfive</a> to design new brand illustrations for their website re-brand. This project gave me the opportunity to create a collection of hero illustrations centered around collaboration and a matching icon set.</p>
+      <p>I worked with <a href="https://highfive.com">Highfive</a> to design new brand illustrations for their website re-brand. This project gave me the opportunity to create a collection of hero illustrations centered around collaboration and a matching icon set.</p>
     </div>
     <div class="col-md-2 offset-md-1 role">
       <h4>Role</h4>
