@@ -101,17 +101,6 @@ client: "Looker"
       <figure class="col-xs-12">
         <img src="../img/looker-lp/bottom-form.png" alt="Bottom forms for desktop and mobile">
       </figure>
-      <div class="col-sm-8 description center">
-        <h2>The Result</h2>
-        <p>The result featured a fully responsive experience and an increase in the number of mobile sign-ups.</p>
-      </div>
     </div>
-  </div>
-</section>
-
-<section class="container-fluid post-closing">
-  <div class="container">
-    <h2>All Done!</h2>
-    <p>Thanks for reading. You can see some additional work on my <a href="https://dribbble.com/billy" target="_blank">Dribbble page</a>, or you can browse through more projects below.</p>
   </div>
 </section>
