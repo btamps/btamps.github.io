@@ -98,6 +98,7 @@ header {
     @include transition(all,1s, cubic-bezier(0.19, 1, 0.22, 1));
     h2 {
       font-size: 24px;
+      font-family: $font-serif;
     }
     p {
       font-size: 13px;
