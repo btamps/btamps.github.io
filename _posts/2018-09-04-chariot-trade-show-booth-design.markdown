@@ -11,7 +11,7 @@ body-class: chariot-booth
     </div>
     <div class="col-md-6 overview">
       <h4>Overview</h4>
-      <p>Chariot is a transportation company that provides commuting services around the world. I was tasked to create their first booth for an upcoming transportation conference. The goal was to design the booth’s background with illustrations giving insight into Chariot's product and services.</p>
+      <p>Chariot is a transportation company that provides commuting services around the world. I was tasked to design their first trade show booth for an upcoming transportation conference. The goal was to design the booth’s wall panels with illustrations giving insight into Chariot's product and services.</p>
     </div>
     <div class="col-md-2 offset-md-1 role">
       <h4>Role</h4>
