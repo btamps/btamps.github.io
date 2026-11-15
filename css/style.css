@@ -86,8 +86,16 @@ h1,h2,h3,p{margin:0}
 .card-details{display:flex;flex-direction:column;gap:10px;padding:15px}
 .card-title{display:flex;align-items:center;justify-content:space-between;gap:12px}
 .card h3{font-weight:800;font-size:48px;line-height:1.05}
-.thumb{width:50px;height:50px;flex:none;transition:transform .25s}
-.card:hover .thumb{transform:rotate(45deg)}
+.thumb-btn{--bg:#fff;--fg:#000;display:inline-flex;align-items:center;flex:none;height:50px;border-radius:25px;background:var(--bg);color:var(--fg);overflow:hidden}
+.thumb-label{font-family:var(--serif);font-weight:700;font-size:16px;letter-spacing:-.4px;white-space:nowrap;max-width:0;opacity:0;padding-left:0;transition:max-width .35s cubic-bezier(.2,.8,.2,1),opacity .25s,padding .35s cubic-bezier(.2,.8,.2,1)}
+.thumb-btn svg{flex:none;transition:transform .35s cubic-bezier(.2,.8,.2,1)}
+.card:hover .thumb-label,.card:focus-visible .thumb-label{max-width:90px;opacity:1;padding-left:18px}
+.card:hover .thumb-btn svg,.card:focus-visible .thumb-btn svg{transform:rotate(45deg)}
+.card-highfive .thumb-btn{--bg:#FAE28D;--fg:#504AFD}
+.card-meraki .thumb-btn{--bg:#0F2F1E;--fg:#CEE8B8}
+.card-semisweet .thumb-btn{--bg:#F65F59;--fg:#F8F2E9}
+.card-chariot .thumb-btn{--bg:#01ADBD;--fg:#fff}
+.card-cooper .thumb-btn{--bg:#fff;--fg:#009284}
 .card p{font-weight:500;font-size:18px;line-height:1.5;max-width:600px}
 .tags{display:flex;flex-wrap:wrap;gap:10px}
 .tags li{border:1px solid #e1e6e1;border-radius:999px;padding:8px 10px;font-weight:600;font-size:13px;line-height:1.2;white-space:nowrap}
@@ -183,7 +191,10 @@ h1,h2,h3,p{margin:0}
   .card-details{padding:0}
   .card h3{font-size:32px}
   .card-title h3{flex:1;min-width:0}
-  .thumb{width:40px;height:40px}
+  .thumb-btn{height:40px;border-radius:20px}
+  .thumb-btn svg{width:40px;height:40px}
+  .thumb-label{font-size:14px}
+  .card:hover .thumb-label,.card:focus-visible .thumb-label{padding-left:14px}
   .card p{font-size:16px}
   .tags li{font-size:12px}
   .card-img{height:180px}
@@ -213,6 +224,6 @@ h1,h2,h3,p{margin:0}
   .logo:hover img,.logo:focus-visible img{animation:none}
   .dot::after{animation:none;opacity:0}
   .nav-wrap.is-fixed,.nav-wrap.is-leaving{animation:none}
-  .card,.card:hover,.thumb,.btn-ink,.btn-tomato{transition:none;transform:none}
+  .card,.card:hover,.thumb-label,.thumb-btn svg,.btn-ink,.btn-tomato{transition:none;transform:none}
 }
 .sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
