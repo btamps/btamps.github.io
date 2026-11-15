@@ -1,0 +1,41 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="24" height="24" fill="#EEEEEE"/>
+<g id="Home - Desktop">
+<rect width="1441" height="4503.5" transform="translate(-340.5 -825)" fill="#FAF9F6"/>
+<g id="Skills Bar">
+<g clip-path="url(#clip0_701_1367)">
+<mask id="path-1-inside-1_701_1367" fill="white">
+<path d="M-340.5 -113H1100.5V61H-340.5V-113Z"/>
+</mask>
+<path d="M-340.5 -113H1100.5V61H-340.5V-113Z" fill="#F4F1EA"/>
+<g id="Skill Group 2">
+<g id="Skill - Print" filter="url(#filter0_d_701_1367)">
+<path d="M-20 12C-20 -3.46397 -7.46397 -16 8 -16H84C99.464 -16 112 -3.46397 112 12C112 27.464 99.464 40 84 40H8C-7.46398 40 -20 27.464 -20 12Z" fill="white"/>
+<g id="fi-rs-book">
+<g id="01 align center">
+<path id="Vector" d="M20.0002 0H5.00015C4.2045 0 3.44144 0.31607 2.87883 0.87868C2.31622 1.44129 2.00015 2.20435 2.00015 3V21C2.00015 21.7956 2.31622 22.5587 2.87883 23.1213C3.44144 23.6839 4.2045 24 5.00015 24H22.0002V2C22.0002 1.46957 21.7894 0.960859 21.4144 0.585786C21.0393 0.210714 20.5306 0 20.0002 0V0ZM20.0002 18H8.00015V2H20.0002V18ZM5.00015 2H6.00015V18H5.01715C4.66988 18.003 4.32577 18.0663 4.00015 18.187V3C4.00015 2.73478 4.10551 2.48043 4.29305 2.29289C4.48058 2.10536 4.73494 2 5.00015 2ZM5.00015 22C4.73632 22 4.48317 21.8958 4.29586 21.7099C4.10855 21.5241 4.00226 21.2718 4.00015 21.008H4.01515C4.0141 20.876 4.03918 20.7451 4.08896 20.6229C4.13875 20.5006 4.21224 20.3894 4.3052 20.2957C4.39817 20.202 4.50876 20.1276 4.63061 20.0769C4.75246 20.0261 4.88315 20 5.01515 20H20.0002V22H5.00015Z" fill="#FF5B2E"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<path d="M-340.5 -113V-112H1100.5V-113V-114H-340.5V-113ZM1100.5 61V60H-340.5V61V62H1100.5V61Z" fill="#E8E4DB" mask="url(#path-1-inside-1_701_1367)"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_701_1367" x="-44" y="-25" width="180" height="104" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feMorphology radius="24" operator="erode" in="SourceAlpha" result="effect1_dropShadow_701_1367"/>
+<feOffset dy="15"/>
+<feGaussianBlur stdDeviation="24"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_701_1367"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_701_1367" result="shape"/>
+</filter>
+<clipPath id="clip0_701_1367">
+<path d="M-340.5 -113H1100.5V61H-340.5V-113Z" fill="white"/>
+</clipPath>
+</defs>
+</svg>

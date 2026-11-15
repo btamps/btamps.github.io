@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Coming soon | Billy Tamplin</title>
+<meta name="description" content="This page is coming soon.">
+<meta name="robots" content="noindex">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,400..800&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="soon-body">
+<header class="nav-wrap">
+  <nav class="nav" aria-label="Main">
+    <a class="logo" href="./" aria-label="Billy Tamplin, home"><img src="assets/logo-face.svg" alt="" width="28" height="36"><span>Billy Tamplin</span></a>
+  </nav>
+</header>
+<main class="soon">
+  <p class="soon-label" id="soon-label">This page</p>
+  <h1>Coming soon.</h1>
+  <p class="soon-sub">I’m still building this one. Check back shortly, or head back to the homepage.</p>
+  <a class="btn-ink" href="./">Back to home <img src="assets/arrow-right.svg" alt="" width="24" height="24"></a>
+</main>
+<script>
+(function () {
+  var p = new URLSearchParams(location.search).get('p');
+  if (p) {
+    var el = document.getElementById('soon-label');
+    el.textContent = p;
+    document.title = p + ' | Coming soon | Billy Tamplin';
+  }
+})();
+</script>
+</body>
+</html>
