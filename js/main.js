@@ -16,6 +16,47 @@
     window.matchMedia('(min-width:700px)').addEventListener('change', function () { setMenu(false); });
   }
 
+  /* Nav: static at top; slides in as a sticky bar when scrolling up mid-page */
+  var slot = document.querySelector('.nav-slot');
+  var bar = slot && slot.querySelector('.nav-wrap');
+  if (bar) {
+    var lastY = window.scrollY, ticking = false, fixed = false;
+    function showBar() {
+      if (fixed) return;
+      fixed = true;
+      slot.style.height = slot.offsetHeight + 'px';
+      bar.classList.remove('is-leaving');
+      bar.classList.add('is-fixed');
+    }
+    function hideBar(animate) {
+      if (!fixed) return;
+      fixed = false;
+      if (animate) {
+        bar.classList.add('is-leaving');
+        setTimeout(function () {
+          if (!fixed) { bar.classList.remove('is-fixed', 'is-leaving'); slot.style.height = ''; }
+        }, 250);
+      } else {
+        bar.classList.remove('is-fixed', 'is-leaving');
+        slot.style.height = '';
+      }
+    }
+    function onScroll() {
+      var y = window.scrollY, dy = y - lastY;
+      var slotBottom = slot.offsetHeight + (fixed ? 0 : slot.offsetTop);
+      if (y <= slotBottom) hideBar(false);
+      else if (dy < -4) showBar();
+      else if (dy > 4) {
+        var open = burger && burger.getAttribute('aria-expanded') === 'true';
+        if (!open) hideBar(true);
+      }
+      lastY = y; ticking = false;
+    }
+    window.addEventListener('scroll', function () {
+      if (!ticking) { ticking = true; requestAnimationFrame(onScroll); }
+    }, { passive: true });
+  }
+
   /* Skills marquee: repeat each set so the loop is seamless at any screen width */
   var rows = document.querySelectorAll('.skill-row');
   var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
