@@ -49,13 +49,11 @@ textarea.ct-input{min-height:160px;resize:vertical;line-height:1.5}
 .ct-done h2{margin:0}
 .ct-done p{font-size:20px;line-height:1.5;color:var(--hero-sub);max-width:440px}
 
-.ct-doodle{position:absolute;pointer-events:none}
 
 @media (max-width:1023px){
   .ct{grid-template-columns:1fr;padding:60px 20px 60px;gap:40px}
   .ct-intro h1{font-size:72px}
   .ct-ways{max-width:none}
-  .ct-doodle{display:none}
 }
 @media (max-width:699px){
   .ct{padding:40px 20px 50px}
