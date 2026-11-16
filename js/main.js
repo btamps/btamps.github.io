@@ -89,6 +89,33 @@
     sr.textContent = 'Skills: ' + names.join(', ') + '.';
     skills.appendChild(sr);
   }
+
+  /* Case study summary: sideways-scrolling cards on tablet/mobile, with dots that track and jump */
+  var deck = document.getElementById('cs-cards');
+  var dotsWrap = document.querySelector('.cs-dots');
+  if (deck && dotsWrap) {
+    var cards = deck.querySelectorAll('.cs-card');
+    var dots = [];
+    cards.forEach(function (card, i) {
+      var b = document.createElement('button');
+      b.type = 'button';
+      b.setAttribute('aria-label', 'Show ' + card.querySelector('h2').textContent);
+      b.addEventListener('click', function () {
+        deck.scrollTo({ left: card.offsetLeft - deck.offsetLeft - 20, behavior: reduce ? 'auto' : 'smooth' });
+      });
+      dotsWrap.appendChild(b);
+      dots.push(b);
+    });
+    function syncDots() {
+      var max = deck.scrollWidth - deck.clientWidth;
+      var idx = max <= 0 ? 0 : Math.round((deck.scrollLeft / max) * (cards.length - 1));
+      dots.forEach(function (d, i) { d.setAttribute('aria-current', i === idx ? 'true' : 'false'); });
+      dotsWrap.hidden = max <= 0;
+    }
+    deck.addEventListener('scroll', function () { requestAnimationFrame(syncDots); }, { passive: true });
+    window.addEventListener('resize', syncDots);
+    syncDots();
+  }
   build();
   var t;
   window.addEventListener('resize', function () { clearTimeout(t); t = setTimeout(build, 200); });
