@@ -116,6 +116,13 @@
     window.addEventListener('resize', syncDots);
     syncDots();
   }
+  /* Meraki hero: pause the train, clouds and bubbles while the hero is scrolled out of view */
+  var mkHero = document.querySelector('.mk-hero');
+  if (mkHero && 'IntersectionObserver' in window) {
+    new IntersectionObserver(function (entries) {
+      mkHero.classList.toggle('is-offscreen', !entries[0].isIntersecting);
+    }).observe(mkHero);
+  }
   build();
   var t;
   window.addEventListener('resize', function () { clearTimeout(t); t = setTimeout(build, 200); });

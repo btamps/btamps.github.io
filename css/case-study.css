@@ -186,3 +186,96 @@
   .cs-next-btn,.cs-next-btn img{transition:none;transform:none}
   .cs-cards{scroll-behavior:auto}
 }
+
+/* ---------- Meraki ---------- */
+.cs-meraki{--cs-bg:#f6fafa; --cs-accent:#255543; --cs-pill:#e2f4f4; --cs-next-from:#13331a; --cs-next-to:#13331a; --cs-next-btn:#f9d88a}
+.cs-meraki .cs-tags li,.cs-meraki .cs-hero h1{color:#11331a}
+.cs-meraki .cs-intro{color:#255543}
+
+/* Animated hero. Art sits in two layers behind the copy:
+   .mk-sky   clouds, positioned from the hero's center
+   .mk-scene viewport-wide strip on the hero's bottom edge: cities, train, ground line.
+   All art coordinates are the Figma frame's px values (desktop frame is 1444 wide). */
+.mk-hero{overflow:visible;min-height:0;padding:90px 49px 179px}
+.mk-sky,.mk-scene{position:absolute;left:calc(50% - 50vw);width:100vw;overflow:hidden;pointer-events:none}
+.mk-sky{z-index:-2;top:0;height:460px}
+.mk-scene{z-index:-1;bottom:0;height:613px;
+  /* x of each city, eased between the 834px tablet frame and the 1444px desktop frame, then pinned to the screen edges */
+  --lx:min(calc(44.1vw - 794px),-157px);
+  --rx:max(calc(53.9vw + 192.4px),calc(100vw - 473px))}
+.mk-sky img,.mk-scene img{max-width:none}
+
+.mk-cloud{position:absolute;left:calc(50% + var(--x));top:var(--y);animation:mk-drift var(--t) ease-in-out var(--o) infinite alternate}
+@keyframes mk-drift{from{transform:translateX(calc(var(--d) * -1))}to{transform:translateX(var(--d))}}
+
+/* Cities hug the screen edges on wide screens and stay centered with the copy below 1444px */
+.mk-city{position:absolute}
+.mk-city>img{position:absolute;left:0;top:0}
+.mk-left{top:3px;left:var(--lx);width:685px;height:564px}
+.mk-right{top:90px;left:var(--rx);width:535px;height:477px}
+.mk-right .mk-front{left:4.6px}
+
+/* Train: lives in the right city so it always lines up with the tunnel. It sits between the base city and the
+   clipped front copy of the city, so it starts hidden and rolls out of the tunnel, every 10s. */
+.mk-right .mk-train{
+  left:-412px;top:427px;
+  --start:560px;
+  --end:calc(-1 * var(--rx) - 150px);
+  animation:mk-train 10s linear 1s infinite both;
+}
+@keyframes mk-train{
+  0%{transform:translateX(var(--start));animation-timing-function:cubic-bezier(.45,0,.6,1)}
+  72%,100%{transform:translateX(var(--end))}
+}
+
+.mk-ground{position:absolute;left:0;right:0;top:566px;bottom:0;background:#edf2f4;border-top:2px solid #11331a}
+
+/* Chat bubbles float, and take turns popping with a signal ring from their node */
+.mk-bubble,.mk-node{position:absolute;left:var(--x);top:var(--y)}
+.mk-bubble{animation:mk-float 4.2s ease-in-out calc(var(--i) * -.7s) infinite}
+.mk-bubble img{transform-origin:50% 100%;animation:mk-pop 9s cubic-bezier(.3,1.6,.5,1) calc(var(--i) * 1.5s) infinite}
+.mk-node{width:0;height:0}
+.mk-node::after{content:"";position:absolute;left:-6.4px;top:-6.4px;width:12.8px;height:12.8px;border-radius:50%;border:2px solid #4bb749;opacity:0;animation:mk-ping 9s ease-out calc(var(--i) * 1.5s) infinite}
+@keyframes mk-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+@keyframes mk-pop{0%,12%,100%{transform:scale(1)}4%{transform:scale(1.12)}}
+@keyframes mk-ping{0%{opacity:.9;transform:scale(1)}14%,100%{opacity:0;transform:scale(3.2)}}
+.mk-hero.is-offscreen *{animation-play-state:paused}
+
+/* Summary + work sections */
+.cs-meraki .cs-summary{--cs-band:#edf2f4}
+.cs-meraki .cs-dots button{background:rgba(37,85,67,.25)}
+.mk-work{padding:80px 50px;display:flex;flex-direction:column;align-items:center;gap:10px}
+.mk-work .cs-text{padding-bottom:40px}
+.mk-campaigns{--band:#edf2f4}
+.mk-campaigns .cs-h2{color:#11331a}
+.mk-campaigns .cs-copy{color:var(--graphite)}
+.mk-ads{width:100%;height:auto}
+.mk-editorial{--band:#faf9f3}
+.mk-editorial .cs-eyebrow{color:#f05554}
+.mk-editorial .cs-h2{color:#2f4761}
+.mk-editorial .cs-copy{color:#49525d}
+.mk-ebook{display:flex;gap:50px;width:100%}
+.mk-ebook img{flex:1 1 0;min-width:0;height:auto}
+
+@media (max-width:1199px){
+  .mk-hero{padding:50px 20px 240px}
+  .cs-meraki .cs-hero-text{max-width:750px}
+  .cs-meraki .cs-hero h1{font-size:88px;letter-spacing:-3.96px}
+  .cs-meraki .cs-intro{font-size:20px;max-width:600px}
+  .cs-meraki .cs-meta{gap:30px}
+  .cs-meraki .cs-pill{font-size:16px;padding:10px 15px}
+}
+@media (max-width:699px){
+  .mk-hero{padding:50px 20px 180px}
+  .mk-scene{--rx:calc(50vw + 253px)}
+  .mk-left{display:none}
+  .mk-work{padding:60px 20px}
+  .cs-meraki .cs-copy{font-size:20px}
+  .mk-ebook{gap:20px}
+  .cs-meraki .cs-hero h1{font-size:45px;letter-spacing:-2.03px}
+  .cs-meraki .cs-meta{gap:20px}
+}
+@media (prefers-reduced-motion:reduce){
+  .mk-cloud,.mk-bubble,.mk-bubble img,.mk-node::after,.mk-right .mk-train{animation:none}
+  .mk-right .mk-train{transform:none}
+}
