@@ -107,7 +107,7 @@ h1,h2,h3,p{margin:0}
 .card-meraki{background:#cee8b8;color:#0f2f1e}
 .card-meraki .tags li{border-color:#0f2f1e}
 .card-meraki .img-meraki{background:#f6fafa}
-.card-semisweet{background:#bce3ec;color:var(--ink)}
+.card-semisweet{background:#f6e7d3;box-shadow:inset 0 0 30px 15px rgba(222,181,125,.5);color:var(--ink)}
 .card-semisweet .tags li{border-color:var(--ink)}
 .card-chariot{background:#1e355e;border-radius:32px}
 .card-cooper{background:#009284;border-radius:32px}
