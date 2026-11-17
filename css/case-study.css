@@ -303,3 +303,184 @@
   .mk-cloud,.mk-bubble,.mk-bubble img,.mk-node::after,.mk-right .mk-train,.mk-m-art .mk-m-train{animation:none}
   .mk-right .mk-train,.mk-m-art .mk-m-train{transform:none}
 }
+
+/* ---------- Semi Sweet Designs ---------- */
+.cs-semisweet{--cs-bg:#f8f2e9; --cs-band:#f8f2e9; --cs-accent:#f05554; --cs-pill:#fdfaf5; --cs-body:#49525d;
+  --ss-navy:#2f4761; --cs-next-from:#2f4761; --cs-next-to:#2f4761; --cs-next-btn:#f88c73}
+.cs-semisweet .cs-h2{color:var(--ss-navy)}
+.cs-semisweet .cs-copy strong{font-weight:600}
+.cs-semisweet .cs-tags li,.cs-semisweet .cs-meta dt{color:#f05554}
+.cs-semisweet .cs-hero h1,.cs-semisweet .cs-intro,.cs-semisweet .cs-pill,.cs-semisweet .cs-card h2,.cs-semisweet .cs-card p{color:var(--ss-navy)}
+.cs-semisweet .cs-dots button{background:rgba(240,85,84,.25)}
+/* Section text blocks keep their own side padding so galleries inside the section can run edge to edge */
+.ss-approach .cs-text,.ss-shop .cs-text,.ss-campaigns .cs-text{max-width:850px;padding:0 50px 20px}
+
+/* Hero: cookie photo across the top, wavy icing edge over it, copy on the icing */
+.ss-hero{min-height:0;overflow:visible;padding:clamp(200px,34.7vw,900px) 49px 40px}
+.ss-hero-art{position:absolute;z-index:-1;top:0;left:calc(50% - 50vw);width:100vw;height:100%;overflow:hidden;pointer-events:none}
+.ss-hero-art img,.ss-hero-art video{position:absolute;left:0;width:100%;height:auto;max-width:none}
+.ss-hero-photo{top:0}
+.ss-hero-icing{top:24.2vw}
+.cs-semisweet .cs-meta{grid-template-columns:1fr;gap:30px}
+.cs-semisweet .cs-pill{background:var(--cs-pill);padding:12px 15px;font-size:16px}
+
+/* Stats card under the summary */
+.ss-stats{padding:0 50px}
+.ss-stats-card{display:flex;background:#fff;border-radius:32px;box-shadow:0 15px 48px -24px rgba(0,0,0,.25);padding:20px 0;max-width:1340px;margin:0 auto}
+.ss-stats-card li{flex:1 1 0;min-width:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;padding:30px;border-right:1px solid rgba(0,0,0,.1);text-align:center}
+.ss-stats-card li:last-child{border-right:0}
+.ss-stat-icon{width:50px;height:50px;display:flex;align-items:center;justify-content:center}
+.ss-stats b,.ss-shop-stats b{font-family:var(--serif);font-variation-settings:"opsz" 14,"wdth" 100;font-weight:800;line-height:1.4;color:var(--ss-navy);text-transform:uppercase;font-variant-numeric:tabular-nums;white-space:nowrap}
+.ss-stats b{font-size:36px;letter-spacing:-.72px}
+.ss-stats li>span:last-child,.ss-shop-stats span{font-weight:600;font-size:13px;line-height:1.4;letter-spacing:.52px;text-transform:uppercase;color:var(--ss-navy)}
+
+/* Approach + collage. --u is one Figma px: 1px on desktop, easing down to .55px on a 403px phone,
+   so the collage keeps its desktop layout and the outer photos run off the screen edges */
+.ss-approach{padding:80px 0 0;display:flex;flex-direction:column;align-items:center}
+.ss-approach .cs-copy{color:var(--ss-navy)}
+.ss-gallery{--u:clamp(.5px,calc(.363px + .0464vw),1px);width:100%;overflow:hidden;display:flex;flex-direction:column;align-items:center;gap:calc(10 * var(--u));padding:calc(40 * var(--u)) 0 calc(160 * var(--u))}
+.ss-row{flex:none;display:flex;gap:calc(30 * var(--u));padding:calc(10 * var(--u))}
+.ss-row-1{align-items:flex-end}
+.ss-row-3{align-items:flex-start}
+.ss-row img,.ss-row video{flex:none;width:calc(285 * var(--u));height:auto;aspect-ratio:1;object-fit:cover;border-radius:calc(32 * var(--u))}
+.ss-row .lg{width:calc(350 * var(--u))}
+.ss-row-2 img{width:calc(374 * var(--u))}
+
+/* Brand identity */
+.ss-identity{--band:#bde3ec;padding:80px 50px;display:flex;flex-direction:column;align-items:center;gap:10px}
+.ss-identity .cs-text{max-width:600px;padding-bottom:17px}
+.ss-logo{width:100%;max-width:1155px;aspect-ratio:1155/342;display:flex;align-items:center;overflow:hidden}
+.ss-logo img{flex:none;width:100%;height:auto}
+.ss-board{padding:60px 50px 80px}
+.ss-board img{width:100%;height:auto;filter:drop-shadow(0 4px 10px rgba(26,24,21,.15))}
+
+/* Photo grid */
+.ss-photos{padding:0 50px 80px}
+.ss-taste{font-weight:700;font-size:40px;line-height:1.2;letter-spacing:-.8px;color:var(--ss-navy);text-align:center;margin-bottom:40px}
+.ss-photo-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));grid-template-rows:repeat(2,minmax(0,1fr));gap:20px;aspect-ratio:1340/696}
+.ss-photo-grid img{width:100%;height:100%;object-fit:cover;border-radius:16px}
+.ss-photo-grid .tall{grid-row:span 2}
+.ss-photo-grid .wide{grid-column:span 2}
+
+/* Product design steps */
+.ss-product{--band:#fff;padding:80px 50px}
+.ss-product .cs-text{padding-bottom:60px}
+.ss-steps{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:30px}
+.ss-steps li{display:flex;flex-direction:column;align-items:flex-start;gap:10px}
+.ss-steps video{width:100%;height:500px;object-fit:cover;border:1px solid rgba(0,0,0,.15);border-radius:8px}
+.ss-step-label{display:flex;align-items:center;gap:10px;font-weight:800;font-size:15px;line-height:1.4;letter-spacing:.6px;text-transform:uppercase;color:var(--c)}
+.ss-step-label span{width:40px;height:40px;border-radius:50%;background:var(--c);display:flex;align-items:center;justify-content:center;font-family:var(--serif);font-variation-settings:"opsz" 14,"wdth" 100;font-weight:700;font-size:22px;letter-spacing:0;color:#fff}
+.ss-steps h3{font-weight:600;font-size:24px;line-height:1.2;letter-spacing:-.48px;color:var(--ss-navy)}
+.ss-steps li>p:last-child{font-size:17px;line-height:1.5;color:var(--cs-body)}
+
+/* Merch: text + hero shot, then three, then two. Each figure keeps the crop set in Figma */
+.ss-merch{--band:#fdfbf7;padding:80px 50px}
+.ss-merch-grid{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:20px;max-width:1340px;margin:0 auto}
+.ss-merch-text{grid-column:span 3;display:flex;flex-direction:column;justify-content:center;gap:10px;padding-right:60px}
+.mx{position:relative;margin:0;overflow:hidden;border-radius:32px;grid-column:span 2;aspect-ratio:433/422}
+.mx img{position:absolute;left:var(--l,0);top:var(--t,0);width:var(--w,100%);height:var(--h,100%);max-width:none;object-fit:cover}
+.mx-dealer{grid-column:span 3;aspect-ratio:660/547;--w:149.18%;--h:180%;--l:-24.59%;--t:-40%}
+.mx-bake{--w:158.74%;--h:163%;--l:-33.52%;--t:-25.34%}
+.mx-boo{--w:104.47%;--h:143%;--l:.07%;--t:-33.82%}
+.mx-claus,.mx-north{grid-column:span 3;aspect-ratio:660/471}
+.mx-north{--h:175.16%;--t:-54.99%}
+
+/* Storefront */
+.ss-shop{--band:#fff;padding:80px 0 40px;display:flex;flex-direction:column;align-items:center}
+.ss-shop .cs-text{padding-bottom:40px}
+.ss-site{--band:#ebf8fb;width:100%;padding:60px 50px;display:flex;justify-content:center}
+.ss-site img{width:100%;max-width:1340px;height:auto;border-radius:16px;box-shadow:0 4px 10px rgba(0,0,0,.15)}
+.ss-shop-stats{display:flex;width:100%;max-width:1300px;padding:20px 50px}
+.ss-shop-stats li{flex:1 1 0;min-width:0;display:flex;flex-direction:column;gap:3px;padding:30px}
+.ss-shop-stats b{font-size:48px;letter-spacing:-.96px}
+
+/* Social ads. --a is one Figma px; each export carries 10px of its own shadow, pulled back with negative margins */
+.ss-campaigns{--band:#ebf8fb;padding:80px 10px;display:flex;flex-direction:column;align-items:center}
+.ss-campaigns .cs-text{padding-bottom:40px}
+.ss-ads{--a:1px;display:flex;align-items:flex-start;justify-content:center;gap:calc(71.5 * var(--a));width:100%}
+.ss-ads img{flex:none;height:auto;margin:calc(-6 * var(--a)) calc(-10 * var(--a)) calc(-14 * var(--a))}
+.ss-ads .sq,.ss-ads .pt{width:calc(320 * var(--a))}
+.ss-ads .st{width:calc(290 * var(--a))}
+
+/* Takeaways: three across */
+.cs-semisweet .cs-takeaways-inner{max-width:1340px}
+.cs-semisweet .cs-take-cards{grid-template-columns:repeat(3,minmax(0,1fr))}
+.cs-semisweet .cs-take .num{color:#f05554}
+.cs-semisweet .cs-take h3,.cs-semisweet .cs-take p{color:var(--ss-navy)}
+.cs-semisweet .cs-next-btn{color:#fff}
+
+@media (max-width:1199px){
+  .cs-semisweet .cs-hero-text{max-width:794px}
+  .cs-semisweet .cs-hero h1{font-size:75px;letter-spacing:-3.38px;max-width:none}
+  .cs-semisweet .cs-intro{font-size:20px;max-width:600px}
+  .cs-semisweet .cs-meta{gap:30px;max-width:600px}
+  .cs-semisweet .cs-meta dd:not(.stack){flex-wrap:wrap}
+  .cs-semisweet .cs-pill{font-size:16px;padding:12px 15px}
+  .ss-shop-stats li{padding:30px 20px}
+  .ss-shop-stats b{font-size:40px;letter-spacing:-.8px}
+}
+@media (max-width:1023px){
+  .ss-identity{padding:60px 50px}
+  .ss-product,.ss-merch{padding:60px 50px}
+  .ss-steps{grid-template-columns:repeat(2,minmax(0,1fr));gap:40px 30px}
+  .ss-steps video{height:auto;aspect-ratio:4/5}
+  .ss-merch-text{padding-right:10px}
+  .ss-photo-grid{aspect-ratio:734/600}
+  .ss-shop{padding-top:60px}
+  .ss-ads{--a:min(1px,calc((100vw - 60px) / 1013))}
+  .cs-semisweet .cs-takeaways{padding:60px 50px}
+  .cs-semisweet .cs-take .num{font-size:36px;letter-spacing:-.72px}
+  .cs-semisweet .cs-take h3{font-size:28px;letter-spacing:-.56px}
+  .cs-semisweet .cs-take p{font-size:18px}
+}
+@media (max-width:699px){
+  .ss-approach .cs-text,.ss-shop .cs-text,.ss-campaigns .cs-text{padding:0 20px 20px}
+  .cs-semisweet .cs-copy{font-size:20px}
+  .cs-semisweet .cs-tags{gap:8px;padding:10px 0}
+  .cs-semisweet .cs-tags li{font-size:13px;letter-spacing:1px}
+  .cs-semisweet .cs-hero h1{font-size:48px;letter-spacing:-2.16px}
+  .cs-semisweet .cs-intro{font-size:20px}
+  .cs-semisweet .cs-meta{grid-template-columns:1fr;gap:30px}
+  .ss-stats{padding:0 20px}
+  .ss-stats-card{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));padding:20px 0}
+  .ss-stats-card li{padding:30px 10px;border-right:0}
+  .ss-stats-card li:nth-child(odd){border-right:1px solid rgba(0,0,0,.1)}
+  .ss-approach{padding-top:60px}
+  .ss-identity{padding:60px 20px 0}
+  .ss-board{padding:60px 20px 40px}
+  .ss-photos{padding:0 20px 60px}
+  .ss-taste{font-size:28px;letter-spacing:-.56px;margin-bottom:20px}
+  /* Phone bento: wide photo on top, tall one left, two stacked right */
+  .ss-photo-grid{grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:none;gap:12px;aspect-ratio:auto}
+  .ss-photo-grid .wide{grid-column:1 / -1;grid-row:1;aspect-ratio:363/170}
+  .ss-photo-grid .tall{grid-column:1;grid-row:2 / span 2}
+  .ss-photo-grid img:not(.wide):not(.tall){aspect-ratio:175.5/170}
+  .ss-product,.ss-merch{padding:60px 20px}
+  .ss-product .cs-text{padding-bottom:40px}
+  .ss-steps{grid-template-columns:1fr;gap:40px}
+  /* Phone merch: full, two-up, full, two-up */
+  .ss-merch-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+  .ss-merch-text{grid-column:1 / -1;padding:0 0 8px}
+  .mx{grid-column:span 1;border-radius:24px;aspect-ratio:175.5/220;--w:100%;--h:100%;--l:0;--t:0}
+  .mx-dealer{grid-column:1 / -1;aspect-ratio:363/319;order:1}
+  .mx-bake{order:2}.mx-boo{order:3}
+  .mx-claus{grid-column:1 / -1;aspect-ratio:363/259;order:4}
+  .mx-butter{order:5}.mx-north{order:6}
+  .ss-site{padding:30px 20px}
+  .ss-site img{border-radius:10px}
+  .ss-shop-stats{flex-direction:column;padding:20px}
+  .ss-shop-stats li{padding:20px 10px}
+  .ss-shop-stats b{font-size:48px;letter-spacing:-.96px}
+  /* Phone ads: swipe through at a readable size */
+  .ss-campaigns{padding:60px 0}
+  .ss-ads{--a:.85px;justify-content:flex-start;gap:20px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding:0 20px;padding:10px 30px 30px;scrollbar-width:none}
+  .ss-ads::-webkit-scrollbar{display:none}
+  .ss-ads img{scroll-snap-align:start}
+  .cs-semisweet .cs-takeaways{padding:60px 20px}
+  .cs-semisweet .cs-take-cards{grid-template-columns:1fr}
+  .cs-semisweet .cs-take h3{font-size:32px;letter-spacing:-.64px}
+  .cs-semisweet .cs-take p{font-size:24px;color:var(--ss-navy)}
+}
+.cs-semisweet .cs-next .cs-h2{color:var(--paper)}
+.cs-semisweet .cs-cards{max-width:1340px}
+.ss-hero-art video,.ss-row video,.ss-steps video{display:block;background:#efe6d8}

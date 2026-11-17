@@ -123,6 +123,72 @@
       mkHero.classList.toggle('is-offscreen', !entries[0].isIntersecting);
     }).observe(mkHero);
   }
+  /* Stat count-ups: each number counts up from 0 once its group is ~40% on screen.
+     Markup keeps the final value (data-count, optional data-prefix/data-suffix), so it reads correctly without JS */
+  var countGroups = document.querySelectorAll('.ss-stats-card, .ss-shop-stats');
+  if (countGroups.length && !reduce && 'IntersectionObserver' in window) {
+    var ease = function (t) { return 1 - Math.pow(1 - t, 3); };
+    var counter = function (el) {
+      var raw = el.getAttribute('data-count');
+      var decimals = (raw.split('.')[1] || '').length;
+      var pre = el.getAttribute('data-prefix') || '', suf = el.getAttribute('data-suffix') || '';
+      return {
+        target: parseFloat(raw),
+        fmt: function (v) { return pre + v.toLocaleString('en-US', { minimumFractionDigits: decimals, maximumFractionDigits: decimals }) + suf; }
+      };
+    };
+    /* Start every number at 0, with its width locked to the final value so nothing shifts while digits are added */
+    countGroups.forEach(function (g) {
+      g.querySelectorAll('[data-count]').forEach(function (el) {
+        el.style.display = 'inline-block';
+        el.style.minWidth = Math.ceil(el.getBoundingClientRect().width) + 'px';
+        el.textContent = counter(el).fmt(0);
+      });
+    });
+    var runCount = function (el, delay) {
+      var c = counter(el), target = c.target, fmt = c.fmt;
+      var start = null, dur = 1600;
+      setTimeout(function () {
+        requestAnimationFrame(function step(now) {
+          if (start === null) start = now;
+          var p = Math.min(1, (now - start) / dur);
+          el.textContent = fmt(target * ease(p));
+          if (p < 1) requestAnimationFrame(step); else el.textContent = fmt(target);
+        });
+      }, delay);
+    };
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (!entry.isIntersecting) return;
+        io.unobserve(entry.target);
+        entry.target.querySelectorAll('[data-count]').forEach(function (el, i) { runCount(el, i * 120); });
+      });
+    }, { threshold: 0.4 });
+    countGroups.forEach(function (g) { io.observe(g); });
+  }
+
+  /* Looping clips: play only while on screen, and stay on the poster frame for reduced motion */
+  var clips = document.querySelectorAll('video[data-autoplay]');
+  if (clips.length && !reduce) {
+    if ('IntersectionObserver' in window) {
+      var vio = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          var v = entry.target;
+          if (entry.isIntersecting) {
+            if (v.preload === 'none') v.preload = 'auto';
+            var p = v.play();
+            if (p && p.catch) p.catch(function () {});
+          } else {
+            v.pause();
+          }
+        });
+      }, { rootMargin: '200px 0px' });
+      clips.forEach(function (v) { vio.observe(v); });
+    } else {
+      clips.forEach(function (v) { v.autoplay = true; v.play(); });
+    }
+  }
+
   build();
   var t;
   window.addEventListener('resize', function () { clearTimeout(t); t = setTimeout(build, 200); });
