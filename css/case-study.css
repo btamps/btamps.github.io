@@ -257,6 +257,20 @@
 .mk-ebook{display:flex;gap:50px;width:100%}
 .mk-ebook img{flex:1 1 0;min-width:0;height:auto}
 
+/* Phone hero art (shown under 560px). 1 art unit = 100vw / 337.84, so the illustration's hill fills the screen edge to edge */
+.mk-m{display:none;position:absolute;z-index:-1;left:0;right:0;bottom:0;overflow:hidden;pointer-events:none;--u:calc(100vw / 337.84)}
+.mk-m-art{position:relative;width:calc(385 * var(--u));height:calc(373 * var(--u));margin-bottom:calc(-23.76 * var(--u))}
+.mk-m-art img{position:absolute;left:0;top:0;width:100%;height:auto;max-width:none}
+.mk-m-art .mk-m-train{left:calc(30.66 * var(--u));top:calc(314.1 * var(--u));width:calc(370.6 * var(--u));
+  --start:calc(205 * var(--u));--end:calc(-411 * var(--u));animation:mk-train 10s linear 1s infinite both}
+.mk-m .mk-bubble,.mk-m .mk-node{left:calc(var(--x) * var(--u));top:calc(var(--y) * var(--u))}
+.mk-m .mk-bubble img{position:static;width:calc(33.15 * var(--u))}
+.mk-m .mk-node::after{left:calc(-4.6 * var(--u));top:calc(-4.6 * var(--u));width:calc(9.2 * var(--u));height:calc(9.2 * var(--u));border-width:1.5px}
+.mk-m-ground{position:relative;height:47px;background:#edf2f4;border-top:2px solid #11331a}
+
+/* Meraki nav button is art directed green */
+.cs-meraki .btn-tomato{background:#5ab84d;border-color:#5ab84d}
+
 @media (max-width:1199px){
   .mk-hero{padding:50px 20px 240px}
   .cs-meraki .cs-hero-text{max-width:750px}
@@ -272,10 +286,23 @@
   .mk-work{padding:60px 20px}
   .cs-meraki .cs-copy{font-size:20px}
   .mk-ebook{gap:20px}
-  .cs-meraki .cs-hero h1{font-size:45px;letter-spacing:-2.03px}
-  .cs-meraki .cs-meta{gap:20px}
+  .cs-meraki .cs-tags li{font-size:16px;letter-spacing:1.6px}
+  .cs-meraki .cs-hero h1{font-size:48px;letter-spacing:-2.16px}
+  .cs-meraki .cs-intro{font-size:18px}
+  /* Two columns: Role | Scope, then Collaborations | Tools, with pills stacked */
+  .cs-meraki .cs-meta{grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:auto auto;grid-auto-flow:column;gap:20px 10px}
+  .cs-meraki .cs-meta dd:not(.cs-tools){flex-direction:column;align-items:flex-start}
+  .cs-meraki .cs-pill{font-size:15px}
+}
+@media (max-width:559px){
+  .mk-hero{padding-bottom:calc(349.24 * 100vw / 337.84 + 27px)}
+  .mk-scene{display:none}
+  .mk-m{display:block}
+}
+@media (max-width:359px){
+  .cs-meraki .cs-meta{grid-template-columns:1fr;grid-auto-flow:row}
 }
 @media (prefers-reduced-motion:reduce){
-  .mk-cloud,.mk-bubble,.mk-bubble img,.mk-node::after,.mk-right .mk-train{animation:none}
-  .mk-right .mk-train{transform:none}
+  .mk-cloud,.mk-bubble,.mk-bubble img,.mk-node::after,.mk-right .mk-train,.mk-m-art .mk-m-train{animation:none}
+  .mk-right .mk-train,.mk-m-art .mk-m-train{transform:none}
 }

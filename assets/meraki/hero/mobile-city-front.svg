@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="385" height="373" viewBox="0 0 385 373" fill="none">
+<g id="Mobile City Hero Background">
+<g id="Clip path group">
+<mask id="mask0_62_407" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="338" height="350">
+<g id="clippath">
+<path id="Vector" d="M337.83 0H0.389893V349.24H337.83V0Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask0_62_407)">
+<g id="Group">
+<g id="Group_2">
+<g id="Clip path group_2">
+<mask id="mask1_62_407" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="210" y="313" width="175" height="60">
+<g id="clippath-1">
+<path id="Vector_370" d="M384.19 372.99L383.53 313.61H210.85C210.85 313.61 214.49 317.68 214.49 322.67V372.99H384.19Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask1_62_407)">
+<g id="Group_77">
+<g id="Group_78">
+<path id="Vector_371" d="M190.11 303.28C208.74 287.26 359.34 280.14 360.1 290.33V349.32H190.11V303.28Z" fill="#8DCA75"/>
+<g id="Group_79">
+<path id="Vector_372" d="M233.43 323.91V349.47H198.68V301.18H210.71C223.26 301.18 233.43 311.36 233.43 323.91Z" fill="white" stroke="#13331A" stroke-width="1.42" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_373" d="M221 323.91V349.47H215.32V323.91C215.32 314.51 207.68 306.86 198.28 306.86C188.88 306.86 181.24 314.51 181.24 323.91V349.47H175.56V323.91C175.56 311.36 185.73 301.18 198.28 301.18C210.83 301.18 221 311.36 221 323.91Z" fill="white" stroke="#13331A" stroke-width="1.42" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_374" d="M215.32 323.91V349.47H181.24V323.91C181.24 314.51 188.89 306.86 198.28 306.86C207.67 306.86 215.32 314.51 215.32 323.91Z" stroke="#13331A" stroke-width="1.42" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_375" d="M215.32 323.91V349.47H181.24V323.91C181.24 314.51 188.89 306.86 198.28 306.86C207.67 306.86 215.32 314.51 215.32 323.91Z" fill="#265443" stroke="#13331A" stroke-width="1.42" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>
