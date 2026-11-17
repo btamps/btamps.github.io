@@ -268,9 +268,6 @@
 .mk-m .mk-node::after{left:calc(-4.6 * var(--u));top:calc(-4.6 * var(--u));width:calc(9.2 * var(--u));height:calc(9.2 * var(--u));border-width:1.5px}
 .mk-m-ground{position:relative;height:47px;background:#edf2f4;border-top:2px solid #11331a}
 
-/* Meraki nav button is art directed green */
-.cs-meraki .btn-tomato{background:#5ab84d;border-color:#5ab84d}
-
 @media (max-width:1199px){
   .mk-hero{padding:50px 20px 240px}
   .cs-meraki .cs-hero-text{max-width:750px}
