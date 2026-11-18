@@ -123,6 +123,26 @@
       mkHero.classList.toggle('is-offscreen', !entries[0].isIntersecting);
     }).observe(mkHero);
   }
+  /* Chariot hero: the van waits just past the right edge of the screen, then drives in to its stop
+     once that spot is mostly on screen. --from is the distance from its stop to the screen's right edge */
+  var van = document.querySelector('.ch-van');
+  var vanStop = document.querySelector('.ch-stop');
+  if (van && vanStop && !reduce && 'IntersectionObserver' in window) {
+    var chHero = van.closest('.ch-hero');
+    var parkVan = function () {
+      van.style.setProperty('--from', Math.ceil(window.innerWidth - vanStop.getBoundingClientRect().left + 24) + 'px');
+    };
+    parkVan();
+    chHero.classList.add('ch-parked');
+    window.addEventListener('resize', function () { if (!chHero.classList.contains('ch-go')) parkVan(); });
+    var vio2 = new IntersectionObserver(function (entries) {
+      if (!entries[0].isIntersecting) return;
+      vio2.disconnect();
+      chHero.classList.add('ch-go');
+    }, { threshold: 0.5 });
+    vio2.observe(vanStop);
+  }
+
   /* Stat count-ups: each number counts up from 0 once its group is ~40% on screen.
      Markup keeps the final value (data-count, optional data-prefix/data-suffix), so it reads correctly without JS */
   var countGroups = document.querySelectorAll('.ss-stats-card, .ss-shop-stats');
