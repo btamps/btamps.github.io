@@ -720,10 +720,12 @@
 .cs-cooper .cs-takeaways-inner{max-width:1340px}
 .cs-cooper .cs-takeaways .cs-head{padding:0 0 40px}
 .cs-cooper .cs-take-cards{grid-template-columns:repeat(3,minmax(0,1fr))}
-.cs-cooper .cs-take h3,.cs-cooper .cs-take p{color:var(--ink)}
+.cs-cooper .cs-take h3,.cs-cooper .cs-take div p{color:var(--ink)}
+.cs-cooper .cs-take .num{color:var(--cp-teal)}
 
 /* Up next: flat teal, ink button */
 .cs-cooper .cs-next .cs-eyebrow{color:var(--ink)}
+.cs-cooper .cs-next .cs-h2{color:var(--paper)}
 .cs-cooper .cs-next-btn{color:#fff}
 
 /* Small desktop: smaller headline so the scaled-down icon columns stay clear of it */
@@ -758,7 +760,7 @@
   .cs-cooper .cs-take-cards{gap:15px}
   .cs-cooper .cs-take{padding:21px}
   .cs-cooper .cs-take h3{font-size:28px;letter-spacing:-.56px}
-  .cs-cooper .cs-take p{font-size:18px}
+  .cs-cooper .cs-take div p{font-size:18px}
   .cs-cooper .cs-next{padding:80px 50px}
 }
 /* Narrow tablets: the margins get too thin for the side icons */
@@ -793,7 +795,7 @@
   .cs-cooper .cs-take-cards{grid-template-columns:1fr}
   .cs-cooper .cs-take{gap:20px;border-radius:20px}
   .cs-cooper .cs-take .num{font-size:48px;letter-spacing:-.96px}
-  .cs-cooper .cs-take p{font-size:18px;color:var(--ink)}
+  .cs-cooper .cs-take div p{font-size:18px;color:var(--ink)}
   .cs-cooper .cs-next{padding:60px 20px}
   .cs-cooper .logo img{width:44px;height:44px}
 }
