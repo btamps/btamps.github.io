@@ -571,6 +571,7 @@
 .cs-chariot .cs-take-cards{grid-template-columns:repeat(3,minmax(0,1fr))}
 .cs-chariot .cs-take{gap:30px;border-radius:32px;background:var(--ch-card)}
 .cs-chariot .cs-take h3,.cs-chariot .cs-take div p{color:var(--ch-text)}
+.cs-chariot .cs-take .num{color:var(--cs-accent)}
 .cs-chariot .cs-next-btn{color:#fff}
 .cs-chariot .footer{border-top-color:#222e44}
 .cs-chariot .footer-name,.cs-chariot .footer-links a{color:var(--ch-text)}
