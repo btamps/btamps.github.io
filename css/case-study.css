@@ -504,7 +504,8 @@
 .cs-chariot .cs-intro{max-width:700px;font-weight:600;color:var(--ch-navy)}
 .cs-chariot .cs-meta{max-width:700px}
 .cs-chariot .cs-pill{color:#fff;font-weight:600;padding:9px 15px}
-.ch-art{position:absolute;z-index:-1;left:calc(50% - var(--w) / 2);bottom:calc(var(--line) - var(--w) * .06714);width:var(--w);aspect-ratio:2800/739;pointer-events:none}
+.ch-art-clip{position:absolute;z-index:-1;top:0;bottom:0;left:calc(50% - 50vw);width:100vw;overflow:hidden;pointer-events:none}
+.ch-art{position:absolute;left:calc(50% - var(--w) / 2);bottom:calc(var(--line) - var(--w) * .06714);width:var(--w);aspect-ratio:2800/739;pointer-events:none}
 .ch-art img{max-width:none}
 .ch-city{width:100%;height:auto}
 /* Carry the route line past the art on screens wider than 1440px */
@@ -601,8 +602,12 @@
 }
 @media (max-width:699px){
   /* Phones: the art is scaled up so only the campus building shows, and the van parks on the right */
-  .ch-hero{--w:172.59vw;--line:24px;padding:50px 20px 150px}
-  .ch-art{left:-2.61vw}
+  .ch-hero{--line:24px;padding:50px 20px 150px}
+  /* Phones use the cropped 403×184 scene from Figma at full screen width; the line sits at 74.6% of
+     its height, and the van parks on the right side */
+  .ch-art{left:0;width:100%;aspect-ratio:403/184;bottom:calc(var(--line) - 100vw * .1159)}
+  .ch-art::before,.ch-art::after{display:none}
+  .ch-van,.ch-stop{left:69.26%;top:46.3%;width:27.72%}
   .cs-chariot .cs-tags{gap:10px;padding:0}
   .cs-chariot .cs-tags li{font-size:15px;letter-spacing:1.5px}
   .cs-chariot .cs-tags li[aria-hidden]{font-size:16px}
