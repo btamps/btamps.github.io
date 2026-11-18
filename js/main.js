@@ -117,12 +117,13 @@
     syncDots();
   }
   /* Meraki hero: pause the train, clouds and bubbles while the hero is scrolled out of view */
-  var mkHero = document.querySelector('.mk-hero');
-  if (mkHero && 'IntersectionObserver' in window) {
+  /* Cooper hero: same for the floating icons */
+  document.querySelectorAll('.mk-hero, .cp-hero').forEach(function (hero) {
+    if (!('IntersectionObserver' in window)) return;
     new IntersectionObserver(function (entries) {
-      mkHero.classList.toggle('is-offscreen', !entries[0].isIntersecting);
-    }).observe(mkHero);
-  }
+      hero.classList.toggle('is-offscreen', !entries[0].isIntersecting);
+    }).observe(hero);
+  });
   /* Chariot hero: the van waits just past the right edge of the screen, then drives in to its stop
      once that spot is fully on screen. --from is the distance from its stop to the screen's right edge */
   var van = document.querySelector('.ch-van');

@@ -651,3 +651,158 @@
 @media (prefers-reduced-motion:reduce){
   .ch-van,.ch-van-body,.ch-van img{animation:none!important;transform:none!important}
 }
+
+/* ---------- Cooper Icon Set ---------- */
+.cs-cooper{--cs-bg:#faf9f6; --cs-accent:#009284; --cs-pill:#7bc4bd; --cs-body:#1a1815; --cp-teal:#009284;
+  --cs-next-from:#009284; --cs-next-to:#009284; --cs-next-btn:#1a1815}
+.cs-cooper .logo img{width:52px;height:52px;margin:0}
+.cs-cooper .btn-tomato{background:var(--ink);border-color:#1e355e}
+.cs-cooper .cs-h2{color:var(--ink)}
+
+/* Teal grid: one layer behind the nav, hero and summary cards, so the grid runs unbroken through all three */
+.cp-top{position:relative;isolation:isolate}
+.cp-bg{position:absolute;z-index:-1;top:-200px;bottom:0;left:calc(50% - 50vw);width:100vw;background:var(--cp-teal);pointer-events:none}
+.cp-bg::before{content:"";position:absolute;inset:0;background:url(../assets/cooper/grid.png) left top/34px 34px;opacity:.2}
+
+/* Hero */
+.cp-hero{min-height:0;overflow:visible;padding:80px 49px 112px}
+.cs-cooper .cs-hero-text{max-width:1000px}
+.cs-cooper .cs-tags li,.cs-cooper .cs-hero h1,.cs-cooper .cs-meta dt{color:#fff}
+.cs-cooper .cs-hero h1{max-width:800px}
+.cs-cooper .cs-intro{max-width:700px;font-weight:600;color:#fff}
+.cs-cooper .cs-meta{max-width:700px}
+.cs-cooper .cs-pill{font-weight:600;padding:12px 15px;color:var(--ink)}
+
+/* Floating icons. --k is one Figma px, shrinking with the screen below the frame width, so icons keep their
+   place beside the copy. Each icon is placed by its center: x from the hero's center, y from its top
+   (or from its bottom when --*yb is 100%) */
+.cp-icons{position:absolute;z-index:-1;inset:0;left:calc(50% - 50vw);width:100vw;overflow:hidden;pointer-events:none;opacity:.5;
+  --k:min(1px,100vw / 1440)}
+.cp-ico{--x:var(--dx);--y:var(--dy);--yb:0%;--s:1;
+  position:absolute;left:calc(50% + var(--x) * var(--k));top:calc(var(--yb) + var(--y) * 1px);width:calc(var(--w) * var(--s) * var(--k));transform:translate(-50%,-50%)}
+.cp-ico img{display:block;width:100%;height:auto;animation:cp-float var(--t,6.5s) ease-in-out var(--o,0s) infinite alternate}
+@keyframes cp-float{
+  from{transform:translate3d(0,-6px,0) rotate(-2deg)}
+  to{transform:translate3d(0,6px,0) rotate(2deg)}
+}
+.cp-hero.is-offscreen .cp-ico img{animation-play-state:paused}
+
+/* Summary cards on the teal */
+.cs-cooper .cs-summary{padding:0 50px 120px}
+.cs-cooper .cs-card{background:#e6fffd;border-radius:20px}
+.cs-cooper .cs-card img{width:63px;height:63px;margin:-1.5px}
+.cs-cooper .cs-card h2,.cs-cooper .cs-card p{color:var(--ink)}
+.cs-cooper .cs-dots button{background:rgba(255,255,255,.35)}
+.cs-cooper .cs-dots button[aria-current="true"]{background:#fff}
+
+/* Story sections */
+.cp-section{padding:80px 50px;display:flex;flex-direction:column;align-items:center;gap:60px}
+.cp-section .cs-head{padding-bottom:20px}
+.cs-cooper .cs-copy{color:var(--ink)}
+.cp-context{gap:40px}
+
+/* Three rule cards: art on white, text on teal */
+.cp-rules{width:100%;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:30px}
+.cp-rules li{display:flex;flex-direction:column;min-width:0;background:var(--cp-teal);border-radius:32px;overflow:hidden;box-shadow:var(--cs-card-shadow)}
+.cp-rule-art{height:384px;background:#fff;display:flex;align-items:center;justify-content:center}
+.cp-rule-art img{width:100%;height:100%;object-fit:contain}
+.cp-rule-text{flex:1;display:flex;flex-direction:column;gap:5px;padding:30px}
+.cp-rule-text h3{font-weight:600;font-size:28px;line-height:1.2;letter-spacing:-.84px;color:#fff}
+.cp-rule-text p{font-size:20px;line-height:1.5;color:#e8f0f3}
+
+.cp-character{width:100%;height:auto;border-radius:32px}
+.cp-gallery{width:100%;display:flex;justify-content:center;overflow:hidden}
+.cp-gallery img{flex:none;width:100%;max-width:1200px;height:auto}
+.cp-form{width:100%;display:flex;justify-content:center;padding:60px;background:var(--cp-teal)}
+.cp-form img{width:100%;max-width:600px;height:auto}
+
+/* Takeaways: three across */
+.cs-cooper .cs-takeaways-inner{max-width:1340px}
+.cs-cooper .cs-takeaways .cs-head{padding:0 0 40px}
+.cs-cooper .cs-take-cards{grid-template-columns:repeat(3,minmax(0,1fr))}
+.cs-cooper .cs-take h3,.cs-cooper .cs-take p{color:var(--ink)}
+
+/* Up next: flat teal, ink button */
+.cs-cooper .cs-next .cs-eyebrow{color:var(--ink)}
+.cs-cooper .cs-next-btn{color:#fff}
+
+/* Small desktop: smaller headline so the scaled-down icon columns stay clear of it */
+@media (max-width:1199px){
+  .cp-hero{padding:80px 20px 112px}
+  .cs-cooper .cs-hero-text{max-width:800px}
+  .cs-cooper .cs-hero h1{font-size:72px;letter-spacing:-3.24px;max-width:660px}
+  .cs-cooper .cs-intro{font-size:20px;max-width:600px}
+  .cs-cooper .cs-meta{gap:30px;max-width:600px}
+  .cs-cooper .cs-pill{font-size:16px;padding:12px 15px}
+}
+
+/* Tablet: an arch of icons over the copy, plus a pair in each margin beside the intro and meta.
+   Values are px in the 834px tablet frame */
+@media (max-width:1023px){
+  .cp-hero{padding:215px 20px 112px}
+  .cs-cooper .cs-hero h1{font-size:88px;letter-spacing:-3.96px;max-width:800px}
+  .cp-icons{--k:min(1px,100vw / 834)}
+  .cp-ico{--x:var(--tx);--y:var(--ty);--yb:var(--tyb,0%);--s:.66}
+  .cs-cooper .cs-summary{padding:0 0 100px}
+  .cp-section{padding:60px 50px}
+  .cp-foundation .cs-text{max-width:600px}
+  .cp-rules{gap:15px}
+  .cp-rules li{border-radius:24px}
+  .cp-rule-art{height:338px}
+  .cp-rule-text{padding:20px 20px 30px}
+  .cp-rule-text h3{font-size:24px;letter-spacing:-.72px}
+  .cp-rule-text p{font-size:18px}
+  /* The full gallery stays at its desktop size, cropped to the screen */
+  .cp-gallery img{width:1200px;max-width:none}
+  .cs-cooper .cs-takeaways{padding:60px 50px}
+  .cs-cooper .cs-take-cards{gap:15px}
+  .cs-cooper .cs-take{padding:21px}
+  .cs-cooper .cs-take h3{font-size:28px;letter-spacing:-.56px}
+  .cs-cooper .cs-take p{font-size:18px}
+  .cs-cooper .cs-next{padding:80px 50px}
+}
+/* Narrow tablets: the margins get too thin for the side icons */
+@media (max-width:779px){
+  .cp-ico[style*="--tyb"]{display:none}
+}
+
+/* Phones: a tighter arch over the tags and a smile of icons under the meta. Values are px in the 403px phone frame */
+@media (max-width:699px){
+  .cp-hero{padding:175px 20px 128px}
+  .cp-icons{--k:min(1px,100vw / 403)}
+  .cp-ico{--x:var(--mx);--y:var(--my);--yb:var(--myb,0%);--s:.5}
+  .cp-ico[style*="--tyb"]{display:block}
+  .cs-cooper .cs-tags{gap:10px;padding:10px 0}
+  .cs-cooper .cs-tags li{font-size:15px;letter-spacing:1.5px}
+  .cs-cooper .cs-tags li[aria-hidden]{font-size:16px}
+  .cs-cooper .cs-hero h1{font-size:48px;letter-spacing:-2.16px}
+  .cs-cooper .cs-intro{font-size:20px}
+  .cs-cooper .cs-meta{grid-template-columns:repeat(2,minmax(0,1fr));gap:30px}
+  .cs-cooper .cs-meta dd:not(.cs-tools){flex-direction:column;align-items:flex-start}
+  .cs-cooper .cs-summary{padding:0 0 60px}
+  .cp-section{padding:60px 20px;gap:40px}
+  .cs-cooper .cs-copy{font-size:20px}
+  .cp-rules{grid-template-columns:1fr}
+  .cp-rule-art{height:340px}
+  .cp-rule-text h3{font-size:24px}
+  .cp-rule-text p{font-size:18px}
+  .cp-character{border-radius:16px}
+  .cp-gallery img{width:100%;max-width:none}
+  .cp-form{padding:40px 20px}
+  .cs-cooper .cs-takeaways{padding:60px 20px}
+  .cs-cooper .cs-take-cards{grid-template-columns:1fr}
+  .cs-cooper .cs-take{gap:20px;border-radius:20px}
+  .cs-cooper .cs-take .num{font-size:48px;letter-spacing:-.96px}
+  .cs-cooper .cs-take p{font-size:18px;color:var(--ink)}
+  .cs-cooper .cs-next{padding:60px 20px}
+  .cs-cooper .logo img{width:44px;height:44px}
+}
+@media (max-width:380px){
+  .cs-cooper .logo img{width:30px;height:30px}
+}
+@media (max-width:359px){
+  .cs-cooper .cs-meta{grid-template-columns:1fr}
+}
+@media (prefers-reduced-motion:reduce){
+  .cp-ico img{animation:none}
+}
