@@ -124,7 +124,7 @@
     }).observe(mkHero);
   }
   /* Chariot hero: the van waits just past the right edge of the screen, then drives in to its stop
-     once that spot is mostly on screen. --from is the distance from its stop to the screen's right edge */
+     once that spot is fully on screen. --from is the distance from its stop to the screen's right edge */
   var van = document.querySelector('.ch-van');
   var vanStop = document.querySelector('.ch-stop');
   if (van && vanStop && !reduce && 'IntersectionObserver' in window) {
@@ -139,7 +139,7 @@
       if (!entries[0].isIntersecting) return;
       vio2.disconnect();
       chHero.classList.add('ch-go');
-    }, { threshold: 0.5 });
+    }, { threshold: 0.9 });
     vio2.observe(vanStop);
   }
 
