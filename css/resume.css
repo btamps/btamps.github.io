@@ -1,0 +1,87 @@
+/* Resume page (web design). The Download PDF button serves resume/Billy-Tamplin-Resume.pdf, exported from Google Docs */
+.rs{padding:30px 50px 80px}
+.rs-bar,.rs-sheet{max-width:1040px;margin:0 auto}
+.rs-bar{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:0 8px 20px}
+.rs-bar-label{font-weight:600;font-size:16px;color:var(--graphite)}
+.rs-sheet{background:#fff;border:1px solid var(--stone);border-radius:40px;padding:72px 80px 64px;box-shadow:0 30px 80px -50px rgba(0,0,0,.35);color:#3d3a35}
+
+/* Header */
+.rs-head{display:flex;justify-content:space-between;align-items:flex-start;gap:40px;padding-bottom:16px}
+.rs-head h1{font-weight:400;font-size:56px;line-height:1;letter-spacing:-1.4px;color:var(--ink);text-transform:uppercase}
+.rs-first{font-weight:800;color:var(--tomato)}
+.rs-title{font-family:var(--sans);font-weight:500;font-size:17px;letter-spacing:4px;text-transform:uppercase;color:var(--graphite);margin-top:12px}
+.rs-contact{margin:4px 0 0;display:flex;flex-direction:column;gap:6px;font-size:15px;line-height:1.4}
+.rs-contact div{display:grid;grid-template-columns:28px auto}
+.rs-contact dt{color:var(--graphite)}
+.rs-contact dd{margin:0;color:var(--ink)}
+.rs-contact a:hover{text-decoration:underline;text-underline-offset:3px}
+
+/* Sections */
+.rs-sec{margin-top:44px}
+.rs-h2{font-family:var(--serif);font-weight:700;font-size:16px;letter-spacing:4px;text-transform:uppercase;color:var(--ink);padding-bottom:12px;border-bottom:2px solid var(--tomato);margin-bottom:22px}
+.rs-summary{font-size:17px;line-height:1.7}
+
+/* Experience rows */
+.rs-row{display:grid;grid-template-columns:minmax(0,1fr) 230px;gap:40px}
+.rs-row+.rs-row{margin-top:26px}
+.rs-body{position:relative;padding-left:16px}
+.rs-body::before{content:"";position:absolute;left:0;top:.6em;width:5px;height:5px;border-radius:50%;background:var(--ink)}
+.rs-body h3{font-family:var(--sans);font-weight:700;font-size:16px;letter-spacing:.4px;text-transform:uppercase;color:var(--ink);line-height:1.4}
+.rs-body h3 span{font-weight:600;text-transform:none;letter-spacing:0}
+.rs-body p,.rs-body li{font-size:16px;line-height:1.65}
+.rs-body p{margin-top:4px}
+.rs-body ul{margin-top:6px;display:flex;flex-direction:column;gap:3px}
+.rs-body li{position:relative;padding-left:16px}
+.rs-body li::before{content:"–";position:absolute;left:0;top:0;color:var(--tomato);font-weight:700}
+.rs-role{font-weight:700;font-size:15px;letter-spacing:.4px;text-transform:uppercase;color:var(--ink);line-height:1.4}
+.rs-dates{font-size:15px;line-height:1.6;margin-top:4px;font-variant-numeric:tabular-nums}
+
+/* Skills & tools grids */
+.rs-grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px}
+.rs-grid3 ul{display:flex;flex-direction:column;gap:5px}
+.rs-grid3 li{font-size:15.5px;line-height:1.5}
+/* Education */
+.rs-degree{font-weight:700;font-size:15px;letter-spacing:.4px;text-transform:uppercase;color:var(--ink);line-height:1.4}
+.rs-school{font-weight:600;font-size:15.5px;color:var(--tomato);margin-top:2px}
+
+/* Bottom columns */
+.rs-cols{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:56px;margin-top:48px}
+.rs-cols .rs-h2{margin-bottom:16px}
+.rs-list{display:flex;flex-direction:column;gap:5px;font-size:15.5px;line-height:1.5}
+.rs-work{display:flex;flex-direction:column;gap:9px}
+.rs-work li{display:flex;flex-direction:column;font-size:14.5px;line-height:1.4;color:var(--graphite)}
+.rs-work a{font-weight:700;font-size:14.5px;letter-spacing:.4px;text-transform:uppercase;color:var(--ink)}
+.rs-work a:hover{color:var(--tomato)}
+
+/* Tablet */
+@media (max-width:1023px){
+  .rs{padding:20px 30px 60px}
+  .rs-sheet{padding:52px 44px;border-radius:32px}
+  .rs-head{flex-direction:column;gap:24px}
+  .rs-row{grid-template-columns:minmax(0,1fr) 190px;gap:28px}
+  .rs-cols{gap:32px}
+}
+/* Mobile */
+@media (max-width:699px){
+  .rs{padding:10px 14px 50px}
+  .rs-bar{flex-direction:column;align-items:stretch;padding:0 4px 14px}
+  .rs-bar-label{text-align:center}
+  .rs-sheet{padding:34px 22px;border-radius:26px}
+  .rs-head h1{font-size:40px;letter-spacing:-1px}
+  .rs-title{font-size:13px;letter-spacing:2.6px}
+  .rs-h2{font-size:14px;letter-spacing:3px}
+  .rs-sec{margin-top:34px}
+  .rs-row{grid-template-columns:1fr;gap:6px}
+  .rs-meta{order:-1;padding-left:16px}
+  .rs-role{color:var(--tomato)}
+  .rs-dates{margin-top:0}
+  .rs-cols{grid-template-columns:1fr;gap:30px;margin-top:36px}
+  .rs-grid3{grid-template-columns:1fr;gap:5px}
+}
+
+/* If someone prints this page, drop the site chrome */
+@media print{
+  .skip,.nav-slot,.footer,.rs-bar{display:none!important}
+  .rs{padding:0}
+  .rs-sheet{border:0;box-shadow:none;padding:0}
+}
