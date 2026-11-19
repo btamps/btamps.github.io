@@ -112,6 +112,9 @@ h1,h2,h3,p{margin:0}
 .card-chariot{background:#1e355e;border-radius:32px}
 .card-cooper{background:#009284;border-radius:32px}
 .img-cooper{background:#fff}
+.card-imgs{display:flex;gap:20px;margin-top:auto}
+.card-imgs .card-img{margin-top:0;flex:413 1 0;min-width:0}
+.card-imgs .ss-main{flex-grow:433}
 
 /* About */
 .about{display:flex;flex-direction:column;gap:20px;padding:80px 50px}
@@ -148,6 +151,7 @@ h1,h2,h3,p{margin:0}
 /* Tablet */
 @media (max-width:699px){.skills{gap:8px}.skill-row{-webkit-mask-image:linear-gradient(90deg,transparent,#000 40px,#000 calc(100% - 40px),transparent);mask-image:linear-gradient(90deg,transparent,#000 40px,#000 calc(100% - 40px),transparent)}}
 @media (max-width:1023px){
+  .ss-extra{display:none}
   .nav-wrap{padding:10px 20px}
   .hero{padding-top:80px}
   .skill span{font-size:22px}
