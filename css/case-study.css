@@ -441,9 +441,11 @@
   .cs-semisweet .cs-intro{font-size:20px}
   .cs-semisweet .cs-meta{grid-template-columns:1fr;gap:30px}
   .ss-stats{padding:0 20px}
-  .ss-stats-card{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));padding:20px 0}
-  .ss-stats-card li{padding:30px 10px;border-right:0}
+  /* 2x2 on phones: dividers cross in the middle, inset from the card edges */
+  .ss-stats-card{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));padding:20px 12px}
+  .ss-stats-card li{padding:30px 6px;border-right:0}
   .ss-stats-card li:nth-child(odd){border-right:1px solid rgba(0,0,0,.1)}
+  .ss-stats-card li:nth-child(-n+2){border-bottom:1px solid rgba(0,0,0,.1)}
   .ss-approach{padding-top:60px}
   .ss-identity{padding:60px 20px 0}
   .ss-board{padding:60px 20px 40px}
