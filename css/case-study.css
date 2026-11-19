@@ -66,7 +66,7 @@
 .cs-media{width:100%;height:auto}
 .cs-palettes{width:100%;max-width:1200px;display:flex;flex-direction:column;gap:30px}
 .cs-palette{display:flex;flex-direction:column;gap:10px}
-.cs-swatches{display:flex;height:125px;border:1px solid rgba(0,0,0,.15);border-radius:20px;overflow:hidden}
+.cs-swatches{display:flex;height:125px;border:1px solid rgba(0,0,0,.15);border-radius:16px;overflow:hidden}
 .cs-swatches>li{flex:1 1 0;min-width:0}
 .cs-core>li{display:flex;flex-direction:column;justify-content:flex-end;padding:20px;color:var(--ink)}
 .cs-core>li.light{color:#fff}
@@ -74,7 +74,7 @@
 .cs-core span{font-weight:500;font-size:16px;line-height:1.2;text-transform:uppercase}
 .cs-spectrum{height:75px}
 .cs-grads{display:flex;gap:20px;height:125px}
-.cs-grads>li{flex:1 1 0;min-width:0;border:1px solid rgba(0,0,0,.15);border-radius:20px;background:var(--g)}
+.cs-grads>li{flex:1 1 0;min-width:0;border:1px solid rgba(0,0,0,.15);border-radius:16px;background:var(--g)}
 .cs-grads.core>li{--deg:-54.6deg}
 .cs-grads.ext>li{--deg:-69deg}
 
@@ -173,6 +173,7 @@
   .cs-core b{font-size:16px}
   .cs-core span{font-size:11px}
   .cs-grads{gap:10px}
+  .cs-swatches,.cs-grads>li{border-radius:8px}
   .cs-showcase,.cs-showcase.pages{padding:20px}
   .cs-showcase.pages img{max-width:none}
   .cs-take-cards{grid-template-columns:1fr}
