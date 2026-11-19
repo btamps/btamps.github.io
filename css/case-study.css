@@ -830,7 +830,7 @@
 }
 @media (max-width:699px){
   .hf-issues{grid-template-columns:1fr;gap:16px}
-  .hf-arrow{width:64px;left:auto;right:6px;bottom:-62px}
+  .hf-arrow{width:64px;left:calc(50% - 54px);right:auto;bottom:-62px}
 }
 
 /* Highfive: old homepage shown in a browser window. Sizes are in 1024ths of the frame width so it scales like the Figma frame */
