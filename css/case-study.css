@@ -78,8 +78,6 @@
 .cs-grads.core>li{--deg:-54.6deg}
 .cs-grads.ext>li{--deg:-69deg}
 
-/* Full-bleed illustration */
-.cs-bleed{width:100%;height:auto}
 
 /* Connections + website */
 .cs-story{padding:60px 50px;display:flex;flex-direction:column;align-items:center}
@@ -987,3 +985,9 @@
   .hf-row .hf-s-body{font-size:16px}
   .hf-btns{gap:24px}
 }
+
+/* Highfive: homepage screenshot in a full-width lavender band (replaces the full-bleed scene) */
+.cs-showcase.hf-home{padding:60px}
+.cs-showcase.hf-home img{max-width:1320px;aspect-ratio:1320/1054;object-fit:cover;object-position:top;border-radius:16px}
+@media (max-width:1023px){.cs-showcase.hf-home{padding:60px}}
+@media (max-width:699px){.cs-showcase.hf-home{padding:30px 20px}.cs-showcase.hf-home img{border-radius:8px}}
