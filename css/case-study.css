@@ -813,3 +813,38 @@
 @media (prefers-reduced-motion:reduce){
   .cp-ico img{animation:none}
 }
+
+/* Highfive: "Before" critique notes with a hand-drawn arrow into the old site screenshot */
+.hf-before{position:relative;width:100%;max-width:750px;display:flex;flex-direction:column;gap:20px}
+.hf-before .cs-label{text-align:left}
+.hf-issues{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 40px}
+.hf-issues li{position:relative;padding-left:34px;font-size:18px;line-height:1.5;color:var(--cs-body)}
+.hf-issues li::before{content:"";position:absolute;left:0;top:.55em;width:22px;height:10px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='10' viewBox='0 0 22 10' fill='none'%3E%3Cpath d='M2.5 6.5C6 3 9 3.5 11 5.5S16.5 7.5 19.5 3.5' stroke='%23FF5B2E' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E") no-repeat}
+.hf-issues b{display:block;font-weight:700;color:var(--ink)}
+.hf-arrow{position:absolute;left:600px;bottom:-99px;width:150px;height:auto;pointer-events:none;z-index:1}
+.cs-challenge .hf-before + .hf-browser{margin-top:10px}
+@media (max-width:1023px){
+  .hf-issues li{font-size:16px}
+  .hf-arrow{width:120px;bottom:-83px;left:580px}
+  .cs-challenge .hf-before + .hf-browser{margin-top:30px}
+}
+@media (max-width:699px){
+  .hf-issues{grid-template-columns:1fr;gap:16px}
+  .hf-arrow{width:64px;left:auto;right:6px;bottom:-62px}
+}
+
+/* Highfive: old homepage shown in a browser window. Sizes are in 1024ths of the frame width so it scales like the Figma frame */
+.hf-browser{width:100%;max-width:1024px;margin:0;container-type:inline-size}
+.hf-browser-win{--u:calc(100cqw / 1024);background:#fff;border:1px solid rgba(0,0,0,.1);border-radius:calc(16 * var(--u));overflow:hidden;
+  box-shadow:0 2.77px 2.21px rgba(0,0,0,.02),0 6.65px 5.32px rgba(0,0,0,.028),0 12.52px 10.02px rgba(0,0,0,.035),0 22.34px 17.87px rgba(0,0,0,.042),0 41.78px 33.42px rgba(0,0,0,.05),0 15px 48px rgba(0,0,0,.07)}
+.hf-browser-bar{display:flex;align-items:center;justify-content:space-between;height:calc(56 * var(--u));padding:0 calc(24 * var(--u));border-bottom:1px solid rgba(0,0,0,.1)}
+.hf-browser-bar img{display:block;width:calc(20 * var(--u));height:calc(20 * var(--u))}
+.hf-bl{display:flex;align-items:center;gap:calc(24 * var(--u))}
+.hf-bl .os{width:calc(52 * var(--u));height:calc(12 * var(--u))}
+.hf-nav,.hf-br{display:flex;gap:calc(12 * var(--u))}
+.hf-br{gap:calc(20 * var(--u))}
+.hf-addr{display:flex;align-items:center;gap:calc(8 * var(--u));width:calc(480 * var(--u));height:calc(28 * var(--u));padding:0 calc(8 * var(--u));background:#f1f1f1;border-radius:calc(8 * var(--u))}
+.hf-addr img{width:calc(16 * var(--u));height:calc(16 * var(--u))}
+.hf-site{flex:1;display:flex;align-items:center;justify-content:center;gap:calc(4 * var(--u));font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-size:calc(13 * var(--u));line-height:1;color:#151515;white-space:nowrap}
+.hf-browser-view{aspect-ratio:1024/744;overflow:hidden}
+.hf-browser-view img{display:block;width:100%;height:auto}
