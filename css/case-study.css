@@ -904,7 +904,8 @@
   .hf-scene{left:-11.69%;top:-9%;width:123.37%;transform:none}
 }
 @media (max-width:699px){
-  .hf-scene{left:50%;top:0;width:min(100%,440px);aspect-ratio:402/371;transform:translateX(-50%)}
+  .cs-highfive .cs-hero{padding-top:calc(min(100vw,440px) * .953)}
+  .hf-scene{left:50%;top:calc(min(100vw,440px) * .07);width:min(100%,440px);aspect-ratio:402/371;transform:translateX(-50%)}
   .hf-left{left:1.19%;top:-3.3%;width:48.86%}
   .hf-right{left:46.77%;top:-4.9%;width:49.91%}
 }
