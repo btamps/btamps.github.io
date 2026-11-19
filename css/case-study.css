@@ -848,3 +848,66 @@
 .hf-site{flex:1;display:flex;align-items:center;justify-content:center;gap:calc(4 * var(--u));font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-size:calc(13 * var(--u));line-height:1;color:#151515;white-space:nowrap}
 .hf-browser-view{aspect-ratio:1024/744;overflow:hidden}
 .hf-browser-view img{display:block;width:100%;height:auto}
+
+/* Highfive hero: full-bleed wave background + animated people and floating screens (inline SVG from Figma).
+   Scene coordinates come from the 1440x795 desktop composition. */
+.cs-highfive .cs-hero{overflow:visible;clip-path:inset(0 -100vmax)}
+.hf-hero-bg{position:absolute;z-index:-2;top:0;bottom:0;left:calc(50% - 50vw);right:calc(50% - 50vw);background:url("../assets/highfive/hero-bg-wide.svg") center bottom/cover no-repeat;pointer-events:none}
+.hf-hero-bg::before,.hf-hero-bg::after{content:"";position:absolute;left:0;right:0}
+.hf-hero-bg::before{top:0;height:90px;background:linear-gradient(var(--cs-bg),rgba(248,248,255,0))}
+.hf-hero-bg::after{bottom:0;height:160px;background:linear-gradient(rgba(237,237,253,0),var(--cs-band))}
+.hf-scene{position:absolute;z-index:-1;left:0;top:50%;width:100%;aspect-ratio:1440/795;transform:translateY(-50%);pointer-events:none}
+.hf-cluster{position:absolute}
+.hf-left{left:3.94%;top:13.9%;width:23.02%;aspect-ratio:331.5/612.1}
+.hf-right{left:74.24%;top:17.17%;width:22.12%;aspect-ratio:318.5/576.8}
+.hf-el{position:absolute}
+.hf-el svg{display:block;width:100%;height:auto;overflow:visible}
+.hf-sl1{left:0;top:0;width:61.63%}
+.hf-pl{left:10.35%;top:28.67%;width:89.65%}
+.hf-sl2{left:5.04%;top:64.19%;width:34.75%}
+.hf-sr1{left:34.69%;top:0;width:65.31%}
+.hf-sr2{left:64.71%;top:38.97%;width:33.81%}
+.hf-pr{left:0;top:26.09%;width:81.35%}
+
+/* Screens float gently, each on its own rhythm */
+.hf-float{animation:hf-float 6s ease-in-out infinite alternate}
+.hf-sl2 .hf-float{animation-duration:5.2s;animation-delay:-2.1s}
+.hf-sr1 .hf-float{animation-duration:6.6s;animation-delay:-1.2s}
+.hf-sr2 .hf-float{animation-duration:4.8s;animation-delay:-3s}
+@keyframes hf-float{from{transform:translateY(0)}to{transform:translateY(-3.5%)}}
+
+/* People interact with the screens */
+.hf-p,.hf-plant,.hf-bar,.hf-ava,.hf-check{transform-box:fill-box;transform-origin:50% 100%}
+.hf-point{animation:hf-point 4s ease-in-out infinite}
+@keyframes hf-point{0%,100%{transform:rotate(0)}45%,60%{transform:rotate(-2.2deg)}}
+.hf-tap{animation:hf-tap 2.6s ease-in-out infinite}
+@keyframes hf-tap{0%,100%{transform:translateY(0)}50%{transform:translateY(-1.2%) rotate(.6deg)}}
+.hf-sit{animation:hf-lean 5s ease-in-out infinite}
+@keyframes hf-lean{0%,100%{transform:rotate(0)}50%{transform:rotate(-1.4deg)}}
+.hf-plant{animation:hf-sway 7s ease-in-out infinite}
+@keyframes hf-sway{0%,100%{transform:rotate(-1.8deg)}50%{transform:rotate(1.8deg)}}
+.hf-present{animation:hf-present 4.5s ease-in-out infinite}
+@keyframes hf-present{0%,100%{transform:rotate(0)}40%,60%{transform:rotate(2deg)}}
+.hf-type{animation:hf-type 1.8s ease-in-out infinite}
+@keyframes hf-type{0%,100%{transform:translateY(0)}50%{transform:translateY(-.8%)}}
+.hf-think{animation:hf-lean 6.5s ease-in-out infinite;animation-delay:-2s}
+
+/* Screen content reacts: chart bars rise and fall, call avatars light up in turn, the check pops */
+.hf-bar{animation:hf-bar 4s ease-in-out infinite;animation-delay:calc(var(--i) * -.45s)}
+@keyframes hf-bar{0%,100%{transform:scaleY(1)}50%{transform:scaleY(.55)}}
+.hf-ava{animation:hf-ava 4.5s ease-in-out infinite;animation-delay:calc(var(--i) * 1.5s);transform-origin:50% 50%}
+@keyframes hf-ava{0%,30%,100%{transform:scale(1)}12%{transform:scale(1.12)}}
+.hf-check{animation:hf-check 5s ease-in-out infinite;transform-origin:50% 50%}
+@keyframes hf-check{0%,70%,100%{transform:scale(1)}78%{transform:scale(1.25)}86%{transform:scale(.95)}}
+
+@media (max-width:1199px){
+  .hf-scene{left:-11.69%;top:-9%;width:123.37%;transform:none}
+}
+@media (max-width:699px){
+  .hf-scene{left:50%;top:0;width:min(100%,440px);aspect-ratio:402/371;transform:translateX(-50%)}
+  .hf-left{left:1.19%;top:-3.3%;width:48.86%}
+  .hf-right{left:46.77%;top:-4.9%;width:49.91%}
+}
+@media (prefers-reduced-motion:reduce){
+  .hf-scene *{animation:none!important}
+}
