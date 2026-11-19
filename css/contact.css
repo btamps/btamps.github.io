@@ -14,8 +14,8 @@ a.ct-way:hover{transform:translateX(6px);border-color:var(--ink)}
 .ct-way-text{min-width:0;display:flex;flex-direction:column;gap:2px}
 .ct-way-label{font-size:14px;font-weight:600;color:var(--graphite)}
 .ct-way-value{font-family:var(--serif);font-variation-settings:"opsz" 14,"wdth" 100;font-weight:700;font-size:20px;letter-spacing:-.4px;overflow-wrap:anywhere}
-.ct-arrow{margin-left:auto;flex:none;transition:transform .2s}
-a.ct-way:hover .ct-arrow{transform:rotate(-45deg)}
+.ct-arrow{margin-left:auto;flex:none;transform:rotate(-45deg);transition:transform .35s cubic-bezier(.2,.8,.2,1)}
+a.ct-way:hover .ct-arrow,a.ct-way:focus-visible .ct-arrow{transform:rotate(0deg)}
 
 .ct-card{position:relative;background:#fff;border:1px solid rgba(0,0,0,.1);border-radius:36px;padding:44px;box-shadow:0 24px 48px -32px rgba(26,24,21,.35)}
 .ct-card h2{font-weight:800;font-size:36px;line-height:1.1;letter-spacing:-.72px;margin-bottom:24px}
