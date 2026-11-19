@@ -877,11 +877,14 @@
 @keyframes hf-float{from{transform:translateY(0)}to{transform:translateY(-3.5%)}}
 
 /* People interact with the screens */
-.hf-p,.hf-plant,.hf-bar,.hf-ava,.hf-check{transform-box:fill-box;transform-origin:50% 100%}
+.hf-p,.hf-plant,.hf-bar,.hf-ava,.hf-check,.hf-arm{transform-box:fill-box;transform-origin:50% 100%}
 .hf-point{animation:hf-point 4s ease-in-out infinite}
 @keyframes hf-point{0%,100%{transform:rotate(0)}45%,60%{transform:rotate(-2.2deg)}}
-.hf-tap{animation:hf-tap 2.6s ease-in-out infinite}
-@keyframes hf-tap{0%,100%{transform:translateY(0)}50%{transform:translateY(-1.2%) rotate(.6deg)}}
+.hf-arm{transform-box:fill-box}
+.hf-wave{transform-origin:100% 8%;animation:hf-wave 3.4s ease-in-out infinite}
+@keyframes hf-wave{0%,100%{transform:rotate(0)}35%,55%{transform:rotate(7deg)}}
+.hf-hold{transform-origin:88% 4%;animation:hf-hold 2.8s ease-in-out infinite;animation-delay:-1s}
+@keyframes hf-hold{0%,100%{transform:rotate(0)}50%{transform:rotate(-3deg)}}
 .hf-sit{animation:hf-lean 5s ease-in-out infinite}
 @keyframes hf-lean{0%,100%{transform:rotate(0)}50%{transform:rotate(-1.4deg)}}
 .hf-plant{animation:hf-sway 7s ease-in-out infinite}
