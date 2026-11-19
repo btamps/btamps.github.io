@@ -16,7 +16,6 @@ a.ct-way:hover{transform:translateX(6px);border-color:var(--ink)}
 .ct-way-value{font-family:var(--serif);font-variation-settings:"opsz" 14,"wdth" 100;font-weight:700;font-size:20px;letter-spacing:-.4px;overflow-wrap:anywhere}
 .ct-arrow{margin-left:auto;flex:none;transition:transform .2s}
 a.ct-way:hover .ct-arrow{transform:rotate(-45deg)}
-a.ct-way-dl:hover .ct-arrow{transform:translateY(3px)}
 
 .ct-card{position:relative;background:#fff;border:1px solid rgba(0,0,0,.1);border-radius:36px;padding:44px;box-shadow:0 24px 48px -32px rgba(26,24,21,.35)}
 .ct-card h2{font-weight:800;font-size:36px;line-height:1.1;letter-spacing:-.72px;margin-bottom:24px}
