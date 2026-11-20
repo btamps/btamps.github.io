@@ -231,7 +231,7 @@
   function start() {
     if (timer || motion.matches || !visible || document.hidden) return;
     group.setAttribute('filter', 'url(#wiggle)');
-    timer = setInterval(tick, 130);
+    timer = setInterval(tick, 110);
   }
   function stop() {
     clearInterval(timer);
