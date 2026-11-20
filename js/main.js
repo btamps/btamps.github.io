@@ -214,3 +214,39 @@
   var t;
   window.addEventListener('resize', function () { clearTimeout(t); t = setTimeout(build, 200); });
 })();
+
+// Hero drawing: soft "boiling line" wiggle
+(function () {
+  var drawing = document.querySelector('.hero-drawing:not([hidden])');
+  var noise = document.querySelector('#wiggle feTurbulence');
+  if (!drawing || !noise) return;
+  var motion = window.matchMedia('(prefers-reduced-motion: reduce)');
+  var group = drawing.querySelector('g');
+  var timer = null, seed = 1, visible = true;
+
+  function tick() {
+    seed = seed % 6 + 1;
+    noise.setAttribute('seed', seed);
+  }
+  function start() {
+    if (timer || motion.matches || !visible || document.hidden) return;
+    group.setAttribute('filter', 'url(#wiggle)');
+    timer = setInterval(tick, 130);
+  }
+  function stop() {
+    clearInterval(timer);
+    timer = null;
+    if (motion.matches) group.removeAttribute('filter');
+  }
+  function update() { stop(); start(); }
+
+  if ('IntersectionObserver' in window) {
+    new IntersectionObserver(function (entries) {
+      visible = entries[0].isIntersecting;
+      update();
+    }).observe(drawing);
+  }
+  document.addEventListener('visibilitychange', update);
+  if (motion.addEventListener) motion.addEventListener('change', update);
+  start();
+})();
