@@ -250,11 +250,11 @@
 .mk-campaigns .cs-copy{color:var(--graphite)}
 .mk-ads{width:100%;height:auto}
 .mk-editorial{--band:#faf9f3}
-.mk-editorial .cs-eyebrow{color:#f05554}
+.mk-editorial .cs-eyebrow{color:#4bb749}
 .mk-editorial .cs-h2{color:#2f4761}
 .mk-editorial .cs-copy{color:#49525d}
 .mk-ebook{display:flex;gap:50px;width:100%}
-.mk-ebook img{flex:1 1 0;min-width:0;height:auto}
+.mk-ebook img{flex:1 1 0;min-width:0;height:auto;box-shadow:0 15px 48px -24px rgba(0,0,0,.25)}
 .mk-email{--band:#edf2f4}
 .mk-email .cs-eyebrow{color:#4bb749}
 .mk-email .cs-h2{color:#2f4761}
