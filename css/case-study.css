@@ -255,6 +255,13 @@
 .mk-editorial .cs-copy{color:#49525d}
 .mk-ebook{display:flex;gap:50px;width:100%}
 .mk-ebook img{flex:1 1 0;min-width:0;height:auto}
+.mk-email{--band:#edf2f4}
+.mk-email .cs-eyebrow{color:#4bb749}
+.mk-email .cs-h2{color:#2f4761}
+.mk-email .cs-copy{color:#49525d}
+.mk-emails{position:relative;display:flex;gap:30px;width:100%;align-items:flex-start}
+.mk-emails img{flex:1 1 0;min-width:0;height:auto;box-shadow:0 15px 48px -24px rgba(0,0,0,.25)}
+.mk-email-dots{display:none}
 
 /* Phone hero art (shown under 560px). 1 art unit = 100vw / 337.84, so the illustration's hill fills the screen edge to edge */
 .mk-m{display:none;position:absolute;z-index:-1;left:0;right:0;bottom:0;overflow:hidden;pointer-events:none;--u:calc(100vw / 337.84)}
@@ -282,6 +289,15 @@
   .mk-work{padding:60px 20px}
   .cs-meraki .cs-copy{font-size:20px}
   .mk-ebook{gap:20px}
+  /* Phone emails: swipe through one at a time at a readable size, the next one peeking in */
+  .mk-email{padding-left:0;padding-right:0}
+  .mk-email .cs-text{padding:0 20px 30px}
+  .mk-emails{gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;overscroll-behavior-x:contain;padding:10px 9vw 28px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+  .mk-emails::-webkit-scrollbar{display:none}
+  .mk-emails img{flex:0 0 82vw;scroll-snap-align:center;scroll-snap-stop:always;border-radius:6px}
+  .mk-email-dots{display:flex;justify-content:center;gap:8px}
+  .mk-email-dots button{width:8px;height:8px;padding:0;border:0;border-radius:99px;background:rgba(37,85,67,.25);cursor:pointer;transition:width .25s,background .25s}
+  .mk-email-dots button[aria-current="true"]{width:24px;background:#4bb749}
   .cs-meraki .cs-tags li{font-size:16px;letter-spacing:1.6px}
   .cs-meraki .cs-hero h1{font-size:48px;letter-spacing:-2.16px}
   .cs-meraki .cs-intro{font-size:18px}

@@ -116,6 +116,33 @@
     window.addEventListener('resize', syncDots);
     syncDots();
   }
+  /* Meraki emails: on phones the emails swipe sideways; dots show which one is centered and jump to one on tap */
+  var mails = document.getElementById('mk-emails');
+  var mailDots = document.querySelector('.mk-email-dots');
+  if (mails && mailDots) {
+    var mailImgs = Array.prototype.slice.call(mails.querySelectorAll('img'));
+    var mailBtns = mailImgs.map(function (img, i) {
+      var b = document.createElement('button');
+      b.type = 'button';
+      b.setAttribute('aria-label', 'Show email ' + (i + 1) + ' of ' + mailImgs.length);
+      b.addEventListener('click', function () {
+        mails.scrollTo({ left: img.offsetLeft - (mails.clientWidth - img.offsetWidth) / 2, behavior: reduce ? 'auto' : 'smooth' });
+      });
+      mailDots.appendChild(b);
+      return b;
+    });
+    var syncMail = function () {
+      var mid = mails.scrollLeft + mails.clientWidth / 2, best = 0, bestD = Infinity;
+      mailImgs.forEach(function (img, i) {
+        var d = Math.abs(img.offsetLeft + img.offsetWidth / 2 - mid);
+        if (d < bestD) { bestD = d; best = i; }
+      });
+      mailBtns.forEach(function (b, i) { b.setAttribute('aria-current', i === best ? 'true' : 'false'); });
+    };
+    mails.addEventListener('scroll', function () { requestAnimationFrame(syncMail); }, { passive: true });
+    window.addEventListener('resize', syncMail);
+    syncMail();
+  }
   /* Meraki hero: pause the train, clouds and bubbles while the hero is scrolled out of view */
   /* Cooper hero: same for the floating icons */
   document.querySelectorAll('.mk-hero, .cp-hero').forEach(function (hero) {
