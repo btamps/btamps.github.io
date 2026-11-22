@@ -187,7 +187,9 @@
 }
 
 /* ---------- Meraki ---------- */
-.cs-meraki{--cs-bg:#f6fafa; --cs-accent:#255543; --cs-pill:#e2f4f4; --cs-next-from:#13331a; --cs-next-to:#13331a; --cs-next-btn:#f9d88a}
+.cs-meraki{--cs-bg:#f6fafa; --cs-accent:#255543; --cs-pill:#e2f4f4; --cs-next-from:#13331a; --cs-next-to:#13331a; --cs-next-btn:#c5eabd}
+.cs-meraki .cs-next .cs-eyebrow{color:#f9d88a}
+.cs-meraki .cs-next-btn{color:#13331a}
 .cs-meraki .cs-tags li,.cs-meraki .cs-hero h1{color:#11331a}
 .cs-meraki .cs-intro{color:#255543}
 
