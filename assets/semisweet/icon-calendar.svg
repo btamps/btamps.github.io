@@ -1,0 +1,15 @@
+<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="cal- icon">
+<rect width="50" height="50" fill="white"/>
+<rect id="Rectangle 82" x="7" y="10" width="36" height="34" rx="4" stroke-width="3" stroke="#F05554"/>
+<line id="Line 5" x1="14.5" y1="5.5" x2="14.5" y2="13.5" stroke-width="3" stroke-linecap="round" stroke="#F05554"/>
+<line id="Line 6" x1="35.5" y1="5.5" x2="35.5" y2="13.5" stroke-width="3" stroke-linecap="round" stroke="#F05554"/>
+<line id="Line 7" x1="7" y1="19.5" x2="43" y2="19.5" stroke-width="3" stroke="#F05554"/>
+<circle id="Ellipse 39" cx="15" cy="27" r="2" fill="#F05554"/>
+<circle id="Ellipse 42" cx="15" cy="36" r="2" fill="#F05554"/>
+<circle id="Ellipse 40" cx="25" cy="27" r="2" fill="#F05554"/>
+<circle id="Ellipse 43" cx="25" cy="36" r="2" fill="#F05554"/>
+<circle id="Ellipse 41" cx="35" cy="27" r="2" fill="#F05554"/>
+<circle id="Ellipse 44" cx="35" cy="36" r="2" fill="#F05554"/>
+</g>
+</svg>

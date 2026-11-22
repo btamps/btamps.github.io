@@ -1,0 +1,13 @@
+<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="layers- icon" clip-path="url(#clip0_0_23)">
+<rect width="50" height="50" fill="white"/>
+<path id="Rectangle 83" d="M25.5592 26.9367L42.5112 17.9759C43.2215 17.6005 43.2215 16.5831 42.5112 16.2077L25.5592 7.24694C25.2668 7.09239 24.9169 7.09239 24.6246 7.24694L7.67252 16.2077C6.96228 16.5831 6.96229 17.6005 7.67252 17.9759L24.6246 26.9367C24.9169 27.0912 25.2668 27.0912 25.5592 26.9367Z" stroke-width="3" stroke="#F05554"/>
+<path id="Rectangle 84" d="M6 25.0918L24.6246 34.9367C24.9169 35.0912 25.2668 35.0912 25.5592 34.9367L44.1838 25.0918" stroke-width="3" stroke-linecap="round" stroke="#F05554"/>
+<path id="Rectangle 85" d="M6 33.0918L24.6246 42.9367C24.9169 43.0912 25.2668 43.0912 25.5592 42.9367L44.1838 33.0918" stroke-width="3" stroke-linecap="round" stroke="#F05554"/>
+</g>
+<defs>
+<clipPath id="clip0_0_23">
+<rect width="50" height="50" fill="white"/>
+</clipPath>
+</defs>
+</svg>

@@ -355,6 +355,7 @@
 .cs-semisweet .cs-dots button{background:rgba(240,85,84,.25)}
 /* Section text blocks keep their own side padding so galleries inside the section can run edge to edge */
 .ss-approach .cs-text,.ss-shop .cs-text,.ss-campaigns .cs-text{max-width:850px;padding:0 50px 20px}
+.ss-lead-text{margin-top:10px}
 
 /* Hero: cookie photo across the top, wavy icing edge over it, copy on the icing */
 .ss-hero{min-height:0;overflow:visible;padding:clamp(200px,34.7vw,900px) 49px 40px}
@@ -377,9 +378,9 @@
 
 /* Approach + collage. --u is one Figma px: 1px on desktop, easing down to .55px on a 403px phone,
    so the collage keeps its desktop layout and the outer photos run off the screen edges */
-.ss-approach{padding:80px 0 0;display:flex;flex-direction:column;align-items:center}
+.ss-approach{padding:80px 0;display:flex;flex-direction:column;align-items:center}
 .ss-approach .cs-copy{color:var(--ss-navy)}
-.ss-gallery{--u:clamp(.5px,calc(.363px + .0464vw),1px);width:100%;overflow:hidden;display:flex;flex-direction:column;align-items:center;gap:calc(10 * var(--u));padding:calc(40 * var(--u)) 0 calc(160 * var(--u))}
+.ss-gallery{--u:clamp(.5px,calc(.363px + .0464vw),1px);width:100%;overflow:hidden;display:flex;flex-direction:column;align-items:center;gap:calc(10 * var(--u));padding:calc(40 * var(--u)) 0 calc(80 * var(--u))}
 .ss-row{flex:none;display:flex;gap:calc(30 * var(--u));padding:calc(10 * var(--u))}
 .ss-row-1{align-items:flex-end}
 .ss-row-3{align-items:flex-start}
@@ -387,9 +388,23 @@
 .ss-row .lg{width:calc(350 * var(--u))}
 .ss-row-2 img{width:calc(374 * var(--u))}
 
+/* Creative direction: three-up card under the collage */
+.ss-lead{width:100%;padding:0 50px}
+.ss-lead-card{display:flex;background:#fff;border-radius:32px;box-shadow:0 15px 48px -24px rgba(0,0,0,.25);padding:20px 0;max-width:1340px;margin:0 auto}
+.ss-lead-card li{flex:1 1 0;min-width:0;display:flex;flex-direction:column;align-items:flex-start;gap:3px;padding:30px;border-right:1px solid rgba(0,0,0,.1)}
+.ss-lead-card li:last-child{border-right:0}
+.ss-lead-card h3{font-family:var(--serif);font-variation-settings:"opsz" 14,"wdth" 100;font-weight:800;font-size:28px;line-height:1.4;letter-spacing:-.56px;color:var(--ss-navy)}
+.ss-lead-card p{font-size:20px;line-height:1.5;color:var(--ss-navy)}
+@media (max-width:1199px){
+  /* Stack once three columns get too narrow for the titles */
+  .ss-lead-card{flex-direction:column;padding:0 20px}
+  .ss-lead-card li{border-right:0;border-bottom:1px solid rgba(0,0,0,.1);padding:30px 10px}
+  .ss-lead-card li:last-child{border-bottom:0}
+}
+
 /* Brand identity */
 .ss-identity{--band:#bde3ec;padding:80px 50px;display:flex;flex-direction:column;align-items:center;gap:10px}
-.ss-identity .cs-text{max-width:600px;padding-bottom:17px}
+.ss-identity .cs-text{max-width:750px;padding-bottom:17px}
 .ss-logo{width:100%;max-width:1155px;aspect-ratio:1155/342;display:flex;align-items:center;overflow:hidden}
 .ss-logo img{flex:none;width:100%;height:auto}
 .ss-board{padding:60px 50px 80px}
@@ -488,7 +503,9 @@
   .ss-stats-card li{padding:30px 6px;border-right:0}
   .ss-stats-card li:nth-child(odd){border-right:1px solid rgba(0,0,0,.1)}
   .ss-stats-card li:nth-child(-n+2){border-bottom:1px solid rgba(0,0,0,.1)}
-  .ss-approach{padding-top:60px}
+  .ss-approach{padding:60px 0}
+  .ss-lead{padding:0 20px}
+  .ss-lead-card li{padding:30px 10px}
   .ss-identity{padding:60px 20px 0}
   .ss-board{padding:60px 20px 40px}
   .ss-photos{padding:0 20px 60px}
