@@ -246,6 +246,7 @@
 .mk-work{padding:80px 50px;display:flex;flex-direction:column;align-items:center;gap:10px}
 .mk-work .cs-text{padding-bottom:40px}
 .mk-campaigns{--band:#edf2f4}
+.mk-campaigns .cs-eyebrow{color:#4bb749}
 .mk-campaigns .cs-h2{color:#11331a}
 .mk-campaigns .cs-copy{color:var(--graphite)}
 .mk-ads{width:100%;height:auto}
