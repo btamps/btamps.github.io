@@ -3,7 +3,7 @@
 .rs-bar,.rs-sheet{max-width:1040px;margin:0 auto}
 .rs-bar{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:0 8px 20px}
 .rs-bar-label{font-weight:600;font-size:16px;color:var(--graphite)}
-.rs-sheet{background:#fff;border:1px solid var(--stone);border-radius:40px;padding:72px 80px 64px;box-shadow:0 30px 80px -50px rgba(0,0,0,.35);color:#3d3a35}
+.rs-sheet{background:#fff;border:1px solid var(--stone);border-radius:24px;padding:72px 80px 64px;box-shadow:0 30px 80px -50px rgba(0,0,0,.35);color:#3d3a35}
 
 /* Header */
 .rs-head{display:flex;justify-content:space-between;align-items:flex-start;gap:40px;padding-bottom:16px}
@@ -56,7 +56,7 @@
 /* Tablet */
 @media (max-width:1023px){
   .rs{padding:20px 30px 60px}
-  .rs-sheet{padding:52px 44px;border-radius:32px}
+  .rs-sheet{padding:52px 44px}
   .rs-head{flex-direction:column;gap:24px}
   .rs-row{grid-template-columns:minmax(0,1fr) 190px;gap:28px}
   .rs-cols{gap:32px}
@@ -66,7 +66,7 @@
   .rs{padding:10px 14px 50px}
   .rs-bar{flex-direction:column;align-items:stretch;padding:0 4px 14px}
   .rs-bar-label{text-align:center}
-  .rs-sheet{padding:34px 22px;border-radius:26px}
+  .rs-sheet{padding:34px 22px}
   .rs-head h1{font-size:40px;letter-spacing:-1px}
   .rs-title{font-size:13px;letter-spacing:2.6px}
   .rs-h2{font-size:14px;letter-spacing:3px}
