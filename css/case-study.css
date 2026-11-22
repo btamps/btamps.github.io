@@ -506,7 +506,10 @@
   .ss-approach{padding:60px 0}
   .ss-lead{padding:0 20px}
   .ss-lead-card li{padding:30px 10px}
-  .ss-identity{padding:60px 20px 0}
+  .ss-identity{padding:60px 20px 20px}
+  /* Crop the side margins of the logo art so it stays large, and leave room above and below */
+  .ss-logo{aspect-ratio:1155/640;justify-content:center}
+  .ss-logo img{width:125%;max-width:none}
   .ss-board{padding:60px 20px 40px}
   .ss-photos{padding:0 20px 60px}
   .ss-taste{font-size:28px;letter-spacing:-.56px;margin-bottom:20px}
