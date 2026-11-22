@@ -227,7 +227,7 @@
   72%,100%{transform:translateX(var(--end))}
 }
 
-.mk-ground{position:absolute;left:0;right:0;top:566px;bottom:0;background:#edf2f4;border-top:2px solid #11331a}
+.mk-ground{position:absolute;left:0;right:0;top:565px;bottom:0;background:#edf2f4;border-top:2px solid #11331a}
 
 /* Chat bubbles float, and take turns popping with a signal ring from their node */
 .mk-bubble,.mk-node{position:absolute;left:var(--x);top:var(--y)}
@@ -266,7 +266,7 @@
 
 /* Phone hero art (shown under 560px). 1 art unit = 100vw / 337.84, so the illustration's hill fills the screen edge to edge */
 .mk-m{display:none;position:absolute;z-index:-1;left:0;right:0;bottom:0;overflow:hidden;pointer-events:none;--u:calc(100vw / 337.84)}
-.mk-m-art{position:relative;width:calc(385 * var(--u));height:calc(373 * var(--u));margin-bottom:calc(-23.76 * var(--u))}
+.mk-m-art{position:relative;width:calc(385 * var(--u));height:calc(373 * var(--u));margin-bottom:calc(-23.76 * var(--u) - 1px)}
 .mk-m-art img{position:absolute;left:0;top:0;width:100%;height:auto;max-width:none}
 .mk-m-art .mk-m-train{left:calc(30.66 * var(--u));top:calc(314.1 * var(--u));width:calc(370.6 * var(--u));
   --start:calc(205 * var(--u));--end:calc(-411 * var(--u));animation:mk-train 10s linear 1s infinite both}
