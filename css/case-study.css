@@ -275,6 +275,10 @@
 .mk-nyc-email{flex:540 1 0}
 .mk-nyc figcaption{font-weight:800;font-size:13px;line-height:1.4;letter-spacing:.52px;text-transform:uppercase;color:#49525d}
 .mk-nyc img{width:100%;height:auto;box-shadow:0 15px 48px -24px rgba(0,0,0,.25)}
+@media (min-width:700px){
+  .mk-shirt,.mk-nyc{border-radius:16px}
+  .mk-nyc img{border-radius:8px}
+}
 
 /* Phone hero art (shown under 560px). 1 art unit = 100vw / 337.84, so the illustration's hill fills the screen edge to edge */
 .mk-m{display:none;position:absolute;z-index:-1;left:0;right:0;bottom:0;overflow:hidden;pointer-events:none;--u:calc(100vw / 337.84)}
