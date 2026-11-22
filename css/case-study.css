@@ -277,7 +277,7 @@
 .mk-nyc img{width:100%;height:auto;box-shadow:0 15px 48px -24px rgba(0,0,0,.25)}
 @media (min-width:700px){
   .mk-shirt,.mk-nyc{border-radius:16px}
-  .mk-nyc img{border-radius:8px}
+  .mk-nyc img,.mk-ebook img{border-radius:8px}
 }
 
 /* Phone hero art (shown under 560px). 1 art unit = 100vw / 337.84, so the illustration's hill fills the screen edge to edge */
