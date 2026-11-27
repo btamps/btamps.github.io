@@ -1,0 +1,101 @@
+/* Case studies: the modern system layer.
+   Loaded after style.css, case-study.css and site.css. Each project keeps its own art direction
+   (hero art, accent, bands); this file brings the shared chrome, type, corners and rhythm in line
+   with the homepage. Dark mode overrides are at the bottom. */
+
+.cs{
+  /* site.css redefines --serif as Instrument Serif; case-study.css expects Bricolage */
+  --serif:'Bricolage Grotesque',system-ui,sans-serif;
+  --cs-ink:#151514;
+  --cs-muted:color-mix(in srgb,var(--cs-ink) 58%,transparent);
+  --cs-line:color-mix(in srgb,var(--cs-ink) 14%,transparent);
+  --cs-card:#fff;
+  max-width:1440px;margin:0 auto; /* site.css resets body margin: re-center */
+  overflow-x:visible; /* site.css clips the body; full-bleed bands need to reach past 1440 (html still clips) */
+  font:400 17px/1.55 var(--body);
+  color:var(--cs-ink);
+}
+.cs-chariot{--cs-ink:#e8f0f3;--cs-card:var(--ch-card)}
+
+/* ---------- Nav + footer: same as the homepage ---------- */
+.cs .nav{--edge:max(var(--pad),calc((100vw - 1490px) / 2 + var(--pad)));max-width:none;margin:0 calc(50% - 50vw);border:0;border-radius:0;background:none;-webkit-backdrop-filter:none;backdrop-filter:none;padding:24px var(--edge);color:var(--cs-ink)}
+.cs .nav .logo{font-family:var(--display);font-variation-settings:normal}
+.cs .links a{color:var(--cs-ink)}
+.cs .iconbtn{color:var(--cs-ink);border-color:var(--cs-line)}
+.cs .iconbtn:hover{border-color:var(--cs-ink)}
+.cs .links.open{background:var(--cs-bg)}
+.cs-footer{margin:0 calc(50% - 50vw);padding:clamp(40px,4vw,56px) max(var(--pad),calc((100vw - 1490px) / 2 + var(--pad))) 40px;color:var(--cs-ink)}
+.cs-footer .rule{border-color:var(--cs-line)}
+.cs-footer .label,.cs-footer a{color:var(--cs-muted)}
+.cs-footer a:hover{color:var(--cs-ink)}
+/* Chariot's hero is teal right under the nav: carry the teal up behind it */
+.cs-chariot .nav{background:var(--ch-teal);color:#0e1a2b}
+.cs-chariot .nav .links a,.cs-chariot .nav .logo,.cs-chariot .nav .iconbtn{color:#0e1a2b}
+.cs-chariot .nav .iconbtn{border-color:rgba(14,26,43,.25)}
+.cs-chariot .nav .logo i{background:#fff}
+@media (max-width:700px){.cs-chariot .links{background:var(--ch-teal)}}
+
+/* ---------- Type ---------- */
+.cs-eyebrow,.cs-meta dt,.cs-label,.cs-tags li{
+  font:400 12px/1.4 var(--mono);letter-spacing:.06em;text-transform:uppercase;font-variation-settings:normal;color:var(--cs-muted)}
+.cs-tags{gap:8px;padding:0}
+.cs-hero h1{
+  font:800 clamp(52px,6.6vw,96px)/.94 var(--display);letter-spacing:-.045em;font-variation-settings:normal;
+  color:var(--cs-ink);max-width:13ch;text-wrap:balance}
+.cs-intro{font-size:19px;line-height:1.55;color:var(--cs-ink)}
+.cs-h2,.cs-card h2,.cs-take h3{font-variation-settings:normal}
+.cs-h2{font:400 clamp(36px,3.8vw,54px)/1.04 "Instrument Serif",Georgia,serif;letter-spacing:-.01em;color:var(--cs-ink);text-wrap:balance}
+.cs-semisweet .cs-h2{color:var(--ss-navy)}
+.cs-head{gap:12px;padding-bottom:16px}
+.cs-copy{font-size:18px;line-height:1.6}
+.cs-card h2{font:600 26px/1.15 var(--display);letter-spacing:-.02em;margin-bottom:8px}
+.cs-card p{font-size:17px;line-height:1.55}
+.cs-take h3{font:600 24px/1.2 var(--display);letter-spacing:-.02em}
+.cs-take p{font-size:17px;line-height:1.55}
+.cs-take .num{font:800 44px/1 var(--display);letter-spacing:-.04em;font-variation-settings:normal}
+
+/* ---------- Pills, cards, corners ---------- */
+.cs-pill{background:transparent;border:1px solid var(--cs-line);border-radius:999px;padding:9px 14px;font:500 14px/1 var(--body);color:var(--cs-ink)}
+.cs-chariot .cs-pill{background:transparent;border-color:rgba(32,199,216,.45);color:var(--ch-text)}
+.cs-card,.cs-take{box-shadow:none;border:1px solid var(--cs-line);padding:28px}
+.cs-card{gap:22px}
+.cs-card img{width:52px;height:52px}
+
+/* Every large rounded corner from case-study.css → the homepage's 6px */
+.cs :is(
+.cs-card, .cs-before, .cs-swatches, .cs-grads>li, .cs-showcase img, .cs-take, .mk-shirt, .mk-nyc, .ss-stats-card,
+.ss-lead-card, .ss-photo-grid img, .mx, .ss-site img, .ch-shot, .ch-wires, .ch-swatches li, .ch-patterns li, .ch-scenes img,
+.cp-rules li, .cp-character, .hf-panel, .hf-btns-dark
+){border-radius:6px}
+.cs .mk-ebook img,.cs .mk-emails img,.cs .mk-nyc-row img,.cs .mk-ads{border-radius:6px}
+
+/* ---------- Up next: full-bleed band in each project's color, homepage type ----------
+   --nx-bg band, --nx-ink title/label, --nx-btn button fill, --nx-btn-ink button text (all ≥ 4.5:1, titles ≥ 3:1) */
+.cs{--nx-bg:linear-gradient(90deg,#5548d1,#4d8ffd);--nx-ink:#fff;--nx-btn:#f9d88a;--nx-btn-ink:#151514}
+.cs-meraki{--nx-bg:#13331a;--nx-ink:#fff;--nx-btn:#c5eabd;--nx-btn-ink:#13331a}
+.cs-semisweet{--nx-bg:#2f4761;--nx-ink:#fff;--nx-btn:#f88c73;--nx-btn-ink:#1d2b3a}
+.cs-chariot{--nx-bg:#00a6b6;--nx-ink:#0e1a2b;--nx-btn:#1e355e;--nx-btn-ink:#fff}
+.cs-cooper{--nx-bg:#00756a;--nx-ink:#fff;--nx-btn:#1a1815;--nx-btn-ink:#fff}
+.cs-next{align-items:flex-start;text-align:left;gap:28px;padding:clamp(56px,7vw,96px) var(--pad) clamp(64px,8vw,104px)}
+.cs-next::before{display:block;background:var(--nx-bg)}
+.cs-next .cs-head{align-items:flex-start;padding:14px 0 0;gap:0;width:100%;border-top:1px solid color-mix(in srgb,var(--nx-ink) 30%,transparent)}
+.cs .cs-next .cs-eyebrow{color:var(--nx-ink);opacity:.75}
+.cs .cs-next .cs-h2{font:800 clamp(52px,8.4vw,120px)/.92 var(--display);letter-spacing:-.04em;font-variation-settings:normal;color:var(--nx-ink);margin-top:28px;text-wrap:balance}
+.cs-next .cs-h2::after{content:".";color:var(--nx-btn)}
+.cs-chariot .cs-next .cs-h2::after{color:#fff}
+.cs-cooper .cs-next .cs-h2::after{color:#9fe3da}
+.cs .cs-next-btn{display:inline-flex;align-items:center;gap:10px;padding:16px 24px;border-radius:999px;background:var(--nx-btn);color:var(--nx-btn-ink);font:600 15px/1 var(--body);font-variation-settings:normal;transition:transform .2s ease,box-shadow .2s ease}
+.cs-next-btn svg{width:18px;height:18px;transition:transform .25s cubic-bezier(.2,.8,.2,1)}
+.cs .cs-next-btn:hover{transform:translateY(-2px);box-shadow:0 8px 20px -10px rgba(0,0,0,.45)}
+.cs-next-btn:hover svg{transform:translate(2px,-2px)}
+
+/* Carousel dots pick up the page accent */
+.cs-dots button,.mk-swipe-dots button{background:var(--cs-line)}
+
+/* Teal heroes (Chariot, Cooper): pills and nav that read on the color */
+.cs-chariot .cs-pill{border-color:rgba(255,255,255,.45);color:#fff}
+.cs-cooper .cs-hero .cs-pill{background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.4);color:#fff}
+.cs-cooper .nav,.cs-cooper .nav .links a,.cs-cooper .nav .logo,.cs-cooper .nav .iconbtn{color:#fff}
+.cs-cooper .nav .iconbtn{border-color:rgba(255,255,255,.35)}
+.cs-cooper .nav .logo i{background:#fff}
+@media (max-width:700px){.cs-cooper .links{background:var(--cp-teal)}}
