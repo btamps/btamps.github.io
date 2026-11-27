@@ -99,3 +99,42 @@
 .cs-cooper .nav .iconbtn{border-color:rgba(255,255,255,.35)}
 .cs-cooper .nav .logo i{background:#fff}
 @media (max-width:700px){.cs-cooper .links{background:var(--cp-teal)}}
+
+/* ---------- Looker: event landing page ---------- */
+.cs-looker{
+  --cs-bg:#faf9f6; --cs-band:#ece9f6; --cs-band-2:#ece9f6; --cs-accent:#6b5ca5; --cs-pill:transparent; --cs-body:#4a4a52;
+  --lk-char:#393b40; --lk-lav:#ece9f6;
+  --nx-bg:linear-gradient(90deg,#393b40,#6b5ca5); --nx-ink:#fff; --nx-btn:#f7b32b; --nx-btn-ink:#151514;
+  /* the laptop + phone mockup: width and how far up the charcoal stops behind it */
+  --lk-dev:min(1240px,100vw - 98px);
+}
+.cs-looker .nav{background:var(--lk-char);color:#fff}
+.cs-looker .nav .links a,.cs-looker .nav .logo,.cs-looker .nav .iconbtn{color:#fff}
+.cs-looker .nav .iconbtn{border-color:rgba(255,255,255,.3)}
+@media (max-width:700px){.cs-looker .links{background:var(--lk-char)}}
+
+.lk-hero{overflow:visible;min-height:0;padding:72px 49px 0;clip-path:inset(0 -100vmax)}
+.lk-hero-bg{position:absolute;z-index:-2;top:0;left:calc(50% - 50vw);right:calc(50% - 50vw);bottom:calc(var(--lk-dev) * .2126);
+  background:url("../assets/looker/network-pattern.svg") center top/max(1440px,100%) auto no-repeat,var(--lk-char)}
+.cs-looker .cs-hero h1{color:#fff}
+.cs-looker .cs-hero :is(.cs-tags li,.cs-meta dt){color:rgba(255,255,255,.7)}
+.cs-looker .cs-hero .cs-intro{color:rgba(255,255,255,.88)}
+.cs-looker .cs-hero .cs-pill{border-color:rgba(255,255,255,.35);color:#fff}
+.lk-devices{position:relative;width:var(--lk-dev);max-width:none;height:auto;margin-top:64px}
+
+.cs-looker .cs-summary{--cs-band:var(--cs-bg);padding-top:clamp(48px,6vw,80px);padding-bottom:clamp(24px,3vw,40px)}
+.lk-work{display:flex;flex-direction:column;align-items:center;gap:clamp(32px,4vw,56px);padding:clamp(64px,7vw,104px) 50px}
+.lk-plan,.lk-sched{--band:var(--cs-bg)}
+.lk-full,.lk-signup{--band:var(--lk-lav)}
+.lk-wires{width:min(1200px,100%);height:auto}
+.lk-fullpage{width:min(1340px,100%);height:auto}
+.lk-form{width:min(1240px,100%);height:auto}
+.lk-layouts{display:grid;gap:clamp(40px,5vw,72px);width:min(1040px,100%)}
+.lk-layouts figure{margin:0;display:grid;gap:16px;justify-items:center}
+.lk-layouts img{width:100%;height:auto}
+@media (max-width:1023px){
+  .cs-looker{--lk-dev:calc(100vw - 40px)}
+  .lk-hero{padding:56px 20px 0}
+  .lk-devices{margin-top:48px}
+  .lk-work{padding:56px 20px}
+}
