@@ -218,5 +218,13 @@
 
 /* Hero: 30px less space above the title on every case study */
 .cs-hero>.cs-hero-text{margin-top:-30px}
-/* …except where Highfive's top space clears its stacked illustration */
-@media (max-width:1023px){.cs-highfive .cs-hero>.cs-hero-text{margin-top:0}}
+/* Tablet and phone: 20px less instead, and Highfive keeps its space (it clears the stacked illustration) */
+@media (max-width:1023px){
+  .cs-hero>.cs-hero-text{margin-top:-20px}
+  .cs-highfive .cs-hero>.cs-hero-text{margin-top:0}
+}
+/* Cooper on phones: drop the second row of icons under the hero text */
+@media (max-width:699px){
+  .cp-ico[style*="--myb"]{display:none!important}
+  .cs-cooper .cp-hero{padding-bottom:48px}
+}
