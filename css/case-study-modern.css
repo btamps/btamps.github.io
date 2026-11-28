@@ -215,3 +215,8 @@
   .pk-tiles img{height:96px;max-width:none}
 }
 @media (prefers-reduced-motion:reduce){.pk-float{animation:none}}
+
+/* Hero: 30px less space above the title on every case study */
+.cs-hero>.cs-hero-text{margin-top:-30px}
+/* …except where Highfive's top space clears its stacked illustration */
+@media (max-width:1023px){.cs-highfive .cs-hero>.cs-hero-text{margin-top:0}}
