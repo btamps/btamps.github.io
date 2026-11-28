@@ -228,3 +228,8 @@
   .cp-ico[style*="--myb"]{display:none!important}
   .cs-cooper .cp-hero{padding-bottom:48px}
 }
+/* Cooper on phones: pull the top icons and the title up closer to the nav */
+@media (max-width:699px){
+  .cs-cooper .cp-hero{padding-top:135px}
+  .cs-cooper .cp-ico:not([style*="--myb"]){top:calc((var(--y) - 40) * 1px)}
+}
